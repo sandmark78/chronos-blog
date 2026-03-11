@@ -1,0 +1,97 @@
+{
+  "query": "origin of life RNA",
+  "timestamp": "2026-03-11T12:50:15.274641",
+  "count": 10,
+  "papers": [
+    {
+      "source": "arXiv",
+      "title": "Generative Drifting is Secretly Score Matching: a Spectral and Variational Perspective",
+      "authors": "Erkan Turan, Maks Ovsjanikov",
+      "abstract": "Generative Modeling via Drifting has recently achieved state-of-the-art one-step image generation through a kernel-based drift operator, yet the success is largely empirical and its theoretical foundations remain poorly understood. In this paper, we make the following observation: \\emph{under a Gaussian kernel, the drift operator is exactly a score difference on smoothed distributions}. This insight allows us to answer all three key questions left open in the original work: (1) whether a vanishing drift guarantees equality of distributions ($V_{p,q}=0\\Rightarrow p=q$), (2) how to choose between kernels, and (3) why the stop-gradient operator is indispensable for stable training. Our observations position drifting within the well-studied score-matching family and enable a rich theoretical perspective. By linearizing the McKean-Vlasov dynamics and probing them in Fourier space, we reveal frequency-dependent convergence timescales comparable to \\emph{Landau damping} in plasma kinetic theory: the Gaussian kernel suffers an exponential high-frequency bottleneck, explaining the empirical preference for the Laplacian kernel. We also propose an exponential bandwidth annealing schedule $σ(t)=σ_0 e^{-rt}$ that reduces convergence time from $\\exp(O(K_{\\max}^2))$ to $O(\\log K_{\\max})$. Finally, by formalizing drifting as a Wasserstein gradient flow of the smoothed KL divergence, we prove that the stop-gradient operator is derived directly from the frozen-field discretization mandated by the JKO scheme, and removing it severs training from any gradient-flow guarantee. This variational perspective further provides a general template for constructing novel drift operators, demonstrated with a Sinkhorn divergence drift.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09936v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09936v1",
+      "link": "http://arxiv.org/abs/2603.09936v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Unsupervised Domain Adaptation with Target-Only Margin Disparity Discrepancy",
+      "authors": "Gauthier Miralles, Loïc Le Folgoc, Vincent Jugnon, Pietro Gori",
+      "abstract": "In interventional radiology, Cone-Beam Computed Tomography (CBCT) is a helpful imaging modality that provides guidance to practicians during minimally invasive procedures. CBCT differs from traditional Computed Tomography (CT) due to its limited reconstructed field of view, specific artefacts, and the intra-arterial administration of contrast medium. While CT benefits from abundant publicly available annotated datasets, interventional CBCT data remain scarce and largely unannotated, with existing datasets focused primarily on radiotherapy applications. To address this limitation, we leverage a proprietary collection of unannotated interventional CBCT scans in conjunction with annotated CT data, employing domain adaptation techniques to bridge the modality gap and enhance liver segmentation performance on CBCT. We propose a novel unsupervised domain adaptation (UDA) framework based on the formalism of Margin Disparity Discrepancy (MDD), which improves target domain performance through a reformulation of the original MDD optimization framework. Experimental results on CT and CBCT datasets for liver segmentation demonstrate that our method achieves state-of-the-art performance in UDA, as well as in the few-shot setting.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09932v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09932v1",
+      "link": "http://arxiv.org/abs/2603.09932v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "The rotational and magnetic properties of Polaris from long-term spectropolarimetric monitoring",
+      "authors": "James A. Barron, Gregg A. Wade, Colin P. Folsom",
+      "abstract": "Polaris is a highly unusual Cepheid with observed properties that are difficult to reconcile with stellar evolutionary models. Since the initial detection of Polaris' magnetic field in 2020, we have conducted a magnetic monitoring campaign with the ESPaDOnS spectropolarimeter at the Canada-France-Hawaii Telescope. We compute Stokes $V$ least-squares deconvolution profiles and measure the associated mean longitudinal magnetic field strengths $\\langle B_{z}\\rangle$. The surface magnetic field has remained remarkably stable over five years of observations, with $\\langle B_{z}\\rangle$ varying between approximately $-3$ G and $+0.6$ G. From the periodic modulation of $\\langle B_{z}\\rangle$ we infer a stellar rotation period of $P_{\\mathrm{rot}}=100.29\\pm0.19$ days. This is the first direct measurement of $P_{\\mathrm{rot}}$ for a classical Cepheid. Previous interferometric radius measurements and $P_{\\mathrm{rot}}$ imply an equatorial rotation velocity of $v_{\\mathrm{eq}}=23.3\\pm0.2$ km s$^{-1}$. We set a conservative upper bound on the projected equatorial rotational velocity of $v_{\\mathrm{eq}}\\sin i_{\\star} < 13.5$ km s$^{-1}$ and constrain the stellar inclination angle to be $i_{\\star}<37^{\\circ}$. Using the previously determined orbital solution, we find a high likelihood of a strong spin-orbit misalignment. We determine the lower bound on the obliquity angle between the stellar rotation and orbital axes to be $β>18.7^{\\circ}$ at 99% confidence. We discuss the challenges in interpreting the origin and properties of the surface magnetic field in the context of Polaris' uncertain evolutionary history and the merger hypothesis.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09876v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09876v1",
+      "link": "http://arxiv.org/abs/2603.09876v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "An asymptotic proof of the classical log soft graviton theorem",
+      "authors": "Gianni Boschetti, Miguel Campiglia",
+      "abstract": "We present a derivation of the classical log soft graviton theorem within the asymptotic framework of Compère, Gralla, and Wei. The proof relies solely on Einstein equations near timelike, spatial, and null infinity, together with matching properties across these regions. The approach is fully covariant under time reversal and incorporates contributions from incoming soft radiation. In the absence of incoming memory one recovers the standard log soft factor, which features an asymmetry between future and past hard components. From an asymptotic perspective, the origin of this asymmetry lies in a long-known discontinuity of the gravitational field at spatial infinity.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09844v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09844v1",
+      "link": "http://arxiv.org/abs/2603.09844v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Magnetic field tuning of modulated magnetic orders in CrOCl at the two-dimensional limit",
+      "authors": "T. Riccardi, A. Pawbake, S. Badola, F. Petot, B. Grémaud, A. Saul, K. Singh, N. R. Nair, R. S. Chemban, Z. Sofer, J. Coraux, C. Faugeras",
+      "abstract": "Chromium oxychloride is a van der Waals magnet with intrinsic competing exchange interactions, including a strong antiferromagnetic one, source of a very rich magnetic phase diagram, with ferrimagnetic, antiferromagnetic, and canted states, up to high magnetic fields. We investigate the sequence of these magnetic phases in thin layers of CrOCl using magneto-Raman scattering spectroscopy. We identify phases whose magnetic order is commensurate with the atomic lattice, and find signatures of strong magneto-striction, presumably of exchange origin. The coupling of the spin and atomic degrees of freedom in the crystal is observed down to the single-layer limit -- phonon modes significantly soften or stiffen, in a complex way due to the competition of interactions. The existence domains of the different phases change with the number of layers.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09836v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09836v1",
+      "link": "http://arxiv.org/abs/2603.09836v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Introduction to Spectroscopy of Cr4+:YAG Transparent Ceramics",
+      "authors": "Mykhailo Chaika",
+      "abstract": "This paper focuses on the spectroscopic properties of Cr4+:YAG transparent ceramic. Absorption, excitation, and emission spectra were measured over a temperature range from 5K to 300K. Low-temperature absorption spectra reveal sharp and narrow lines corresponding to partially allowed transitions from the ground state to the crystal field splitting components of the 4T2 energy level. The shape of the excitation spectra was found to be independent of the monitored emission wavelength, indicating that Cr4+ emission originates from the lowest excited state. Low temperature emission spectra exhibit a sharp and narrow ZPL, accompanied by the vibronic sidebands extending up to ~2000 cm-1. Both absorption and emission spectra of the lowest excited state at low temperature consist of a doublet, with a splitting of 28 cm-1. The temperature dependence of the spectroscopic parameters of this doublet is reported. Based on the obtained results, possible explanations of its origin are proposed.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09823v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09823v1",
+      "link": "http://arxiv.org/abs/2603.09823v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Correction of Transformer-Based Models with Smoothing Pseudo-Projector",
+      "authors": "Vitaly Bulgakov",
+      "abstract": "The pseudo-projector is a lightweight modification that can be integrated into existing language models and other neural networks without altering their core architecture. It can be viewed as a hidden-representation corrector that reduces sensitivity to noise by suppressing directions induced by label-irrelevant input content. The design is inspired by the multigrid (MG) paradigm, originally developed to accelerate the convergence of iterative solvers for partial differential equations and boundary value problems, and later extended to more general linear systems through algebraic multigrid methods. We refer to the method as a pseudo-projector because its linear prototype corresponds to a strictly idempotent orthogonal projector, whereas the practical formulation employs learnable restriction and prolongation operators and therefore does not, in general, satisfy the properties of an exact orthogonal projection. We evaluate the proposed approach on transformer-based text classification tasks, as well as controlled synthetic benchmarks, demonstrating its effectiveness in improving training dynamics and robustness. Experimental results, together with supporting theoretical heuristics, indicate consistent improvements in training behavior across a range of settings, with no adverse effects observed otherwise. Our next step will be to extend this approach to language models.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09815v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09815v1",
+      "link": "http://arxiv.org/abs/2603.09815v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "RA-SSU: Towards Fine-Grained Audio-Visual Learning with Region-Aware Sound Source Understanding",
+      "authors": "Muyi Sun, Yixuan Wang, Hong Wang, Chen Su, Man Zhang, Xingqun Qi, Qi Li, Zhenan Sun",
+      "abstract": "Audio-Visual Learning (AVL) is one fundamental task of multi-modality learning and embodied intelligence, displaying the vital role in scene understanding and interaction. However, previous researchers mostly focus on exploring downstream tasks from a coarse-grained perspective (e.g., audio-visual correspondence, sound source localization, and audio-visual event localization). Considering providing more specific scene perception details, we newly define a fine-grained Audio-Visual Learning task, termed Region-Aware Sound Source Understanding (RA-SSU), which aims to achieve region-aware, frame-level, and high-quality sound source understanding. To support this goal, we innovatively construct two corresponding datasets, i.e. fine-grained Music (f-Music) and fine-grained Lifescene (f-Lifescene), each containing annotated sound source masks and frame-by-frame textual descriptions. The f-Music dataset includes 3,976 samples across 22 scene types related to specific application scenarios, focusing on music scenes with complex instrument mixing. The f-Lifescene dataset contains 6,156 samples across 61 types representing diverse sounding objects in life scenarios. Moreover, we propose SSUFormer, a Sound-Source Understanding TransFormer benchmark that facilitates both the sound source segmentation and sound region description with a multi-modal input and multi-modal output architecture. Specifically, we design two modules for this framework, Mask Collaboration Module (MCM) and Mixture of Hierarchical-prompted Experts (MoHE), to respectively enhance the accuracy and enrich the elaboration of the sound source description. Extensive experiments are conducted on our two datasets to verify the feasibility of the task, evaluate the availability of the datasets, and demonstrate the superiority of the SSUFormer, which achieves SOTA performance on the Sound Source Understanding benchmark.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09809v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09809v1",
+      "link": "http://arxiv.org/abs/2603.09809v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "EPIC-EuroParl-UdS: Information-Theoretic Perspectives on Translation and Interpreting",
+      "authors": "Maria Kunilovskaya, Christina Pollkläsener",
+      "abstract": "This paper introduces an updated and combined version of the bidirectional English-German EPIC-UdS (spoken) and EuroParl-UdS (written) corpora containing original European Parliament speeches as well as their translations and interpretations. The new version corrects metadata and text errors identified through previous use, refines the content, updates linguistic annotations, and adds new layers, including word alignment and word-level surprisal indices. The combined resource is designed to support research using information-theoretic approaches to language variation, particularly studies comparing written and spoken modes, and examining disfluencies in speech, as well as traditional translationese studies, including parallel (source vs. target) and comparable (original vs. translated) analyses. The paper outlines the updates introduced in this release, summarises previous results based on the corpus, and presents a new illustrative study. The study validates the integrity of the rebuilt spoken data and evaluates probabilistic measures derived from base and fine-tuned GPT-2 and machine translation models on the task of filler particles prediction in interpreting.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09785v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09785v1",
+      "link": "http://arxiv.org/abs/2603.09785v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "First Estimation of Model Parameters for Neutrino-Induced Nucleon Knockout Using Simulation-Based Inference",
+      "authors": "Karla Tame-Narvaez, Steven Gardiner, Aleksandra Ćiprijanović, Giuseppe Cerati",
+      "abstract": "To enable an accurate determination of oscillation parameters, accelerator-based neutrino experiments require detailed simulations of nuclear interaction physics in the GeV regime. While substantial effort from both theory and experiment is currently being invested to improve the fidelity of these simulations, their present deficiencies typically oblige experimental collaborations to resort to empirical tuning of simulation model parameters. As the precision requirements of the field continue to become more stringent, machine learning techniques may provide a powerful means of handling corresponding growth in the complexity of future neutrino interaction model tuning exercises. To study the suitability of simulation-based inference (SBI) for this physics application, in this paper we revisit a tuned configuration of the GENIE neutrino event generator that was originally developed by the MicroBooNE collaboration. Despite closely reproducing the adopted values of four physics parameters when confronted with the tuned cross-section predictions as input, we find that our trained SBI algorithm prefers modestly different values (within MicroBooNE's assigned uncertainties) and achieves slightly better goodness-of-fit when inference is run on the experimental data set originally used by MicroBooNE. We also find that our trained algorithm can create a fair approximation of an alternative neutrino scattering simulation, NuWro, that shares only a subset of its physics model parameters with GENIE.",
+      "arxiv_id": "http://arxiv.org/abs/2603.09778v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.09778v1",
+      "link": "http://arxiv.org/abs/2603.09778v1"
+    }
+  ]
+}

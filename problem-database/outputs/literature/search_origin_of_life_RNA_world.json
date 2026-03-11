@@ -1,0 +1,97 @@
+{
+  "query": "origin of life RNA world",
+  "timestamp": "2026-03-11T01:21:27.182158",
+  "count": 10,
+  "papers": [
+    {
+      "source": "arXiv",
+      "title": "Understanding thermal and quantum fluctuations in extended Kitaev-Yao-Lee spin-orbital model",
+      "authors": "Jiefu Cen, Hae-Young Kee",
+      "abstract": "Building upon the spin-1/2 Kitaev model on a honeycomb lattice, the Yao-Lee spin-orbital model provides exactly solvable quantum spin liquids with potentially better stability against perturbations due to the additional degree of freedom. Recently, the microscopic mechanism underlying the Yao-Lee interaction in honeycomb materials has been uncovered, leading to an extended Kitaev-Yao-Lee spin-orbital model when the celebrated Kugel-Khomskii interaction is included. Numerical studies of this model have identified various disordered phases, including a broad region of the nematic phase that is reminiscent of a spin-orbital liquid. Here, we investigate the origin and stability of this nematic phase via thermal and quantum fluctuations using classical Monte Carlo simulations and a generalized spin wave theory appropriate for the spin-orbital model. We demonstrate that the additional spin-orbital degree of freedom gives rise to strong thermal and quantum fluctuations in spin-orbital models, providing insight into the emergence of disordered phases.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08710v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08710v1",
+      "link": "http://arxiv.org/abs/2603.08710v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Impermanent: A Live Benchmark for Temporal Generalization in Time Series Forecasting",
+      "authors": "Azul Garza, Renée Rosillo, Rodrigo Mendoza-Smith, David Salinas, Andrew Robert Williams, Arjun Ashok, Mononito Goswami, José Martín Juárez",
+      "abstract": "Recent advances in time-series forecasting increasingly rely on pre-trained foundation-style models. While these models often claim broad generalization, existing evaluation protocols provide limited evidence. Indeed, most current benchmarks use static train-test splits that can easily lead to contamination as foundation models can inadvertently train on test data or perform model selection using test scores, which can inflate performance. We introduce Impermanent, a live benchmark that evaluates forecasting models under open-world temporal change by scoring forecasts sequentially over time on continuously updated data streams, enabling the study of temporal robustness, distributional shift, and performance stability rather than one-off accuracy on a frozen test set. Impermanent is instantiated on GitHub open-source activity, providing a naturally live and highly non-stationary dataset shaped by releases, shifting contributor behavior, platform/tooling changes, and external events. We focus on the top 400 repositories by star count and construct time series from issues opened, pull requests opened, push events, and new stargazers, evaluated over a rolling window with daily updates, alongside standardized protocols and leaderboards for reproducible, ongoing comparison. By shifting evaluation from static accuracy to sustained performance, Impermanent takes a concrete step toward assessing when and whether foundation-level generalization in time-series forecasting can be meaningfully claimed. Code and a live dashboard are available at https://github.com/TimeCopilot/impermanent and https://impermanent.timecopilot.dev.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08707v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08707v1",
+      "link": "http://arxiv.org/abs/2603.08707v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Evaluating Financial Intelligence in Large Language Models: Benchmarking SuperInvesting AI with LLM Engines",
+      "authors": "Akshay Gulati, Kanha Singhania, Tushar Banga, Parth Arora, Anshul Verma, Vaibhav Kumar Singh, Agyapal Digra, Jayant Singh Bisht, Danish Sharma, Varun Singla, Shubh Garg",
+      "abstract": "Large language models are increasingly used for financial analysis and investment research, yet systematic evaluation of their financial reasoning capabilities remains limited. In this work, we introduce the AI Financial Intelligence Benchmark (AFIB), a multi-dimensional evaluation framework designed to assess financial analysis capabilities across five dimensions: factual accuracy, analytical completeness, data recency, model consistency, and failure patterns. We evaluate five AI systems: GPT, Gemini, Perplexity, Claude, and SuperInvesting, using a dataset of 95+ structured financial analysis questions derived from real-world equity research tasks. The results reveal substantial differences in performance across models. Within this benchmark setting, SuperInvesting achieves the highest aggregate performance, with an average factual accuracy score of 8.96/10 and the highest completeness score of 56.65/70, while also demonstrating the lowest hallucination rate among evaluated systems. Retrieval-oriented systems such as Perplexity perform strongly on data recency tasks due to live information access but exhibit weaker analytical synthesis and consistency. Overall, the results highlight that financial intelligence in large language models is inherently multi-dimensional, and systems that combine structured financial data access with analytical reasoning capabilities provide the most reliable performance for complex investment research workflows.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08704v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08704v1",
+      "link": "http://arxiv.org/abs/2603.08704v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "A note on large-scale quantum chemistry on quantum computers: the case of a molecule with half-Möbius topology",
+      "authors": "Samuele Piccinelli, Stefano Barison, Alberto Baiardi, Francesco Tacchino, Jascha Repp, Igor Rončević, Florian Albrecht, Harry L. Anderson, Leo Gross, Alessandro Curioni, Ivano Tavernelli",
+      "abstract": "We report quantum chemistry calculations performed on superconducting quantum processors for a molecule exhibiting the half-Möbius electronic topology originally introduced by Rončević et al. Using SqDRIFT, a randomized sample-based Krylov quantum diagonalization algorithm, we achieve reliable quantum simulations on active spaces corresponding to 36 orbitals (72 qubits) and extend previous studies up to 50 orbitals (100 qubits). We demonstrate that a systematic increase of active space sizes, which has a concrete impact on the accuracy of the electronic structure description, is achievable with state-of-the-art quantum processors, thus offering a promising path towards practically relevant quantum-assisted electronic-structure calculations.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08696v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08696v1",
+      "link": "http://arxiv.org/abs/2603.08696v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Multimessenger Characterization of High-Energy Neutrino Emission from the Brightest Neutrino-Active Galactic Nuclei",
+      "authors": "Jose Alonso Carpio, Ali Kheirandish, Kohta Murase",
+      "abstract": "The observation of high-energy neutrinos from the direction of the nearby active galaxy, NGC 1068, was a major step in identifying the origin of high-energy cosmic neutrinos. The multimessenger data imply that high-energy neutrinos originate from the hearts of active galaxies which are opaque to GeV-TeV $γ$-rays. This realization is reinforced by the excess of neutrinos in the direction of NGC 4151 and Circinus Galaxy, other nearby active galactic nuclei (AGNs). Understanding the vicinity of supermassive black holes with electromagnetic radiation is often challenging due to uncertainties associated with the absorption of emission in these dense environments, and neutrinos can be used as a powerful probe of the inner parts of the active galaxies. Considering the five brightest neutrino-active galaxies, NGC 1068, NGC 4151, CGCG 420-15, Circinus Galaxy, and NGC 7469, we employ the measured neutrino spectra together with the sub-GeV $γ$-ray emission measured by the {\\em Fermi} satellite to break the degeneracy and narrow in on the parameter space of neutrino emission from turbulent coronae of AGNs. We also study contributions of jet-quiet AGNs, whose properties are similar to NGC 1068 and NGC 7469, to the isotropic neutrino background flux, through exploring possibilities that the neutrino luminosity function may deviate from the X-ray luminosity function. Our results will help estimate the prospects for identifying additional neutrino-active galaxies and guide future targeted analyses.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08684v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08684v1",
+      "link": "http://arxiv.org/abs/2603.08684v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "A New Lower Bound for the Random Offerer Mechanism in Bilateral Trade using AI-Guided Evolutionary Search",
+      "authors": "Yang Cai, Vineet Gupta, Zun Li, Aranyak Mehta",
+      "abstract": "The celebrated Myerson--Satterthwaite theorem shows that in bilateral trade, no mechanism can be simultaneously fully efficient, Bayesian incentive compatible (BIC), and budget balanced (BB). This naturally raises the question of how closely the gains from trade (GFT) achievable by a BIC and BB mechanism can approximate the first-best (fully efficient) benchmark. The optimal BIC and BB mechanism is typically complex and highly distribution-dependent, making it difficult to characterize directly. Consequently, much of the literature analyzes simpler mechanisms such as the Random-Offerer (RO) mechanism and establishes constant-factor guarantees relative to the first-best GFT. An important open question concerns the worst-case performance of the RO mechanism relative to first-best (FB) efficiency. While it was originally hypothesized that the approximation ratio $\\frac{\\text{GFT}_{\\text{FB}}}{\\text{GFT}_{\\text{RO}}}$ is bounded by $2$, recent work provided counterexamples to this conjecture: Cai et al. proved that the ratio can be strictly larger than $2$, and Babaioff et al. exhibited an explicit example with ratio approximately $2.02$. In this work, we employ AlphaEvolve, an AI-guided evolutionary search framework, to explore the space of value distributions. We identify a new worst-case instance that yields an improved lower bound of $\\frac{\\text{GFT}_{\\text{FB}}}{\\text{GFT}_{\\text{RO}}} \\ge \\textbf{2.0749}$. This establishes a new lower bound on the worst-case performance of the Random-Offerer mechanism, demonstrating a wider efficiency gap than previously known.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08679v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08679v1",
+      "link": "http://arxiv.org/abs/2603.08679v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Exp-Force: Experience-Conditioned Pre-Grasp Force Selection with Vision-Language Models",
+      "authors": "Siqi Shang, Minchao Huang, Bill Fan, Lillian Chin",
+      "abstract": "Accurate pre-contact grasp force selection is critical for safe and reliable robotic manipulation. Adaptive controllers regulate force after contact but still require a reasonable initial estimate. Starting a grasp with too little force requires reactive adjustment, while starting a grasp with too high a force risks damaging fragile objects. This trade-off is particularly challenging for compliant grippers, whose contact mechanics are difficult to model analytically. We propose Exp-Force, an experience-conditioned framework that predicts the minimum feasible grasping force from a single RGB image. The method retrieves a small set of relevant prior grasping experiences and conditions a vision-language model on these examples for in-context inference, without analytic contact models or manually designed heuristics. On 129 object instances, ExpForce achieves a best-case MAE of 0.43 N, reducing error by 72% over zero-shot inference. In real-world tests on 30 unseen objects, it improves appropriate force selection rate from 63% to 87%. These results demonstrate that Exp-Force enables reliable and generalizable pre-grasp force selection by leveraging prior interaction experiences. http://expforcesubmission.github.io/Exp-Force-Website/",
+      "arxiv_id": "http://arxiv.org/abs/2603.08668v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08668v1",
+      "link": "http://arxiv.org/abs/2603.08668v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Characterization and upgrade of a quantum graph neural network for charged particle tracking",
+      "authors": "Matteo Argenton, Laura Cappelli, Concezio Bozzi",
+      "abstract": "In the forthcoming years the LHC experiments are going to be upgraded to benefit from the substantial increase of the LHC instantaneous luminosity, which will lead to larger, denser events, and, consequently, greater complexity in reconstructing charged particle tracks, motivating frontier research in new technologies. Quantum machine learning models are being investigated as potential new approaches to high energy physics (HEP) tasks. We characterize and upgrade a quantum graph neural network (QGNN) architecture for charged particle track reconstruction on a simulated high luminosity dataset. The model operates on a set of event graphs, each built from the hits generated in tracking detector layers by particles produced in proton collisions, performing a classification of the possible hit connections between adjacent layers. In this approach the QGNN is designed as a hybrid architecture, interleaving classical feedforward networks with parametrized quantum circuits. We characterize the interplay between the classical and quantum components. We report on the principal upgrades to the original design, and present new evidence of improved training behavior, specifically in terms of convergence toward the final trained configuration.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08667v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08667v1",
+      "link": "http://arxiv.org/abs/2603.08667v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Carbon-aware Market Participation for Building Energy Management Systems",
+      "authors": "Young-ho Cho, Mohamad Chehade, Fatima Al-Janahi, Sol Lim, Javad Mohammadi, Hao Zhu",
+      "abstract": "Tackling climate change requires the rapid and deep decarbonization of electric power systems. While energy management systems (EMSs) play a central role in this transition, conventional EMSs focus mainly on economic efficiency and often overlook the environmental impact of operational decisions. To address this gap, this paper proposes a unified, real-time building-level carbon-aware EMS (CAEMS) capable of simultaneously co-optimizing grid imports, energy storage, and flexible demand within a single integrated framework. We formulate a mixed-integer linear program (MILP) model that directly integrates time-varying marginal carbon intensity signals into the EMS objective for coordinated participation in both day-ahead (DA) and real-time (RT) markets. To relax the unrealistic assumption of perfect foresight, we incorporate a model predictive control (MPC) extension driven by a Transformer-based forecaster that jointly predicts electricity prices and carbon intensity. The proposed CAEMS is validated using real-world data from the PJM electricity market. Simulation results demonstrate that modest carbon prices can achieve a significant 22.5% reduction in emissions with only a 1.7% increase in cost.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08654v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08654v1",
+      "link": "http://arxiv.org/abs/2603.08654v1"
+    },
+    {
+      "source": "arXiv",
+      "title": "Grow, Don't Overwrite: Fine-tuning Without Forgetting",
+      "authors": "Dyah Adila, Hanna Mazzawi, Benoit Dherin, Xavier Gonzalvo",
+      "abstract": "Adapting pre-trained models to specialized tasks often leads to catastrophic forgetting, where new knowledge overwrites foundational capabilities. Existing methods either compromise performance on the new task or struggle to balance training stability with efficient reuse of pre-trained knowledge. We introduce a novel function-preserving expansion method that resolves this dilemma. Our technique expands model capacity by replicating pre-trained parameters within transformer submodules and applying a scaling correction that guarantees the expanded model is mathematically identical to the original at initialization, enabling stable training while exploiting existing knowledge. Empirically, our method eliminates the trade-off between plasticity and stability, matching the performance of full fine-tuning on downstream tasks without any degradation of the model's original capabilities. Furthermore, we demonstrate the modularity of our approach, showing that by selectively expanding a small subset of layers we can achieve the same performance as full fine-tuning at a fraction of the computational cost.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08647v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08647v1",
+      "link": "http://arxiv.org/abs/2603.08647v1"
+    }
+  ]
+}
