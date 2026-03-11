@@ -1,8 +1,10 @@
-# Only keep knowledge/ directory
+# Keep knowledge/, README.md, and TWITTER_LOG.md
 # Ignore everything else
 /*
 !knowledge/
 !knowledge/**/*
+!README.md
+!TWITTER_LOG.md
 
 # But ignore these within knowledge/
 knowledge/研究日志/
