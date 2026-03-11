@@ -1,6 +1,4 @@
-# Chronos Lab GitHub 公开仓库 - .gitignore
-
-# 只保留核心知识卡片和框架文档
+# Chronos Lab GitHub 公开仓库
 
 # 排除所有研究日志和完成通知
 Day*.md
