@@ -1,36 +1,82 @@
-# Python files
-*.py
-__pycache__/
+# ===========================================
+# Chronos Lab GitHub 公开仓库 - .gitignore
+# 只公开知识卡片，其他全部忽略
+# ===========================================
 
-# Internal directories
-skills/
+# ===========================================
+# 虚拟环境和本地配置（永不上传）
+# ===========================================
+scrapling_env/
+venv/
+env/
+ENV/
+.openclaw/
+*.egg-info/
+.eggs/
+
+# ===========================================
+# Python 缓存（永不上传）
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===========================================
+# 内部目录（永不上传）
+# ===========================================
+agents/
 memory/
 problem-database/
 scripts/
+literature/
 
-# Internal knowledge directories
+# ===========================================
+# 内部知识目录（永不上传）
+# ===========================================
 knowledge/研究日志/
 knowledge/理论假设/
 knowledge/思想实验/
 knowledge/执行管理/
 knowledge/问题汇总/
+knowledge/数学/
+knowledge/知识地图.md
+knowledge/Chronos*.md
+knowledge/100*.md
 
-# Root internal files
+# ===========================================
+# 根目录内部文件（永不上传）
+# ===========================================
 AGENTS.md
 HEARTBEAT.md
 IDENTITY.md
 SOUL.md
 TOOLS.md
 USER.md
-RESEARCH_*.md
-CHRONOS_ENGINE*.md
-CHRONOS_LOG*.md
-CHRONOS_V2*.md
+RESEARCH_OS.md
+CHRONOS_ENGINE_v1.md
 EXECUTION_STATUS.md
 HYPOTHESIS_TIER_REPORT.md
 cleanup.sh
+arxiv_time_arrow_entropy.json
 
-# Chinese internal docs
+# ===========================================
+# 日志和临时文件（永不上传）
+# ===========================================
+*.log
+logs/
+*.tmp
+*.bak
+tmp/
+temp/
+DAY1_*.md
+README_ARCHIVE.md
+TWITTER_LOG.md
+
+# ===========================================
+# 中文内部文档（永不上传）
+# ===========================================
 冲刺模式*.md
 多源文献*.md
 安全部署*.md
@@ -47,4 +93,22 @@ cleanup.sh
 限流*.md
 完成通知*.md
 最终总结*.md
-100*.md
+1M Token*.md
+Cron*.md
+
+# ===========================================
+# IDE 和系统文件（永不上传）
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# 数据库文件（永不上传）
+# ===========================================
+*.db
+*.sqlite
