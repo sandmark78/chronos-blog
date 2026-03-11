@@ -1,14 +1,20 @@
-# Keep knowledge/, README.md, and TWITTER_LOG.md
+# Keep knowledge/, README.md, TWITTER_LOG.md, and core research tools
 # Ignore everything else
 /*
 !knowledge/
 !knowledge/**/*
 !README.md
 !TWITTER_LOG.md
+!CHRONOS_LOG_*.md
 
 # But ignore these within knowledge/
-knowledge/研究日志/
 knowledge/memory/
+
+# Allow core research tools
+!skills/research/theory_score_engine.py
+!skills/research/conflict_detector.py
+!skills/research/research_map.py
+!skills/research/chronos_research_log.py
 
 # Python
 __pycache__/
