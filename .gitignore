@@ -17,6 +17,24 @@ scrapling_env/
 *.so
 node
 
+# OpenClaw System Files
+.openclaw/
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+MEMORY.md
+QUICKSTART.md
+SECURITY.md
+SOUL.md
+TOOLS.md
+TOOLS_INSTALLED.md
+USER.md
+progress.json
+
+# Personal Config
+CHRONOS.md
+
 # IDE
 .vscode/
 .idea/
