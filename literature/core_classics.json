@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "name": "Chronos Lab 核心经典文献库",
+    "version": "1.0",
+    "created": "2026-03-11",
+    "total_papers": 25
+  },
+  "categories": {
+    "time_entropy": {
+      "name": "时间与熵",
+      "papers": [
+        {
+          "id": "clausius_1865",
+          "title": "Ueber verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie",
+          "author": "Rudolf Clausius",
+          "year": 1865,
+          "journal": "Annalen der Physik",
+          "significance": "熵概念首次提出",
+          "url": "https://doi.org/10.1002/andp.18652010702"
+        },
+        {
+          "id": "boltzmann_1877",
+          "title": "Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung",
+          "author": "Ludwig Boltzmann",
+          "year": 1877,
+          "journal": "Wiener Berichte",
+          "significance": "熵的统计解释，S = k log W",
+          "url": "https://doi.org/10.1002/andp.18772300306"
+        },
+        {
+          "id": "eddington_1928",
+          "title": "The Nature of the Physical World",
+          "author": "Arthur Eddington",
+          "year": 1928,
+          "publisher": "Cambridge University Press",
+          "significance": "时间箭头概念提出",
+          "url": "https://www.gutenberg.org/ebooks/35246"
+        },
+        {
+          "id": "prigogine_1977",
+          "title": "Self-Organization in Non-Equilibrium Systems",
+          "author": "Ilya Prigogine",
+          "year": 1977,
+          "publisher": "Wiley",
+          "significance": "耗散结构理论，诺贝尔奖工作",
+          "url": "https://www.wiley.com/en-us/Self-Organization+in+Nonequilibrium+Systems-p-9780471024019"
+        },
+        {
+          "id": "hawking_1985",
+          "title": "Arrow of Time in Cosmology",
+          "author": "Stephen Hawking",
+          "year": 1985,
+          "journal": "Physical Review D",
+          "significance": "宇宙学时间箭头",
+          "url": "https://doi.org/10.1103/PhysRevD.32.2489"
+        }
+      ]
+    },
+    "origin_of_life": {
+      "name": "生命起源",
+      "papers": [
+        {
+          "id": "oparin_1924",
+          "title": "Proiskhozhdenie zhizny",
+          "author": "Alexander Oparin",
+          "year": 1924,
+          "publisher": "Moscow Worker",
+          "significance": "生命起源化学进化假说",
+          "url": "https://www.marxists.org/subject/science/biology/oparin/"
+        },
+        {
+          "id": "miller_1953",
+          "title": "A Production of Amino Acids Under Possible Primitive Earth Conditions",
+          "author": "Stanley Miller",
+          "year": 1953,
+          "journal": "Science",
+          "significance": "米勒 - 尤里实验，无机物合成有机物",
+          "url": "https://doi.org/10.1126/science.117.3046.528"
+        },
+        {
+          "id": "gilbert_1986",
+          "title": "Origin of Life: The RNA World",
+          "author": "Walter Gilbert",
+          "year": 1986,
+          "journal": "Nature",
+          "significance": "RNA 世界假说提出",
+          "url": "https://doi.org/10.1038/319618a0"
+        },
+        {
+          "id": "joyce_2002",
+          "title": "The Antiquity of RNA-Based Evolution",
+          "author": "Gerald Joyce",
+          "year": 2002,
+          "journal": "Nature",
+          "significance": "RNA 世界实验证据",
+          "url": "https://doi.org/10.1038/418214a"
+        },
+        {
+          "id": "lane_2010",
+          "title": "The Vital Question: Energy, Evolution, and the Origins of Complex Life",
+          "author": "Nick Lane",
+          "year": 2010,
+          "publisher": "W. W. Norton",
+          "significance": "细胞能量系统与生命起源",
+          "url": "https://www.amazon.com/Vital-Question-Energy-Evolution-Origins/dp/0393088448"
+        }
+      ]
+    },
+    "information_theory": {
+      "name": "信息论",
+      "papers": [
+        {
+          "id": "shannon_1948",
+          "title": "A Mathematical Theory of Communication",
+          "author": "Claude Shannon",
+          "year": 1948,
+          "journal": "Bell System Technical Journal",
+          "significance": "信息论奠基",
+          "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
+        },
+        {
+          "id": "wheeler_1990",
+          "title": "Information, Physics, Quantum: The Search for Links",
+          "author": "John Archibald Wheeler",
+          "year": 1990,
+          "journal": "Complexity, Entropy, and the Physics of Information",
+          "significance": "It from Bit 假说",
+          "url": "https://doi.org/10.1201/9780429500794"
+        },
+        {
+          "id": "landauer_1961",
+          "title": "Irreversibility and Heat Generation in the Computing Process",
+          "author": "Rolf Landauer",
+          "year": 1961,
+          "journal": "IBM Journal of Research and Development",
+          "significance": "Landauer 原理，信息与热力学连接",
+          "url": "https://doi.org/10.1147/rd.53.0183"
+        },
+        {
+          "id": "bennett_1982",
+          "title": "The Thermodynamics of Computation",
+          "author": "Charles Bennett",
+          "year": 1982,
+          "journal": "International Journal of Theoretical Physics",
+          "significance": "麦克斯韦妖的信息论解决",
+          "url": "https://doi.org/10.1007/BF02084158"
+        }
+      ]
+    },
+    "complex_systems": {
+      "name": "复杂系统",
+      "papers": [
+        {
+          "id": "kauffman_1993",
+          "title": "The Origins of Order: Self-Organization and Selection in Evolution",
+          "author": "Stuart Kauffman",
+          "year": 1993,
+          "publisher": "Oxford University Press",
+          "significance": "自组织与进化",
+          "url": "https://global.oup.com/academic/product/the-origins-of-order-9780195079517"
+        },
+        {
+          "id": "holland_1995",
+          "title": "Hidden Order: How Adaptation Builds Complexity",
+          "author": "John Holland",
+          "year": 1995,
+          "publisher": "Addison-Wesley",
+          "significance": "复杂适应系统理论",
+          "url": "https://www.basicbooks.com/titles/john-h-holland/hidden-order/9780201442304/"
+        },
+        {
+          "id": "bar_yam_1997",
+          "title": "Dynamics of Complex Systems",
+          "author": "Yaneer Bar-Yam",
+          "year": 1997,
+          "publisher": "Addison-Wesley",
+          "significance": "复杂系统动力学",
+          "url": "https://www.taylorfrancis.com/books/mono/10.1201/9780429499869/dynamics-complex-systems-yaneer-bar-yam"
+        }
+      ]
+    },
+    "consciousness": {
+      "name": "意识研究",
+      "papers": [
+        {
+          "id": "tononi_2004",
+          "title": "An Information Integration Theory of Consciousness",
+          "author": "Giulio Tononi",
+          "year": 2004,
+          "journal": "BMC Neuroscience",
+          "significance": "整合信息理论 (IIT) 提出",
+          "url": "https://doi.org/10.1186/1471-2202-5-42"
+        },
+        {
+          "id": "koch_2012",
+          "title": "Consciousness: Confessions of a Romantic Reductionist",
+          "author": "Christof Koch",
+          "year": 2012,
+          "publisher": "MIT Press",
+          "significance": "意识神经科学",
+          "url": "https://mitpress.mit.edu/books/consciousness"
+        },
+        {
+          "id": "chalmers_1995",
+          "title": "Facing Up to the Problem of Consciousness",
+          "author": "David Chalmers",
+          "year": 1995,
+          "journal": "Journal of Consciousness Studies",
+          "significance": "意识的困难问题",
+          "url": "https://www.imprint.co.uk/chalmers.html"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "description": "核心经典文献库用于补充 arXiv 搜索的不足",
+    "integration": "在 Research Engine 中优先加载相关经典文献",
+    "update_frequency": "每月更新一次"
+  }
+}
