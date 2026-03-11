@@ -9,6 +9,14 @@ venv/
 ENV/
 scrapling_env/
 
+# Large files
+*.pb
+*.bin
+*.exe
+*.dll
+*.so
+node
+
 # IDE
 .vscode/
 .idea/
@@ -28,3 +36,4 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+scrapling_env/
