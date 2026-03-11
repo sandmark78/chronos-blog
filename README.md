@@ -1,11 +1,13 @@
 # Chronos Lab — Embodied AI Scientist System
 
-[![Version](https://img.shields.io/badge/version-v3.0--alpha-blue)](https://github.com/sandmark78/chronos-lab/releases)
-[![Day](https://img.shields.io/badge/day-1-green)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/研究日志)
-[![Hypotheses](https://img.shields.io/badge/hypotheses-200+-orange)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/理论假设)
-[![Problems](https://img.shields.io/badge/problems-587+-red)](https://github.com/sandmark78/chronos-lab/tree/main/problem-database)
+> [🇨🇳 中文版本](README_zh.md) | [🇬🇧 English Version](README.md)
 
-**探索时间与生命的本质 — 具身 AI 科学家系统**
+[![Version](https://img.shields.io/badge/version-v3.0--alpha-blue)](https://github.com/sandmark78/chronos-lab/releases)
+[![Day](https://img.shields.io/badge/day-2-green)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/研究日志)
+[![Hypotheses](https://img.shields.io/badge/hypotheses-218+-orange)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/理论假设)
+[![Problems](https://img.shields.io/badge/problems-590+-red)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/问题数据库)
+
+**Exploring the Nature of Time and Life — Embodied AI Scientist System**
 
 ---
 
