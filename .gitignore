@@ -1,12 +1,19 @@
+# Only keep knowledge/ directory
+# Ignore everything else
+/*
+!knowledge/
+!knowledge/**/*
+
+# But ignore these within knowledge/
+knowledge/研究日志/
+knowledge/memory/
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
 scrapling_env/
 
 # Large files
@@ -16,24 +23,7 @@ scrapling_env/
 *.dll
 *.so
 node
-
-# OpenClaw System Files
-.openclaw/
-AGENTS.md
-BOOTSTRAP.md
-HEARTBEAT.md
-IDENTITY.md
-MEMORY.md
-QUICKSTART.md
-SECURITY.md
-SOUL.md
-TOOLS.md
-TOOLS_INSTALLED.md
-USER.md
-progress.json
-
-# Personal Config
-CHRONOS.md
+*.pdf
 
 # IDE
 .vscode/
@@ -44,15 +34,3 @@ CHRONOS.md
 # OS
 .DS_Store
 Thumbs.db
-
-# OpenClaw state
-.openclaw/
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.bak
-scrapling_env/
-scrapling_env/
