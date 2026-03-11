@@ -1,110 +1,50 @@
-# Chronos Lab — Git Ignore File
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-scrapling_env/
-*.egg-info/
-.eggs/
-dist/
-build/
-
-# Virtual Environments
-venv/
-env/
-ENV/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# OS
-Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# Database
-*.db
-*.sqlite
-
-# Temporary files
-*.tmp
-*.bak
-tmp/
-temp/
-
-# ============================================
-# DO NOT UPLOAD TO GITHUB (Internal Files)
-# ============================================
-
-# Skills and Tools (Internal - DO NOT UPLOAD)
-skills/
+# Python files
 *.py
-!README.md
+__pycache__/
 
-# Agent Prompts (Internal)
-agents/
-!agents/README.md
-
-# Memory Files (Internal)
+# Internal directories
+skills/
 memory/
-
-# Problem Database (Internal)
 problem-database/
-!problem-database/README.md
+scripts/
 
-# Research Logs (Internal)
+# Internal knowledge directories
 knowledge/研究日志/
 knowledge/理论假设/
 knowledge/思想实验/
+knowledge/执行管理/
+knowledge/问题汇总/
 
-# Execution Framework (Internal)
-knowledge/执行框架/
-knowledge/研究管理/
+# Root internal files
+AGENTS.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+RESEARCH_*.md
+CHRONOS_ENGINE*.md
+CHRONOS_LOG*.md
+CHRONOS_V2*.md
+EXECUTION_STATUS.md
+HYPOTHESIS_TIER_REPORT.md
+cleanup.sh
 
-# System Configuration
-.openclaw/
-*.json
-!package.json
-
-# Twitter Log (Internal)
-TWITTER_LOG.md
-
-# Archive Files
-README_ARCHIVE.md
-DAY1_FINAL_SUMMARY.md
-
-# Scripts (Internal)
-scripts/
-
-# ============================================
-# UPLOAD TO GITHUB (Public Files)
-# ============================================
-
-# Documentation
-README.md
-CHRONOS_V3_ARCHITECTURE.md
-
-# Public Knowledge Cards (Selected)
-knowledge/时间/
-knowledge/生命/
-knowledge/意识/
-knowledge/统一框架/
-knowledge/AI/
-knowledge/热力学/
-knowledge/宇宙学/
-knowledge/信息/
-knowledge/文明/
-knowledge/实验验证/
-
-# Public Index
-knowledge/README_INDEX.md
+# Chinese internal docs
+冲刺模式*.md
+多源文献*.md
+安全部署*.md
+实时监控*.md
+执行时间*.md
+技能库*.md
+教训*.md
+文献访问*.md
+研究操作系统*.md
+硅基*.md
+系统*.md
+自我进化*.md
+进化*.md
+限流*.md
+完成通知*.md
+最终总结*.md
+100*.md
