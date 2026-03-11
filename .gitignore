@@ -1,34 +1,24 @@
-# ===========================================
-# Chronos Lab GitHub 公开仓库
-# 只公开核心知识卡片和框架文档
-# ===========================================
+# Chronos Lab GitHub 公开仓库 - .gitignore
 
-# 虚拟环境
-scrapling_env/
-venv/
-env/
-ENV/
+# 只保留核心知识卡片和框架文档
 
-# 本地配置
+# 排除所有研究日志和完成通知
+Day*.md
+*_完成通知*.md
+*_最终总结*.md
+*_summary*.md
+MEMORY.md
+README_ARCHIVE.md
+TWITTER_LOG.md
+
+# 排除内部目录
 .openclaw/
-*.egg-info/
-.eggs/
-
-# Python 缓存
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# 内部目录
+scrapling_env/
 agents/
 memory/
 problem-database/
 scripts/
 literature/
-
-# 内部知识目录
 knowledge/研究日志/
 knowledge/理论假设/
 knowledge/思想实验/
@@ -40,7 +30,7 @@ knowledge/实验验证/
 knowledge/研究管理/
 knowledge/文明/
 
-# 根目录内部文件
+# 排除内部文件
 AGENTS.md
 HEARTBEAT.md
 IDENTITY.md
@@ -53,31 +43,13 @@ EXECUTION_STATUS.md
 HYPOTHESIS_TIER_REPORT.md
 cleanup.sh
 arxiv_time_arrow_entropy.json
-MEMORY.md
-Day*.md
-*_完成通知*.md
-*_最终总结*.md
-*_summary*.md
-README_ARCHIVE.md
-TWITTER_LOG.md
 
 # 临时文件
 *.log
-logs/
 *.tmp
 *.bak
-tmp/
-temp/
-
-# IDE 和系统
+__pycache__/
+*.pyc
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 .DS_Store
-Thumbs.db
-
-# 数据库
-*.db
-*.sqlite
