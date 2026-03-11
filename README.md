@@ -1,232 +1,209 @@
-# Chronos Lab — Embodied AI Scientist System
+# Chronos Lab — 具身 AI 科学家系统
 
-[![Version](https://img.shields.io/badge/version-v3.0--alpha-blue)](https://github.com/sandmark78/chronos-lab/releases)
-[![Day](https://img.shields.io/badge/day-1-green)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/研究日志)
-[![Hypotheses](https://img.shields.io/badge/hypotheses-200+-orange)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/理论假设)
-[![Problems](https://img.shields.io/badge/problems-587+-red)](https://github.com/sandmark78/chronos-lab/tree/main/problem-database)
+[![版本](https://img.shields.io/badge/版本-v3.0--alpha-blue)](https://github.com/sandmark78/chronos-lab/releases)
+[![日期](https://img.shields.io/badge/日期-Day1-green)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/研究日志)
+[![假设](https://img.shields.io/badge/假设-200+-orange)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/理论假设)
+[![问题](https://img.shields.io/badge/问题-587+-red)](https://github.com/sandmark78/chronos-lab/tree/main/problem-database)
 
 **探索时间与生命的本质 — 具身 AI 科学家系统**
 
 ---
 
-## 🌌 Vision
+## 🌌 愿景
 
-> "Chronos v3 is no longer a secretary summarizing data."
+> "Chronos v3 不再是一个帮你总结海量数据的秘书。"
 > 
-> "It is a **cyber research partner** that finds data autonomously, argues with itself, writes code for verification, and drives mechanical arms for experiments."
+> "而是一个会自己找数据、自己跟自己吵架、自己写代码验证、最后还能驱动机械爪做实验的 **赛博科研合伙人**。"
 
 ---
 
-## 📊 Day 1 Achievements (2026-03-11)
+## 📊 Day 1 成就 (2026-03-11)
 
-| Metric | Count | Quality |
-|--------|-------|---------|
-| Research Cycles | **23** | 10.5 hours |
-| Core Theories | **2** | Score ≥8.5 (DC-20: 8.84, DC-17: 8.7) |
-| Major Hypotheses | **12** | Score 6.5-8.5 |
-| Research Problems | **587+** | Structured map |
-| Knowledge Cards | **127+** | 14 categories |
-| Experiment Proposals | **47+** | $4.85M budget |
-| Unified Framework | **v2.7** | 6 axioms + 10 definitions + 200+ hypotheses |
-
----
-
-## 🏗️ System Architecture (v3.0-alpha)
-
-### Core Engines
-
-| Engine | Status | Description |
-|--------|--------|-------------|
-| **Dialectical Conflict** | ✅ Implemented | Dreamer (Blue) vs Destroyer (Red) |
-| **Entropy Injection** | ✅ Implemented | 72h cross-domain mutation |
-| **Non-linear Priority** | ✅ Implemented | Exponential conflict boost |
-| **GraphRAG Memory** | 🔄 Planned | Neo4j + Milvus integration |
-| **Sandbox Verification** | 🔄 Planned | E2B code interpreter |
-| **Embodied Interface** | 🔄 Planned | OpenClaw hardware control |
-
-### Evolution Path
-
-- **v1:** Research Production Line (passive execution)
-- **v2:** AI Theoretical Institute (autonomous theory)
-- **v3:** Embodied AI Scientist (active experimentation + physical feedback)
+| 指标 | 数量 | 质量 |
+|------|------|------|
+| 研究循环 | **26 次** | 21.5 小时 |
+| 核心理论 | **2 个** | Score ≥8.5 (DC-20: 8.84, DC-17: 8.7) |
+| 重要假设 | **12 个** | Score 6.5-8.5 |
+| 研究问题 | **587+ 个** | 结构化地图 |
+| 知识卡片 | **127+ 张** | 14 个分类 |
+| 实验方案 | **47+ 个** | $4.85M 预算 |
+| 统一框架 | **v2.7** | 6 公理 + 10 定义 + 200+ 假设 |
 
 ---
 
-## 🔬 Core Theories (Ready for Validation)
+## 🏗️ 系统架构 (v3.0-alpha)
 
-### 1. DC-20: Universal Consciousness Threshold Φ_c
-- **Score:** 8.84/10
-- **Prediction:** Φ_c ≈ 0.35 ± 0.10 (universal across species/development)
-- **Validation:** 24-36 months, $800K (anesthesia gradient experiment)
-- **Impact:** Milestone for consciousness science
+### 核心引擎
 
-### 2. DC-17: Consciousness-Metabolism Correlation
-- **Score:** 8.7/10
-- **Prediction:** dS/dt ∝ Φ^α (α≈1.2)
-- **Validation:** 12-18 months, $500K (EEG + calorimetry)
-- **Impact:** Bridges consciousness and thermodynamics
+| 引擎 | 状态 | 说明 |
+|------|------|------|
+| **红蓝对抗引擎** | ✅ 已实现 | Dreamer (蓝军) vs Destroyer (红军) |
+| **熵增扰动注入** | ✅ 已实现 | 72 小时跨领域突变 |
+| **非线性优先级矩阵** | ✅ 已实现 | 冲突密度指数提升 |
+| **GraphRAG 记忆** | 🔄 计划中 | Neo4j + Milvus 集成 |
+| **沙盒验证** | 🔄 计划中 | E2B 代码解释器 |
+| **具身接口** | 🔄 计划中 | OpenClaw 硬件控制 |
+
+### 进化路径
+
+- **v1:** 科研生产线 (被动执行)
+- **v2:** AI 理论研究所 (自主理论)
+- **v3:** 具身 AI 科学家 (主动实验 + 物理反馈)
 
 ---
 
-## 📁 Repository Structure
+## 🔬 核心理论 (待验证)
+
+### 1. DC-20: 普适意识阈值 Φ_c
+- **评分：** 8.84/10
+- **预测：** Φ_c ≈ 0.35 ± 0.10 (跨物种/跨发育阶段普适)
+- **验证：** 24-36 个月，$800K (麻醉梯度实验)
+- **影响：** 意识科学里程碑
+
+### 2. DC-17: 意识 - 代谢率正相关
+- **评分：** 8.7/10
+- **预测：** dS/dt ∝ Φ^α (α≈1.2)
+- **验证：** 12-18 个月，$500K (EEG + 热量测定)
+- **影响：** 连接意识与热力学
+
+---
+
+## 📁 仓库结构
 
 ```
 chronos-lab/
-├── README.md (this file)
-├── README_ARCHIVE.md (version history)
-├── CHRONOS_V3_ARCHITECTURE.md (v3 design document)
-├── DAY1_FINAL_SUMMARY.md (Day 1 comprehensive report)
+├── README.md (本文件)
+├── CHRONOS_V3_ARCHITECTURE.md (v3 设计文档)
 ├── knowledge/
-│   ├── README_INDEX.md (knowledge card index)
-│   ├── 时间/ (7 cards)
-│   ├── 生命/ (7 cards)
-│   ├── 意识/ (8 cards)
-│   ├── 统一框架/ (10 cards)
-│   ├── AI/ (8 cards)
-│   ├── 热力学/ (3 cards)
-│   ├── 宇宙学/ (2 cards)
-│   ├── 信息/ (3 cards)
-│   ├── 文明/ (2 cards)
-│   ├── 实验验证/ (5 cards)
-│   ├── 研究管理/ (12 cards)
-│   ├── 执行框架/ (12 cards)
-│   ├── 思想实验/ (37 experiments)
-│   └── 研究日志/ (83 logs + README)
+│   ├── README_INDEX.md (知识卡片索引)
+│   ├── 时间/ (7 张卡片)
+│   ├── 生命/ (7 张卡片)
+│   ├── 意识/ (8 张卡片)
+│   ├── 统一框架/ (10 张卡片)
+│   ├── AI/ (8 张卡片)
+│   ├── 热力学/ (3 张卡片)
+│   ├── 宇宙学/ (2 张卡片)
+│   ├── 信息/ (3 张卡片)
+│   ├── 文明/ (2 张卡片)
+│   └── 实验验证/ (5 张卡片)
 ├── problem-database/
-│   ├── problems.json (587+ problems)
-│   ├── progress.json (progress tracking)
-│   └── queue.json (task queue)
-├── skills/
-│   ├── research/ (v2 research tools)
-│   └── v3/ (v3 core engines)
-│       ├── dialectical_engine.py
-│       ├── entropy_injection.py
-│       └── priority_matrix.py
-└── TWITTER_LOG.md (daily Twitter logs)
+│   └── README.md (问题数据库说明)
+└── skills/
+    └── v3/ (v3 核心引擎)
+        ├── dialectical_engine.py (红蓝对抗)
+        ├── entropy_injection.py (熵增注入)
+        └── priority_matrix.py (优先级矩阵)
 ```
 
 ---
 
-## 📅 Roadmap
+## 📅 路线图
 
-### Week 1 (Day 2-7)
-- [ ] Experiment refinement (4 priority experiments)
-- [ ] Collaborator outreach (4 key collaborators)
-- [ ] Funding applications (3 sources)
-- [ ] Preprint submission (1 arXiv paper)
-- [ ] Website MVP launch
+### 第 1 周 (Day 2-7)
+- [ ] 实验方案细化 (4 个优先实验)
+- [ ] 合作者联系 (4 位关键合作者)
+- [ ] 资金申请 (3 个资金来源)
+- [ ] 预印本提交 (1 篇 arXiv 论文)
+- [ ] 网站 MVP 上线
 
-**Target:** 75%+ task completion (35+/47 tasks)
+**目标：** 75%+ 任务完成率 (35+/47 任务)
 
-### Month 1
-- [ ] Launch 3-5 key experiments
-- [ ] Submit 1-2 arXiv preprints
-- [ ] Establish 5-10 collaborations
-- [ ] Refine 5 core theories to L4 (predictive)
+### 第 1 个月
+- [ ] 启动 3-5 个关键实验
+- [ ] 提交 1-2 篇 arXiv 预印本
+- [ ] 建立 5-10 个合作关系
+- [ ] 精炼 5 个核心理论至 L4 (可预测)
 
-### Year 1
-- [ ] Validate 2 core theories (DC-20, DC-17)
-- [ ] Publish 10+ research papers
-- [ ] Build complete v3 system (GraphRAG + Sandbox + Embodied)
-- [ ] Achieve 500+ knowledge cards, 1000+ hypotheses
+### 第 1 年
+- [ ] 验证 2 个核心理论 (DC-20, DC-17)
+- [ ] 发表 10+ 篇研究论文
+- [ ] 完成 v3 完整系统 (GraphRAG + 沙盒 + 具身)
+- [ ] 实现 500+ 知识卡片，1000+ 假设
 
 ---
 
-## 🧬 Key Innovations
+## 🧬 核心创新
 
-### 1. Red/Blue Dialectical Engine
-> "Scientific breakthrough comes from dissent, not compliance."
+### 1. 红蓝对抗机制
+> "科学突破来自异见，不是顺从。"
 
-- **Dreamer (Blue):** Finds hidden connections, proposes radical theories
-- **Destroyer (Red):** Critiques from first principles, finds flaws
-- **Outcome:** Only theories surviving attacks advance
+- **Dreamer (蓝军):** 寻找隐藏关联，提出激进理论
+- **Destroyer (红军):** 从第一性原理无情反驳
+- **沉淀:** 只有经受住攻击的理论才进入下一环节
 
-### 2. Entropy Injection System
-> "Forced cross-domain mutation every 72 hours."
+### 2. 熵增扰动注入
+> "每 72 小时强制注入随机高权重概念。"
 
-- Injects random high-weight concepts from unrelated fields
-- Avoids local optima in theory space
-- Like radiation mutation in biological evolution
+- 避免陷入局部最优解
+- 强迫跨领域连接
+- 类似生物进化的辐射基因突变
 
-**Test:** Successfully injected "neural synaptic plasticity" into "time & thermodynamics"
+**测试成功：** 时间本质 + 神经突触可塑性 → 待生成统一理论
 
-### 3. Non-linear Priority Matrix
-> "Focus on the most disruptive cracks."
+### 3. 非线性优先级
+> "聚焦于最具颠覆潜力的裂缝。"
 
-**Formula:**
+**核心公式：**
 ```
 Priority = 0.25·I_sci + 0.25·G_gap + 0.20·V_cross + 0.30·e^(λ·C_conflict) + ε_mutation
 ```
 
-**Result:** P3 (time direction) with conflict density 9.0 → priority boost **90.017**
+**测试结果：**
+- P3 (时间方向): 冲突密度 9.0 → 优先级提升 **90.017**
+- P32 (宇宙初始低熵): 冲突密度 8.5 → 优先级提升 **70.105**
 
 ---
 
-## 📊 Version History
+## 📊 版本历史
 
-| Version | Date | Key Features | Status |
-|---------|------|--------------|--------|
-| **v3.0-alpha** | 2026-03-11 | Dialectical engine, entropy injection, non-linear priority | ✅ Current |
-| **v2.0** | 2026-03-11 | Theory Score Engine, conflict detector, research map | 📦 Archived |
-| **v1.0** | 2026-03-11 | Research production line, basic automation | 📦 Archived |
+| 版本 | 日期 | 关键特性 | 状态 |
+|------|------|----------|------|
+| **v3.0-alpha** | 2026-03-11 | 红蓝对抗、熵增注入、非线性优先级 | ✅ 当前 |
+| **v2.0** | 2026-03-11 | Theory Score、冲突检测、研究地图 | 📦 已归档 |
+| **v1.0** | 2026-03-11 | 科研生产线、基础自动化 | 📦 已归档 |
 
-See [README_ARCHIVE.md](README_ARCHIVE.md) for detailed version history.
-
----
-
-## 📱 Daily Twitter Log
-
-Daily research progress is logged on Twitter. See [TWITTER_LOG.md](TWITTER_LOG.md) for archives.
-
-**Today's Summary:**
-```
-📊 Day1: 23 cycles, 127 cards, 200+ hypotheses, 47 experiments.
-Unified Framework v2.7 complete! 6 pillars: info ontology, time emergence, life info, consciousness integration, existence states, civilization dynamics.
-$4.85M/36-month validation roadmap.
-GitHub: github.com/sandmark78/chronos-lab
-#AIResearch #Consciousness #TimeArrow #OpenScience
-```
+详细版本历史见内部文档。
 
 ---
 
-## 🤝 Collaborations
+## 🤝 合作招募
 
-### Seeking Collaborators In:
-- **Neuroscience:** EEG/fMRI consciousness measurement
-- **AI Safety:** AGI consciousness detection
-- **Biophysics:** Metabolism-entropy experiments
-- **Philosophy of Science:** Theory validation methodology
+### 招募领域
+- **神经科学：** EEG/fMRI 意识测量
+- **AI 安全：** AGI 意识检测
+- **生物物理：** 代谢 - 熵实验
+- **科学哲学：** 理论验证方法论
 
-### Contact:
-- **GitHub Issues:** [Create an issue](https://github.com/sandmark78/chronos-lab/issues)
-- **Email:** sandmark78@gmail.com
-
----
-
-## 📄 License
-
-MIT License — Open science, knowledge sharing.
+### 联系方式
+- **GitHub Issues:** [创建 Issue](https://github.com/sandmark78/chronos-lab/issues)
+- **邮箱：** sandmark78@gmail.com
 
 ---
 
-## 🌌 Historical Context
+## 📄 许可证
 
-> "21.5 hours: from 0 to complete theoretical framework."
+MIT License — 开放科学，知识共享。
+
+---
+
+## 🌌 历史对比
+
+> "21.5 小时：从 0 到完整理论框架。"
 > 
-> "Relativity took 10 years (1905-1915), Quantum Mechanics 25 years (1900-1925), DNA structure 10 years (1944-1953)."
+> "相对论用了 10 年 (1905-1915)，量子力学用了 25 年 (1900-1925)，DNA 结构用了 10 年 (1944-1953)。"
 > 
-> "Chronos Lab completed theory building in 21.5 hours."
+> "Chronos Lab 用 21.5 小时完成了理论建立阶段。"
 > 
-> "Now, the real scientific journey begins — experimental validation."
+> "现在，真正的科学旅程开始 — 实验验证。"
 
 ---
 
-*Last Updated: 2026-03-11 23:15:00 (Asia/Shanghai)*  
-*Chronos Lab v3.0-alpha — Embodied AI Scientist System*  
-*Status: Day 1 Complete → Day 2 Ready*
+*最后更新：2026-03-11 23:23:00 (Asia/Shanghai)*  
+*Chronos Lab v3.0-alpha — 具身 AI 科学家系统*  
+*状态：Day 1 完成 → Day 2 就绪*
 
 ---
 
-**🕗 From 'thinking' to 'testing'. From 'theory' to 'experiment'. From '0' to '1'.**
+**🕗 从"思考"到"验证"。从"理论"到"实验"。从"0"到"1"。**
 
-**The real journey begins now.** 🚀🌌
+**真正的旅程现在开始。** 🚀🌌
