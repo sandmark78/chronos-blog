@@ -45,10 +45,6 @@ knowledge/宇宙学/
 knowledge/实验验证/
 knowledge/研究管理/
 knowledge/文明/
-knowledge/知识地图.md
-knowledge/100 核心问题清单.md
-knowledge/100 研究问题清单.md
-knowledge/知识地图.md
 
 # ===========================================
 # 根目录内部文件（永不上传）
@@ -66,11 +62,12 @@ HYPOTHESIS_TIER_REPORT.md
 cleanup.sh
 arxiv_time_arrow_entropy.json
 MEMORY.md
-Day1_*.md
-Day2_*.md
+Day*.md
 *_完成通知*.md
 *_最终总结*.md
 *_summary*.md
+README_ARCHIVE.md
+TWITTER_LOG.md
 
 # ===========================================
 # 日志和临时文件（永不上传）
@@ -81,30 +78,6 @@ logs/
 *.bak
 tmp/
 temp/
-README_ARCHIVE.md
-TWITTER_LOG.md
-
-# ===========================================
-# 中文内部文档（永不上传）
-# ===========================================
-冲刺模式*.md
-多源文献*.md
-安全部署*.md
-实时监控*.md
-执行时间*.md
-技能库*.md
-教训*.md
-文献访问*.md
-研究操作系统*.md
-硅基*.md
-系统*.md
-自我进化*.md
-进化*.md
-限流*.md
-完成通知*.md
-最终总结*.md
-1M Token*.md
-Cron*.md
 
 # ===========================================
 # IDE 和系统文件（永不上传）
