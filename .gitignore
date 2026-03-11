@@ -46,9 +46,10 @@ temp/
 # DO NOT UPLOAD TO GITHUB (Internal Files)
 # ============================================
 
-# Skills and Tools (Internal)
+# Skills and Tools (Internal - DO NOT UPLOAD)
 skills/
-!skills/README.md
+*.py
+!README.md
 
 # Agent Prompts (Internal)
 agents/
