@@ -8,6 +8,11 @@ Day*.md
 MEMORY.md
 README_ARCHIVE.md
 TWITTER_LOG.md
+
+# 排除内部敏感材料 (仅私密备份)
+skills/
+影响力提升/
+arxiv_submission/
 1M Token*.md
 Cron*.md
 knowledge/100*.md
