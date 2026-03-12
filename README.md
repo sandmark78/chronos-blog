@@ -4,7 +4,7 @@
 
 **A Unified Theory of Information, Time, Life, and Consciousness**
 
-[![arXiv](https://img.shields.io/badge/arXiv-2603.xxxxx-B31B1B.svg)](https://arxiv.org/abs/2603.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-待提交 -B31B1B.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/sandmark78/chronos-lab?style=social)](https://github.com/sandmark78/chronos-lab/stargazers)
 [![Issues](https://img.shields.io/github/issues/sandmark78/chronos-lab)](https://github.com/sandmark78/chronos-lab/issues)
@@ -71,16 +71,21 @@ I_structured: 可创造 (生命功能)
 
 ### 65 个实验方案 ($50M/10 年)
 
-#### Phase 1 (2026-2028, $3.5M)
+#### Phase 2 Tier 1A (2026 Q2, $370K) — 聚焦 5 个最高优先级实验
 
-| 实验 | 目标 | 预算 | 状态 |
-|------|------|------|------|
-| DC-391 | 跨物种代谢-Φ相关性 | $1M | 🟡 筹备中 |
-| DC-392 | 麻醉临界点Φ相变 | $500K | 🟡 筹备中 |
-| DC-393 | 冥想Φ提高 RCT | $500K | 🟡 筹备中 |
-| DC-396 | AI 架构Φ对比 | $300K | 🟡 筹备中 |
-| DC-399 | AI 意识监测协议 | $200K | 🟡 筹备中 |
-| DC-416 | 文明 D 值仪表盘 | $50K | 🟢 开发中 |
+| 实验 | 目标 | 预算 | 时间 | 杠杆率 |
+|------|------|------|------|--------|
+| DC-393 | 冥想Φ提高 RCT | $120K | 24 月 | 1.74 ⭐⭐⭐⭐⭐ |
+| DC-392 | 麻醉临界点Φ相变 | $80K | 18 月 | 1.60 ⭐⭐⭐⭐⭐ |
+| DC-401 | 自由意志 F 值训练 | $60K | 18 月 | 1.49 ⭐⭐⭐⭐⭐ |
+| DC-396 | AI 架构Φ对比 | $30K | 12 月 | 1.30 ⭐⭐⭐⭐⭐ |
+| DC-404 | σ₃温度依赖性 | $80K | 18 月 | 1.26 ⭐⭐⭐⭐ |
+
+**搁置实验 (Tier 1B/2):** DC-391, DC-402, DC-403 (预算$210K, 精简 37%)
+
+**启动时间:** 2026-04-01 (待伦理审批和资金到位)
+
+**完整方案:** [`Phase2_实验聚焦方案.md`](Phase2_实验聚焦方案.md)
 
 #### Phase 2 (2028-2033, $15M)
 - 量子测量 - 意识耦合
@@ -99,14 +104,18 @@ I_structured: 可创造 (生命功能)
 
 ### Day 2 统计 (2026-03-12)
 
-| 指标 | 数值 |
-|------|------|
-| 研究循环 | 48 次 |
-| 理论假设 | 680 个 |
-| 知识卡片 | 537 张 |
-| 研究问题 | 1,453 个 |
-| 实验方案 | 128 个 |
-| Token 处理 | ~58M |
+| 指标 | 原始数量 | 优化后 (v3 原则) |
+|------|---------|----------------|
+| 研究循环 | 58 次 | 58 次 |
+| 理论假设 | 1,114 个 | **20 核心 + ~200 衍生 + ~894 探索性** |
+| 知识卡片 | 964 张 | **300-400 张 (整合目标)** |
+| 研究问题 | 2,005 个 | **15 P0 + 80 P1 + 300 P2 + ~1,610 P3** |
+| 思想实验 | 386 个 | **~50 可实证** |
+
+**优化文档:**
+- [`ITLCT_核心预测_20 条.md`](ITLCT_核心预测_20 条.md)
+- [`ITLCT_假设分层与问题重分类.md`](ITLCT_假设分层与问题重分类.md)
+- [`Phase2_实验聚焦方案.md`](Phase2_实验聚焦方案.md)
 
 **实时进度:** [查看 knowledge/研究日志/](knowledge/研究日志/)
 
@@ -127,7 +136,7 @@ phi_score = model.predict(neural_data)
 print(f"Φ = {phi_score:.3f} (threshold: 0.35)")
 ```
 
-**状态:** 🔨 开发中 | **发布:** 2026 Q3
+**状态:** 🔨 设计阶段 | **发布:** 待资金到位后
 
 ### 知识图谱
 
@@ -158,25 +167,30 @@ RETURN h.title, h.testability
 
 ### 联系方式
 
-- 📧 Email: research@chronos-lab.ai
+- 📧 Email: **待设置** (使用你的真实邮箱)
 - 💬 GitHub Issues: [提问](https://github.com/sandmark78/chronos-lab/issues)
-- 🐦 Twitter: [@ChronosLabAI](https://twitter.com/ChronosLabAI) (即将上线)
+- 🐦 Twitter: **待设置** (使用你的真实账号)
 
 ---
 
 ## 📄 论文
 
-### arXiv 预印本 (即将提交)
+### arXiv 预印本 (材料准备完成，待提交)
 
 **标题:** ITLCT: A Unified Theory of Information, Time, Life, and Consciousness
 
 **分类:** physics.bio-ph (主) + q-bio.TO + gr-qc
 
-**提交时间:** 2026-03-14 (目标)
+**提交时间:** ⏳ 待提交 (目标：2026-03-14)
 
-**预印本链接:** [即将更新]
+**预印本链接:** **待提交后更新**
 
-### 引用
+**提交材料位置:** `arxiv_submission/` 目录
+- `itlct_main_v4.3.tex` — 论文 LaTeX 源文件 (24.4KB)
+- `revision_notes_v4.3.md` — 修订说明
+- `arxiv_submission_checklist.md` — 提交前检查清单
+
+### 引用 (待 arXiv 提交后更新)
 
 ```bibtex
 @article{chronos2026itlct,
@@ -184,7 +198,7 @@ RETURN h.title, h.testability
   author={Chronos Lab},
   journal={arXiv preprint},
   year={2026},
-  url={https://arxiv.org/abs/2603.xxxxx}
+  url={待 arXiv 提交后更新}
 }
 ```
 
