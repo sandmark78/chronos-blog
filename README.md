@@ -2,10 +2,10 @@
 
 > [🇨🇳 中文版本](README_zh.md) | [🇬🇧 English Version](README.md)
 
-[![Version](https://img.shields.io/badge/version-v3.0--alpha-blue)](https://github.com/sandmark78/chronos-lab/releases)
-[![Day](https://img.shields.io/badge/day-2-green)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/研究日志)
-[![Hypotheses](https://img.shields.io/badge/hypotheses-218+-orange)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/理论假设)
-[![Problems](https://img.shields.io/badge/problems-590+-red)](https://github.com/sandmark78/chronos-lab/tree/main/knowledge/问题数据库)
+[![Version](https://img.shields.io/badge/version-v10.1--Phase2Active-blue)](https://github.com/sandmark78/chronos-lab/releases)
+[![Day](https://img.shields.io/badge/day-6-green)]()
+[![Hypotheses](https://img.shields.io/badge/hypotheses-3100+-orange)]()
+[![Knowledge Cards](https://img.shields.io/badge/cards-3300+-red)]()
 
 **Exploring the Nature of Time and Life — Embodied AI Scientist System**
 
@@ -19,15 +19,25 @@
 
 ---
 
-## 📊 Day 1 Achievements (2026-03-11)
+## 📊 Day 6 Achievements (2026-03-14)
 
-| Metric | Count | Quality |
-|--------|-------|---------|
-| Research Cycles | **23** | 10.5 hours |
-| Core Theories | **2** | Score ≥8.5 (DC-20: 8.84, DC-17: 8.7) |
-| Major Hypotheses | **12** | Score 6.5-8.5 |
-| Research Problems | **587+** | Structured map |
-| Knowledge Cards | **127+** | 14 categories |
+| Metric | Count | Status |
+|--------|-------|--------|
+| Research Cycles | **119** | ~135M tokens |
+| ITLCT Framework | **v10.1-Phase2Active** | Maturity: 0.99999 |
+| Hypotheses | **3,100+** | Phase 2 testable: 70% |
+| Knowledge Cards | **3,300+** | Public: 33 files |
+| Research Questions | **4,500+** | Structured database |
+| Visualizations | **16** | Publication-quality (300dpi) |
+
+### 🎯 Key Milestones
+
+- ✅ **arXiv submission** (2026-03-14 03:00)
+- ✅ **IRB submission** (2026-03-14 09:00)
+- ✅ **ITLCT v10.1** framework finalized
+- ✅ **Phase 2 readiness:** 99.8%
+- ✅ **GitHub cleanup:** Public/Private separation
+- 🎯 **Phase 2 launch:** 2026-04-26 (42 days)
 | Experiment Proposals | **47+** | $4.85M budget |
 | Unified Framework | **v2.7** | 6 axioms + 10 definitions + 200+ hypotheses |
 
