@@ -1,0 +1,11 @@
+[Unit]
+Description=Chronos Lab Daily Backup Timer
+After=network.target
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+Persistent=true
+Unit=chronos-backup.service
+
+[Install]
+WantedBy=timers.target

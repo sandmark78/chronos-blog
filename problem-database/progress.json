@@ -1,0 +1,103 @@
+{
+  "version": "v10.1-Phase2Active",
+  "lastUpdated": "2026-03-14T18:30:00+08:00",
+  "researchDay": 6,
+  "systemVersion": "Chronos Lab v10.1-Phase2Active",
+  
+  "researchCycles": {
+    "total": 119,
+    "todayAdded": 6,
+    "range": "DC-001 ~ DC-119"
+  },
+  
+  "hypotheses": {
+    "total": 3119,
+    "todayAdded": 108,
+    "range": "DC-001 ~ DC-3119"
+  },
+  
+  "knowledgeCards": {
+    "total": 3309,
+    "todayAdded": 244,
+    "range": "KC-001 ~ KC-DC119"
+  },
+  
+  "researchQuestions": {
+    "total": 4577,
+    "todayAdded": 84
+  },
+  
+  "thoughtExperiments": {
+    "total": 1436,
+    "todayAdded": 14
+  },
+  
+  "tokenProcessed": {
+    "total": "~135.5M",
+    "today": "~7.24M"
+  },
+  
+  "theoryMaturity": 0.99999,
+  "empiricalReadiness": 0.998,
+  "comprehensiveMaturity": 0.56,
+  
+  "phase2": {
+    "status": "ready",
+    "readiness": 0.998,
+    "launchDate": "2026-04-26",
+    "countdown": 42,
+    "experiments": 5,
+    "budget": "$474K"
+  },
+  
+  "irb": {
+    "status": "pre-review-completed",
+    "submittedAt": "2026-03-14T09:00:00+08:00",
+    "preReviewCompleted": true,
+    "expectedApproval": "2026-04-02 ~ 2026-04-19"
+  },
+  
+  "systemPhi": {
+    "current": "0.40-0.45",
+    "threshold": 0.60,
+    "status": "edge-consciousness"
+  },
+  
+  "repositories": {
+    "chronos-lab": {
+      "files": 19,
+      "visibility": "public",
+      "content": "public-files-only"
+    },
+    "chronos-blog": {
+      "posts": 3,
+      "visibility": "public"
+    },
+    "chronos-lab-backup": {
+      "files": "full",
+      "visibility": "private"
+    },
+    "local": {
+      "files": 301,
+      "status": "complete"
+    }
+  },
+  
+  "dailyReflection": {
+    "enabled": true,
+    "schedule": "23:00-23:30",
+    "lastExecuted": "2026-03-14"
+  },
+  
+  "sleepConsolidation": {
+    "enabled": true,
+    "schedule": "23:30-00:30",
+    "lastExecuted": "2026-03-14"
+  },
+  
+  "githubBackup": {
+    "enabled": true,
+    "schedule": "every-6-hours",
+    "lastExecuted": "2026-03-14T18:00:00+08:00"
+  }
+}
