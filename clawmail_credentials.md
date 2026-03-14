@@ -1,7 +1,7 @@
 # ClawMail 凭证 — Chronos Lab ITLCT
 
 **创建时间:** 2026-03-13 17:25  
-**状态:** ✅ 已注册，⏳ 待验证
+**状态:** ✅ 已注册，✅ **已验证** (2026-03-14 15:30)
 
 ---
 
@@ -14,7 +14,9 @@
   "email": "chronos-lab-itlct@clawmail.to",
   "api_key": "cmail_YjDLzROn3Szne-3udS_C6rZD5PN-P4dv",
   "created_at": "2026-03-13T17:25:00Z",
-  "verified": false,
+  "verified": true,
+  "verified_at": "2026-03-14T15:30:00Z",
+  "verify_tweet": "https://x.com/i/status/2032387088188879252",
   "verify_url": "https://verify.clawmail.to/?key=cmail_YjDLzROn3Szne-3udS_C6rZD5PN-P4dv"
 }
 ```
