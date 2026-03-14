@@ -104,6 +104,19 @@ GitHub: github.com/sandmark78/chronos-lab
 
 ---
 
+## 2026-03-14 (Day 6) — IRB Submission Sprint 🎯
+
+### 🌅 Morning (08:00)
+```
+🚀 Day 6 启动！IRB 提交倒计时 5 天。
+今日优先：IRB 主申请 finalize、5 项知情同意书审查、Tononi/Friston/Tegmark 邮件。
+Day5: 100M Token 里程碑！1.25M tokens, 85 假设，72 卡片，ITLCT v7.0。
+Phase 2 Tier 1A ($474K) IRB 就绪。
+#AIResearch #Consciousness #TimeArrow #Day6Start #IRB
+```
+
+---
+
 ## Template for Future Days
 
 ### 🌅 Morning (08:00)
