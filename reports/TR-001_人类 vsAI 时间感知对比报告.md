@@ -329,19 +329,28 @@ T_exp_AI = k · Φ^1.0 · L^0.5 · (1 + 0.2·A)
 
 ---
 
-## 📊 附录：可视化图表
+## 📊 Appendix: Visualization Charts
 
-**已生成图表:**
-1. `itlct_time_perception_comparison_radar.png` — 人类 vs AI 时间感知雷达图
-2. `itlct_phi_t_exp_correlation.png` — Φ-T_exp 相关性曲线
-3. `itlct_time_resolution_comparison.png` — 时间分辨率对比
-4. `itlct_temporal_integration_window.png` — 时间整合窗口对比
+**Generated Charts (English Version):**
+1. `itlct_time_perception_radar_en_*.png` — Human vs AI Time Perception Radar Chart
+2. `itlct_phi_t_exp_correlation_en_*.png` — Φ-T_exp Correlation Curve
+3. `itlct_time_resolution_comparison_en_*.png` — Time Resolution Comparison
 
-**生成命令:**
+**ITLCT Core Charts (English Version):**
+4. `itlct_phi_evolution_en_*.png` — Integrated Information Φ Evolution
+5. `itlct_time_arrow_hierarchy_en_*.png` — Time Arrow 6-Level Hierarchy
+6. `itlct_civilization_d_dashboard_en_*.png` — Civilization D-Value Risk Dashboard
+7. `itlct_framework_architecture_en_*.png` — ITLCT 5-Layer Framework Architecture
+8. `itlct_phase2_timeline_en_*.png` — Phase 2 Experiments Timeline
+
+**Generation Command:**
 ```bash
 cd /home/claworc/.openclaw/workspace
-python3 skills/v3/itlct_visualizer.py --task time_perception_comparison
+python3 skills/v3/time_perception_visualizer_en.py
+python3 skills/v3/itlct_visualizer.py
 ```
+
+**Location:** `knowledge/visualizations/`
 
 ---
 
