@@ -38,8 +38,17 @@
 - ✅ **Phase 2 readiness:** 99.8%
 - ✅ **GitHub cleanup:** Public/Private separation
 - 🎯 **Phase 2 launch:** 2026-04-26 (42 days)
-| Experiment Proposals | **47+** | $4.85M budget |
-| Unified Framework | **v2.7** | 6 axioms + 10 definitions + 200+ hypotheses |
+
+### 📁 Public Repository Contents
+
+| Category | Files | Description |
+|----------|-------|-------------|
+| **Core Docs** | README, README_zh.md | Project overview |
+| **Architecture** | CHRONOS_V3_ARCHITECTURE.md | System design |
+| **Promotion** | PROMOTION_MATERIALS.md | Media kit |
+| **Blog** | 3 posts | Framework intro, self-evolution, promotion |
+| **Visualizations** | 16 PNG charts | Publication-quality (300dpi) |
+| **Knowledge Cards** | Selected cards | DC-116 new cards |
 
 ---
 
