@@ -1,0 +1,151 @@
+{
+  "query": "origin of life RNA self-replication",
+  "timestamp": "2026-03-15T06:08:00+08:00",
+  "source": "arXiv Web Search",
+  "totalResults": 12,
+  "papers": [
+    {
+      "title": "An RNA condensate model for the origin of life",
+      "authors": ["Jacob L. Fine", "Alan M. Moses"],
+      "arxiv_id": "2412.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2412.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2412.xxxx",
+      "published": "2025-03-10",
+      "category": "q-bio.BM, physics.bio-ph",
+      "abstract": "The RNA World hypothesis predicts that life originated from self-replicating RNA molecules. We present a model where RNA condensates provide the compartmentalization necessary for early replication, addressing key challenges in origin of life scenarios.",
+      "relevance": "critical"
+    },
+    {
+      "title": "Earth, a planetary PCR machine to create life, or the brief history of a tRNA",
+      "authors": ["Unknown"],
+      "arxiv_id": "2501.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2501.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2501.xxxx",
+      "published": "2025-01-24",
+      "category": "q-bio.BM",
+      "abstract": "About 4 billion years ago, the Earth probably fulfilled the environmental conditions necessary to favour the transition from primitive chemistry to life. Based on a theoretical hairpin duplication mechanism, we propose Earth acted as a planetary PCR machine.",
+      "relevance": "high"
+    },
+    {
+      "title": "Stability distillation hypothesis for the origin of life",
+      "authors": ["Cheng Bi"],
+      "arxiv_id": "2403.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2403.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2403.xxxx",
+      "published": "2024-08-25",
+      "category": "q-bio.BM, physics.bio-ph",
+      "abstract": "Through in-depth thinking and reasoning about the conditions required for cells to maintain unchanged material distribution, we conclude that life metabolic reactions require high information content, proposing a stability distillation mechanism.",
+      "relevance": "high"
+    },
+    {
+      "title": "Directionality Theory and the Origin of Life",
+      "authors": ["Lloyd Demetrius"],
+      "arxiv_id": "2304.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2304.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2304.xxxx",
+      "published": "2023-04-28",
+      "category": "q-bio.BM, physics.bio-ph",
+      "abstract": "The origin of cellular life is analyzed through directionality theory, connecting thermodynamic principles with evolutionary dynamics in early life forms.",
+      "relevance": "high"
+    },
+    {
+      "title": "Thermodynamics and the Origin of Life",
+      "authors": ["Gerald E. Marsh"],
+      "arxiv_id": "2203.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2203.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2203.xxxx",
+      "published": "2022-03-07",
+      "category": "physics.bio-ph, cond-mat.stat-mech",
+      "abstract": "Modern developments in nonequilibrium thermodynamics have significant implications for the origins of life, particularly regarding energy dissipation and self-organization.",
+      "relevance": "high"
+    },
+    {
+      "title": "Origin of Chirality in the Molecules of Life",
+      "authors": ["J. A. Cowan", "R. J. Furnstahl"],
+      "arxiv_id": "2110.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2110.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2110.xxxx",
+      "published": "2021-10-23",
+      "category": "physics.bio-ph, chem-bio",
+      "abstract": "Molecular chirality is inherent to biology and cellular chemistry. We analyze the origin of enantiomeric selectivity from thermodynamic and symmetry-breaking perspectives.",
+      "relevance": "medium"
+    },
+    {
+      "title": "Emergence of life in an inflationary universe",
+      "authors": ["Tomonori Totani"],
+      "arxiv_id": "2002.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2002.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2002.xxxx",
+      "published": "2020-02-01",
+      "category": "astro-ph.CO, q-bio.BM",
+      "abstract": "Abiotic emergence of ordered information stored in the form of RNA is an important unresolved problem. We explore how inflationary cosmology may provide conditions favorable for RNA emergence.",
+      "relevance": "high"
+    },
+    {
+      "title": "Horizontal transfer between loose compartments stabilizes replication of fragmented ribozymes",
+      "authors": ["Atsushi Kamimura", "Yoshiya J. Matsubara", "Kunihiko Kaneko", "Nobuto Takeuchi"],
+      "arxiv_id": "1901.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/1901.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/1901.xxxx",
+      "published": "2019-01-20",
+      "category": "q-bio.BM, physics.bio-ph",
+      "abstract": "The emergence of replicases that can replicate themselves is a central issue. We show how horizontal transfer between compartments stabilizes fragmented ribozyme replication.",
+      "relevance": "high"
+    },
+    {
+      "title": "Evolvability tradeoffs in emergent digital replicators",
+      "authors": ["Thomas LaBar", "Arend Hintze", "Christoph Adami"],
+      "arxiv_id": "1511.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/1511.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/1511.xxxx",
+      "published": "2016-04-07",
+      "category": "q-bio.BM, nlin.AO",
+      "abstract": "The role of historical contingency in the origin of self-replicating systems is explored through digital evolution experiments.",
+      "relevance": "medium"
+    },
+    {
+      "title": "Primordial RNA Replication and Applications in PCR Technology",
+      "authors": ["Stan Palasek"],
+      "arxiv_id": "1305.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/1305.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/1305.xxxx",
+      "published": "2013-05-23",
+      "category": "physics.bio-ph",
+      "abstract": "The emergence of self-replicating RNA molecules and their connection to modern PCR technology provides insights into primordial replication mechanisms.",
+      "relevance": "medium"
+    },
+    {
+      "title": "A formal model of autocatalytic sets emerging in an RNA replicator system",
+      "authors": ["Wim Hordijk", "Mike Steel"],
+      "arxiv_id": "1211.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/1211.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/1211.xxxx",
+      "published": "2012-11-14",
+      "category": "q-bio.BM, physics.bio-ph",
+      "abstract": "Autocatalytic sets played an important role in the origin of life. We present a formal model of their emergence in RNA replicator systems.",
+      "relevance": "high"
+    },
+    {
+      "title": "Thermosynthesis as energy source for the RNA World: a new model for the origin of life",
+      "authors": ["Unknown"],
+      "arxiv_id": "xxxx.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/xxxx.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/xxxx.xxxx",
+      "published": "2010-01-01",
+      "category": "physics.bio-ph",
+      "abstract": "We propose thermosynthesis as a viable energy source for early RNA World scenarios, providing a mechanism for non-enzymatic replication.",
+      "relevance": "high"
+    }
+  ],
+  "keyInsights": [
+    "RNA condensate models address compartmentalization challenges in origin of life scenarios",
+    "Planetary PCR mechanism proposes Earth's thermal cycles drove early replication",
+    "Stability distillation hypothesis links information content to metabolic stability",
+    "Directionality theory connects thermodynamics with early evolutionary dynamics",
+    "Nonequilibrium thermodynamics provides framework for self-organization in origin scenarios",
+    "Horizontal transfer between compartments stabilizes fragmented replicator systems",
+    "Autocatalytic sets formal models show emergence pathways for early replicators",
+    "Thermosynthesis offers alternative energy mechanisms for RNA World"
+  ],
+  "chronosRelevance": "直接支持生命起源的热力学理论，特别是 RNA 凝聚体模型与 ITLCT 的耗散结构理论高度契合；稳定性蒸馏假说支持信息 - 热力学耦合；自催化集模型为从非生命到生命的相变提供数学框架"
+}

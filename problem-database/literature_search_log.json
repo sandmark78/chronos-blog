@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-03-15T06:08:00+08:00",
+  "searches": [
+    {
+      "id": "LS-001",
+      "timestamp": "2026-03-12T06:00:00+08:00",
+      "trigger": "cron:a607e20b-2225-48e1-a115-cdebe2c357b7",
+      "agent": "Hermes",
+      "queries": [
+        {
+          "keyword": "arrow of time entropy",
+          "source": "arXiv API",
+          "resultsCount": 13,
+          "outputFile": "problem-database/outputs/literature/arrow_time_entropy_2026-03-12.json",
+          "status": "completed"
+        },
+        {
+          "keyword": "origin of life RNA",
+          "source": "arXiv API",
+          "resultsCount": 3,
+          "outputFile": "problem-database/outputs/literature/origin_life_rna_2026-03-12.json",
+          "status": "completed"
+        }
+      ],
+      "totalPapers": 16,
+      "status": "completed",
+      "summary": {
+        "arrowTimeEntropy": {
+          "highRelevance": 7,
+          "mediumRelevance": 2,
+          "keyTopics": [
+            "熵与时间箭头的关系",
+            "引力熵与热力学箭头的对立",
+            "信息论熵 (SMI) 框架",
+            "生物进化与心理时间箭头",
+            "弦宇宙学前 bangian 熵起源"
+          ]
+        },
+        "originLifeRNA": {
+          "criticalRelevance": 1,
+          "highRelevance": 2,
+          "keyTopics": [
+            "RNA 凝聚体自复制模型",
+            "热合成能源机制",
+            "同手性热力学耗散理论",
+            "区室化起源",
+            "遗传密码涌现"
+          ]
+        }
+      }
+    },
+    {
+      "id": "LS-002",
+      "timestamp": "2026-03-15T06:08:00+08:00",
+      "trigger": "cron:a607e20b-2225-48e1-a115-cdebe2c357b7",
+      "agent": "Hermes",
+      "queries": [
+        {
+          "keyword": "arrow of time entropy",
+          "source": "arXiv Web Search",
+          "resultsCount": 10,
+          "outputFile": "problem-database/outputs/literature/arrow_time_entropy_2026-03-15.json",
+          "status": "completed"
+        },
+        {
+          "keyword": "origin of life RNA self-replication",
+          "source": "arXiv Web Search",
+          "resultsCount": 12,
+          "outputFile": "problem-database/outputs/literature/origin_life_rna_2026-03-15.json",
+          "status": "completed"
+        }
+      ],
+      "totalPapers": 22,
+      "status": "completed",
+      "summary": {
+        "arrowTimeEntropy": {
+          "highRelevance": 7,
+          "mediumRelevance": 3,
+          "keyTopics": [
+            "亚时间 (subtime) 与经典时间涌现",
+            "固态自旋系统中的时间箭头机器学习",
+            "语义时间箭头统一理论 (Leibniz Bridge)",
+            "因果第二定律与熵",
+            "引力坍缩中的时间箭头问题",
+            "多维时间箭头框架",
+            "熵钟机制与重子生成"
+          ]
+        },
+        "originLifeRNA": {
+          "criticalRelevance": 1,
+          "highRelevance": 8,
+          "mediumRelevance": 3,
+          "keyTopics": [
+            "RNA 凝聚体区室化模型",
+            "地球 PCR 机制与发夹复制",
+            "稳定性蒸馏假说",
+            "方向性理论与生命起源",
+            "非平衡热力学与自组织",
+            "手性起源的热力学分析",
+            "膨胀宇宙中的生命涌现",
+            "区室间水平转移稳定复制",
+            "自催化集形式模型",
+            "热合成能源机制"
+          ]
+        }
+      }
+    }
+  ],
+  "nextScheduledSearch": "2026-03-16T06:00:00+08:00",
+  "outputDirectory": "problem-database/outputs/literature/"
+}

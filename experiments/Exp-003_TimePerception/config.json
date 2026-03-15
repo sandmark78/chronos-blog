@@ -1,0 +1,20 @@
+{
+  "experiment_id": "Exp-003",
+  "name": "时间体验操纵实验",
+  "status": "deployed",
+  "deployment_time": "2026-03-14T22:14:33.744114",
+  "protocol": {
+    "task": "时间间隔估计任务",
+    "conditions": [
+      "高Φ条件",
+      "低Φ条件"
+    ],
+    "trials": 100,
+    "duration_minutes": 30
+  },
+  "software": {
+    "platform": "PsychoPy",
+    "version": "2023.2.3",
+    "script": "time_perception_task.py"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "query": "origin of life RNA",
+  "timestamp": "2026-03-12T06:00:00+08:00",
+  "source": "arXiv API",
+  "totalResults": 3,
+  "papers": [
+    {
+      "title": "An RNA condensate model for the origin of life",
+      "authors": ["Jacob L. Fine", "Alan M. Moses"],
+      "arxiv_id": "2412.05396",
+      "arxiv_link": "https://arxiv.org/abs/2412.05396v2",
+      "pdf_link": "https://arxiv.org/pdf/2412.05396v2",
+      "published": "2024-12-06",
+      "category": "q-bio.BM",
+      "abstract": "The RNA World hypothesis predicts that self-replicating RNAs evolved before DNA genomes and coded proteins. Despite widespread support for the RNA World, self-replicating RNAs have yet to be identified in a natural context, leaving a key 'missing link' for this explanation of the origin of life. Inspired by recent work showing that condensates of charged polymers are capable of catalyzing chemical reactions, we consider a catalytic RNA condensate as a candidate for the self-replicating RNA. Specifically, we propose that short, low-complexity RNA polymers formed catalytic condensates capable of templated RNA polymerization. Because the condensate properties depend on the RNA sequences, RNAs that formed condensates with improved polymerization and demixing capacity would be amplified, leading to a 'condensate chain reaction' and evolution by natural selection.",
+      "relevance": "critical",
+      "keyContributions": [
+        "提出 RNA 凝聚体作为自复制 RNA 的候选模型",
+        "解决区室化起源问题",
+        "解决模板复制的误差阈值问题",
+        "解决维持信息丰富的复制 RNA 群体的自由能成本问题"
+      ]
+    },
+    {
+      "title": "Thermosynthesis as energy source for the RNA World: a new model for the origin of life",
+      "authors": ["Anthonie W. J. Muller"],
+      "arxiv_id": "q-bio/0501013",
+      "arxiv_link": "https://arxiv.org/abs/q-bio/0501013v2",
+      "pdf_link": "https://arxiv.org/pdf/q-bio/0501013v2",
+      "published": "2005-01-11",
+      "category": "q-bio.PE",
+      "abstract": "The thermosynthesis concept, biological free energy gain from thermal cycling, is combined with the concept of the RNA World. The resulting overall origin of life model gives new explanations for the emergence of the genetic code and the ribosome. The first protein named pF1 obtains the energy to support the RNA world by a thermal variation of F1 ATP synthase's binding change mechanism. This pF1 is the single translation product during the emergence of the genetic machinery. During thermal cycling pF1 condenses many substrates with broad specificity, yielding NTPs and randomly constituted protein and RNA libraries that contain (self)-replicating RNA.",
+      "relevance": "high",
+      "keyContributions": [
+        "提出热合成作为 RNA 世界的能源",
+        "解释遗传密码和核糖体的出现",
+        "pF1 蛋白作为第一个翻译产物",
+        "热循环驱动 NTP 和复制 RNA 的形成"
+      ]
+    },
+    {
+      "title": "Homochirality through Photon-Induced Melting of RNA/DNA: the Thermodynamic Dissipation Theory of the Origin of Life",
+      "authors": ["Karo Michaelian"],
+      "arxiv_id": "1010.1059",
+      "arxiv_link": "https://arxiv.org/abs/1010.1059v1",
+      "pdf_link": "https://arxiv.org/pdf/1010.1059v1",
+      "published": "2010-10-06",
+      "category": "physics.bio-ph, astro-ph.EP",
+      "abstract": "The homochirality of the molecules of life has been a vexing problem with no generally accepted solution to date. Since a racemic mixture of chiral nucleotides frustrates the extension and replication of RNA and DNA, understanding the origin of homochirality has important implications to the investigation of the origin of life. Here we suggest a novel solution to the homochirality problem based on a recently proposed thermodynamic dissipation theory for the origin of life. Homochirality is suggested to have been incorporated gradually into the emerging life as a result of asymmetric right- over left-handed photon-induced denaturation of RNA/DNA occurring when Archean sea surface temperatures became close to the denaturing temperatures of RNA/DNA.",
+      "relevance": "high",
+      "keyContributions": [
+        "提出同手性问题的热力学耗散理论解决方案",
+        "光子诱导的 RNA/DNA 变性机制",
+        "在不到 500 太古代年内实现 100% 同手性",
+        "解释 L-氨基酸的同手性起源"
+      ]
+    }
+  ],
+  "keyInsights": [
+    "RNA 凝聚体模型提供自复制 RNA 的物理机制",
+    "热合成可能是早期生命的能源",
+    "同手性起源可通过光子诱导变性解释",
+    "区室化、复制误差阈值、自由能成本是核心问题",
+    "现代核仁可能是进化遗迹"
+  ],
+  "chronosRelevance": "直接支持生命信息论和生命 - 意识 - 熵增三元耦合理论，特别是生命作为信息加速器的假说"
+}

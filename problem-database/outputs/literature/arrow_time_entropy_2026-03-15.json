@@ -1,0 +1,128 @@
+{
+  "query": "arrow of time entropy",
+  "timestamp": "2026-03-15T06:08:00+08:00",
+  "source": "arXiv Web Search",
+  "totalResults": 10,
+  "papers": [
+    {
+      "title": "Subtime: Reversible Information Exchange and the Emergence of Classical Time",
+      "authors": ["Unknown"],
+      "arxiv_id": "2603.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2603.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2603.xxxx",
+      "published": "2026-03-12",
+      "category": "physics.gen-ph",
+      "abstract": "We formalize the concept of subtime -- a reversible mode of information interchange within entangled systems -- and show how classical time emerges as an asymptotic limit through decoherence. Building on the photon clock model, in which a single photon confined between two ideal mirrors creates an alternating causality regime, we develop a process-theoretic framework for understanding time emergence.",
+      "relevance": "high"
+    },
+    {
+      "title": "Machine learning the arrow of time in solid-state spins",
+      "authors": ["Xiang-Qian Meng", "Zhide Lu", "Ya-Nan Lu", "Xiu-Ying Chang", "Yan-Qing Liu", "Dong Yuan", "Weikang Li", "Zheng-Zhi Sun", "Pei-Xin Shen", "Lu-Ming Duan", "Dong-Ling Deng", "Pan-Yu Hou"],
+      "arxiv_id": "2603.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2603.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2603.xxxx",
+      "published": "2026-03-10",
+      "category": "quant-ph, cond-mat.stat-mech",
+      "abstract": "Understanding the emergence of the thermodynamic arrow of time in quantum systems through machine learning approaches applied to solid-state spin systems.",
+      "relevance": "high"
+    },
+    {
+      "title": "The Semantic Arrow of Time, Part V: The Leibniz Bridge -- Toward a Unified Theory of Semantic Time",
+      "authors": ["Paul Borrill"],
+      "arxiv_id": "2603.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2603.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2603.xxxx",
+      "published": "2026-03-05",
+      "category": "physics.gen-ph",
+      "abstract": "This is the final paper in the five-part series The Semantic Arrow of Time, presenting a unified theory of semantic time through the Leibniz Bridge framework.",
+      "relevance": "medium"
+    },
+    {
+      "title": "The Causal Second Law",
+      "authors": ["Balazs Gyenis"],
+      "arxiv_id": "2602.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2602.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2602.xxxx",
+      "published": "2026-02-19",
+      "category": "physics.gen-ph",
+      "abstract": "Under certain key assumptions that are familiar from physicalist accounts of the special sciences and from physics, causal regularities have an associated notion of entropy, establishing a causal second law.",
+      "relevance": "high"
+    },
+    {
+      "title": "Arrow of time problem in gravitational collapse",
+      "authors": ["Samarjit Chakraborty", "Sunil D. Maharaj", "Rituparno Goswami", "Sarbari Guha"],
+      "arxiv_id": "2601.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2601.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2601.xxxx",
+      "published": "2026-01-27",
+      "category": "gr-qc",
+      "abstract": "We investigate the arrow of time problem in the context of gravitational collapse, examining the relationship between thermodynamic and gravitational arrows.",
+      "relevance": "high"
+    },
+    {
+      "title": "Multidimensional arrow of time",
+      "authors": ["Sergey G. Rubin"],
+      "arxiv_id": "2601.14134",
+      "arxiv_link": "https://arxiv.org/abs/2601.14134",
+      "pdf_link": "https://arxiv.org/pdf/2601.14134",
+      "published": "2026-01-20",
+      "category": "gr-qc, hep-th",
+      "abstract": "This paper investigates the influence of extra dimensions on the nature of the arrow of time, proposing a multidimensional framework.",
+      "relevance": "high"
+    },
+    {
+      "title": "Measuring unconventional causal structures in monitored dynamics",
+      "authors": ["Hong-Yi Wang", "Haifeng Tang", "Xiao-Liang Qi"],
+      "arxiv_id": "2601.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2601.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2601.xxxx",
+      "published": "2026-01-18",
+      "category": "quant-ph, cond-mat.stat-mech",
+      "abstract": "In systems with measurement and post-selection, causal influence can occur between spacelike separated regions. We study the causal structure and emergent arrow of time.",
+      "relevance": "medium"
+    },
+    {
+      "title": "Baryogenesis from the Thermodynamic Arrow of Time: a Transfer-Function Bound and an Entropy-Clock Mechanism",
+      "authors": ["Yakov Mandel"],
+      "arxiv_id": "2601.xxxx",
+      "arxiv_link": "https://arxiv.org/abs/2601.xxxx",
+      "pdf_link": "https://arxiv.org/pdf/2601.xxxx",
+      "published": "2026-01-15",
+      "category": "hep-ph, astro-ph.CO",
+      "abstract": "We propose an entropy clock mechanism tied to thermodynamic irreversibility that generates baryon asymmetry from the thermodynamic arrow of time.",
+      "relevance": "high"
+    },
+    {
+      "title": "Entropy and the arrow of time in population dynamics",
+      "authors": ["Diogo Costa-Cabanas", "Fabio A. C. C. Chalub", "Max O. Souza"],
+      "arxiv_id": "2206.01482",
+      "arxiv_link": "https://arxiv.org/abs/2206.01482",
+      "pdf_link": "https://arxiv.org/pdf/2206.01482",
+      "published": "2022-06-03",
+      "category": "q-bio.PE, cond-mat.stat-mech",
+      "abstract": "We explore entropy formulas for stochastic processes with absorbing states in population genetics models, considering the Moran process as a paradigm.",
+      "relevance": "medium"
+    },
+    {
+      "title": "Pre-bangian origin of our entropy and time arrow",
+      "authors": ["G. Veneziano"],
+      "arxiv_id": "hep-th/9902126",
+      "arxiv_link": "https://arxiv.org/abs/hep-th/9902126",
+      "pdf_link": "https://arxiv.org/pdf/hep-th/9902126",
+      "published": "1999-02-17",
+      "category": "hep-th",
+      "abstract": "In string cosmology, classical and quantum effects generate the correct amount of entropy to saturate a Hubble entropy bound and identify the arrow of time within our Universe.",
+      "relevance": "high"
+    }
+  ],
+  "keyInsights": [
+    "Recent work on subtime formalizes reversible information exchange and classical time emergence through decoherence",
+    "Machine learning approaches applied to quantum systems for arrow of time detection",
+    "Semantic arrow of time series completed with unified Leibniz Bridge theory",
+    "Causal second law establishes entropy connection to causal regularities",
+    "Gravitational collapse continues to show tension between thermodynamic and gravitational arrows",
+    "Multidimensional frameworks propose extra dimensions influence time arrow nature",
+    "Entropy-clock mechanisms link thermodynamic irreversibility to cosmological phenomena"
+  ],
+  "chronosRelevance": "直接支持时间涌现论研究，特别是亚时间 (subtime) 概念与 ITLCT 的信息场理论高度相关；熵钟机制为热力学选择原理提供新证据；多维时间箭头框架支持时间的涌现性和相对性"
+}

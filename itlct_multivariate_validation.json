@@ -1,0 +1,11 @@
+{
+  "model1_r_squared": 0.36232585281659063,
+  "model1_p_value": 1.1116376440407484e-35,
+  "model2_r_squared": 0.449273786957783,
+  "model2_r_squared_adj": 0.4444709420766009,
+  "model3_r_squared": 0.4065185849174189,
+  "model3_r_squared_adj": 0.4013428749021638,
+  "sample_size": 348,
+  "best_model": "Model 3 (Interaction)",
+  "improvement": 1.121969580026625
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_info": {
+    "total_species": 300,
+    "complete_species": 300,
+    "pci_species": 116,
+    "source": "Architect-provided extended dataset"
+  },
+  "model1_r_squared": 0.8583848219150462,
+  "model2_r_squared": 0.8841571612252309,
+  "model2_r_squared_adj": 0.8829830783998109,
+  "model3_r_squared": 0.9105501295101,
+  "model3_r_squared_adj": 0.9093372499102369,
+  "model3_all_significant": false,
+  "max_vif": 34.95944030526724,
+  "eq11_12_best_threshold": 0.6,
+  "eq11_12_accuracy": 0.46551724137931033,
+  "passed_count": 1,
+  "total_tests": 4,
+  "r_squared_improvement": 1.0607714701649473
+}

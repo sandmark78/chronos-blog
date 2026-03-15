@@ -1,0 +1,548 @@
+Class,Common name,Metabolic rate (W),Body mass (g),Maximum longevity (yrs)
+Amphibia,American toad,0.00829,21.6,36.0
+Amphibia,Southern toad,0.00698,19.2,10.0
+Amphibia,Cane toad,0.0303,105.0,24.8
+Amphibia,Gray treefrog,0.00433,6.97,7.8
+Amphibia,African clawed frog,0.012,63.6,30.3
+Amphibia,American bullfrog,0.0134,51.2,16.0
+Amphibia,Northern leopard frog,0.00576,21.6,9.0
+Amphibia,Wood frog,0.00416,7.8,5.0
+Amphibia,Spotted salamander,0.005,12.8,32.0
+Amphibia,Tiger salamander,0.00196,3.21,25.0
+Amphibia,Two-toed amphiuma,0.00904,199.0,27.0
+Amphibia,Hellbender,0.0253,358.0,29.0
+Amphibia,Black-bellied salamander,0.00411,14.1,15.0
+Amphibia,Eastern red-backed salamander,9.9e-05,0.76,25.0
+Amphibia,Northern slimy salamander,0.00191,4.2,20.1
+Amphibia,European fire salamander,0.00857,19.1,24.0
+Aves,Eurasian sparrowhawk,0.9516,135.0,20.2
+Aves,Golden eagle,4.9929,3000.0,48.0
+Aves,Red-shouldered hawk,2.11,658.0,22.4
+Aves,Black-chested buzzard-eagle,5.1887,2860.0,42.0
+Aves,"European honey buzzard, or Western honey-buzzard",2.36428,652.0,29.0
+Aves,Wood duck,2.247,448.0,22.5
+Aves,Northern shoveler,3.9209,554.0,22.6
+Aves,Green-winged teal,1.68388,250.0,27.1
+Aves,Eurasian wigeon,2.8538,723.0,35.2
+Aves,Mallard,4.068,1020.0,29.1
+Aves,American black duck,3.6076,904.0,26.6
+Aves,Common swift,0.4372,44.9,21.1
+Aves,Ruby-throated hummingbird,0.07832,3.2,9.1
+Aves,Anna's hummingbird,0.1175,4.8,8.5
+Aves,Rufous hummingbird,0.06853,3.8,8.9
+Aves,Calliope hummingbird,0.06853,3.0,7.0
+Aves,Brown kiwi,4.029,2380.0,35.0
+Aves,Common nighthawk,0.4421,72.0,10.0
+Aves,Common murre,6.8224,956.0,42.8
+Aves,Thick-billed murre,6.8224,989.0,29.0
+Aves,Little ringed plover,0.416,36.0,13.0
+Aves,Eurasian oystercatcher,2.91,449.0,43.3
+Aves,"Brown noddy, or Noddy tern",0.788095,138.7,26.2
+Aves,White tern,0.82236,98.1,35.9
+Aves,Herring gull,4.817,1000.0,49.0
+Aves,Mew gull,2.257,431.0,33.7
+Aves,Ring-billed gull,2.91742,439.0,31.8
+Aves,Western gull,3.43629,761.0,33.9
+Aves,Ruddy turnstone,0.92,90.0,22.3
+Aves,American woodcock,1.066,156.7,20.9
+Aves,Eurasian woodcock,2.16,430.0,15.5
+Aves,White-tipped dove,0.8884,131.0,8.6
+Aves,Wonga pigeon,1.695,445.0,16.3
+Aves,European turtle-dove,1.138,154.0,13.2
+Aves,Mourning dove,0.736,123.0,31.3
+Aves,Common kingfisher,0.378,34.3,21.0
+Aves,"Common cuckoo, or Eurasian cuckoo",0.838,111.6,12.9
+Aves,Greater roadrunner,1.4661,284.7,9.0
+Aves,Eurasian hobby,1.3014,208.0,14.9
+Aves,Gambel's quail,0.755,126.1,7.4
+Aves,Ruffed grouse,2.3894,644.0,11.0
+Aves,Common quail,0.891,97.0,14.6
+Aves,Blue grouse,4.957,1131.0,14.0
+Aves,Red junglefowl,6.005,2710.0,30.0
+Aves,Willow ptarmigan,2.872,567.0,9.0
+Aves,Grey partridge,2.1783,501.0,5.2
+Aves,Western capercaillie,11.816,4010.0,18.0
+Aves,"Eurasian coot, or Coot",2.039,412.0,20.6
+Aves,Great reed-warbler,0.257,21.9,10.1
+Aves,Marsh warbler,0.203,10.8,9.8
+Aves,Sedge warbler,0.218,11.5,11.8
+Aves,Icterine warbler,0.252,12.5,10.8
+Aves,Long-tailed tit,0.199,8.9,11.1
+Aves,Bushtit,0.122375,5.5,9.1
+Aves,Eurasian skylark,0.722,31.7,10.1
+Aves,Horned lark,0.3133,26.0,8.0
+Aves,Wood lark,0.572,25.5,6.0
+Aves,Bohemian waxwing,0.9566,72.5,13.5
+Aves,Northern cardinal,0.5163,41.0,28.5
+Aves,Common raven,5.5656,1203.0,69.0
+Aves,Carrion crow,3.3531,518.0,19.2
+Aves,Chihuahuan raven,3.86705,640.0,21.8
+Aves,Rook,2.6433,390.0,23.8
+Aves,Eurasian jay,1.39997,153.0,17.9
+Aves,Spotted nutcracker,1.346,147.0,19.9
+Aves,Black-billed magpie,1.196,158.9,20.0
+Aves,Yellow-billed magpie,1.471,151.9,10.0
+Aves,Yellowhammer,0.436,26.8,13.2
+Aves,Ortolan bunting,0.407,27.0,6.8
+Aves,Reed bunting,0.3,17.6,12.2
+Aves,White-rumped munia,0.21538,10.3,10.0
+Aves,Common redpoll,0.2888,14.0,12.2
+Aves,Common rosefinch,0.358,21.6,9.0
+Aves,Chaffinch,0.373,21.0,29.0
+Aves,Brambling,0.383,21.0,14.8
+Aves,Cassin's finch,0.339,27.4,7.0
+Aves,House finch,0.3108,20.4,11.6
+Aves,Evening grosbeak,0.7294,54.5,17.0
+Aves,Apapane,0.3,13.5,11.0
+Aves,Red crossbill,0.607,39.4,16.1
+Aves,White-winged crossbill,0.46992,29.8,4.0
+Aves,House canary,0.230065,13.3,24.0
+Aves,Pine siskin,0.3003,14.0,11.0
+Aves,American goldfinch,0.4108,13.6,13.0
+Aves,Barn swallow,0.3158,18.0,16.0
+Aves,Bank swallow,0.2328,13.6,10.1
+Aves,Baltimore oriole,0.5052,37.5,14.0
+Aves,Brown-headed cowbird,0.6315,42.5,16.9
+Aves,Red-backed shrike,0.383,27.0,10.1
+Aves,Northern shrike,0.8161,72.4,12.0
+Aves,Meadow pipit,0.3,18.9,13.1
+Aves,Tree pipit,0.339,19.7,8.8
+Aves,White wagtail,0.3,18.0,13.7
+Aves,Yellow wagtail,0.257,14.7,8.8
+Aves,European robin,0.281,17.6,19.3
+Aves,European pied flycatcher,0.232,11.7,15.0
+Aves,Spotted flycatcher,0.2476,14.4,11.8
+Aves,Black-capped chickadee,0.252,10.3,12.4
+Aves,Common yellowthroat,0.17622,10.6,11.5
+Aves,Orange-crowned warbler,0.151745,9.3,8.6
+Aves,Black-and-white warbler,0.12727,8.2,12.2
+Aves,Northern waterthrush,0.28391,18.7,8.9
+Aves,Prothonotary warbler,0.1994,12.8,8.1
+Aves,Ovenbird,0.24475,19.0,11.0
+Aves,Northern parula,0.122375,7.0,7.0
+Aves,Black-throated blue warbler,0.18601,9.4,10.0
+Aves,Hooded warbler,0.21538,12.0,8.2
+Aves,Yellow-rumped (myrtle) warbler,0.1895,11.5,10.0
+Aves,Yellow-throated warbler,0.1604,9.8,6.1
+Aves,"Palm warbler, or Western palm warbler",0.1554,9.8,6.6
+Aves,Pine warbler,0.1795,12.0,10.2
+Aves,Blue-winged warbler,0.1505,7.8,9.0
+Aves,Grasshopper sparrow,0.1796,13.8,9.1
+Aves,Black-throated sparrow,0.1988,11.6,6.0
+Aves,Dark-eyed junco,0.2959,18.0,11.3
+Aves,Swamp sparrow,0.211,14.9,7.8
+Aves,Song sparrow,0.25,19.1,11.3
+Aves,Abert's towhee,0.73425,46.6,8.6
+Aves,Canyon towhee,0.670615,43.7,12.8
+Aves,Savannah sparrow,0.221,15.9,18.0
+Aves,Vesper sparrow,0.27412,21.5,7.9
+Aves,Chipping sparrow,0.1945,11.9,11.8
+Aves,White-throated sparrow,0.278,20.2,14.9
+Aves,White-crowned sparrow,0.336,26.1,13.3
+Aves,Harris's sparrow,0.4552,33.3,11.7
+Aves,Eurasian tree sparrow,0.2007,17.5,13.1
+Aves,"Common chiffchaff, or Eurasian chiffchaff",0.165,8.2,8.0
+Aves,Willow warbler,0.208,10.7,11.8
+Aves,Hedge sparrow,0.325,16.8,20.8
+Aves,Goldcrest,0.184,5.5,7.0
+Aves,Crested myna,1.2092,109.4,13.0
+Aves,European starling,0.877,75.0,22.9
+Aves,Garden warbler,0.416,24.8,24.0
+Aves,Lesser whitethroat,0.199,10.6,9.0
+Aves,Winter wren,0.213,9.0,7.0
+Aves,Western bluebird,0.423,27.5,8.7
+Aves,Redwing,0.722,58.0,18.8
+Aves,Song thrush,0.726,62.8,17.7
+Aves,Eastern wood pewee,0.2576,13.9,8.2
+Aves,Acadian flycatcher,0.1795,12.3,12.1
+Aves,Great crested flycatcher,0.384,33.9,14.9
+Aves,Eastern phoebe,0.3449,21.6,10.3
+Aves,Eastern kingbird,0.4372,35.7,11.1
+Aves,American bittern,2.7412,600.0,8.3
+Aves,Acorn woodpecker,0.737,73.0,17.2
+Aves,Downy woodpecker,0.383,21.7,11.9
+Aves,Wandering albatross,20.3649,8130.0,50.0
+Aves,Laysan albatross,7.462,2522.0,70.0
+Aves,Grey-headed albatross,8.5312,3753.0,47.2
+Aves,Bulwer's petrel,0.513975,87.0,22.9
+Aves,Port Lincoln ringneck,0.718,137.0,17.9
+Aves,Sulphur-crested cockatoo,3.419,776.1,57.0
+Aves,Galah,1.248,268.7,40.0
+Aves,Budgerigar,0.3035,25.2,21.0
+Aves,Monk parakeet,0.5189,80.4,22.1
+Aves,King penguin,25.889,13270.0,27.0
+Aves,Northern saw-whet owl,0.654,124.0,17.5
+Aves,Long-eared owl,0.954,252.0,27.8
+Aves,Snowy owl,4.2244,2026.0,28.0
+Aves,Great horned owl,5.2442,1450.0,29.0
+Aves,Eastern screech-owl,0.586,166.0,20.7
+Aves,Elf owl,0.259435,45.9,14.0
+Aves,Spotted owl,2.675,571.0,25.0
+Aves,Ostrich,69.6339,100000.0,50.0
+Aves,Anhinga,3.2258,1040.0,16.4
+Aves,Double-crested cormorant,5.6096,1330.0,22.5
+Aves,Masked booby,5.5209,1289.0,25.5
+Mammalia,Lesser hedgehog tenrec,0.75,116.4,19.0
+Mammalia,Streaked tenrec,0.38,116.4,2.7
+Mammalia,Dobson's shrew tenrec,0.315,44.6,5.6
+Mammalia,Talazac's shrew tenrec,0.243,44.0,5.8
+Mammalia,Greater hedgehog tenrec,0.573,427.6,14.1
+Mammalia,"Tailess tenrec, or Tenrec",0.729,650.0,8.7
+Mammalia,Pronghorn,50.973,34779.3,17.0
+Mammalia,Domestic cattle,306.77,347000.0,20.0
+Mammalia,Blue wildebeest,230.073,196500.0,24.3
+Mammalia,Waterbuck,148.949,100000.0,30.0
+Mammalia,Kirk's dik-dik,11.966,4290.0,17.3
+Mammalia,Mountain goat,46.414,32000.0,20.8
+Mammalia,Bighorn sheep,114.674,67030.8,20.6
+Mammalia,Blue duiker,10.075,4200.0,15.9
+Mammalia,Steenbok,20.619,9600.0,9.3
+Mammalia,Eland,190.209,141404.0,26.1
+Mammalia,Dromedary,224.779,407000.0,28.4
+Mammalia,Llama,148.94,115000.0,28.9
+Mammalia,Western roe deer,46.347,21500.0,17.5
+Mammalia,Red deer,112.43,67000.0,31.5
+Mammalia,White-tailed deer,123.447,61862.5,23.0
+Mammalia,"Caribou, or Reindeer",119.66,85000.0,21.8
+Mammalia,Wild boar,104.15,135000.0,27.0
+Mammalia,Collared peccary,33.165,20500.0,31.5
+Mammalia,Lesser mouse-deer,4.883,1615.5,14.0
+Mammalia,Red panda,4.898,5740.0,19.0
+Mammalia,Coyote,19.423,10148.9,21.8
+Mammalia,Black-backed jackal,21.533,7720.0,16.7
+Mammalia,Crab-eating fox,8.502,5444.0,12.7
+Mammalia,African wild dog,33.01,8750.0,17.0
+Mammalia,Arctic fox,7.665,3600.0,16.3
+Mammalia,Kit fox,4.928,1769.0,15.8
+Mammalia,Swift fox,4.948,1769.0,15.9
+Mammalia,Red fox,13.731,4580.3,21.3
+Mammalia,Fennec,2.693,1159.2,16.3
+Mammalia,Malagasy civet,5.02262,2260.0,21.4
+Mammalia,Cheetah,61.77,38446.1,20.5
+Mammalia,Ocelot,17.368,10500.0,28.2
+Mammalia,Margay,5.227,3600.0,24.0
+Mammalia,Serval,1.44,1012.0,22.4
+Mammalia,Bobcat,23.446,9400.0,32.3
+Mammalia,Lion,94.58,98000.0,28.0
+Mammalia,Jaguar,62.419,50400.0,28.0
+Mammalia,Tiger,133.859,137900.0,26.3
+Mammalia,Cougar,49.326,37200.0,27.0
+Mammalia,Jaguarundi,9.69,8400.0,18.6
+Mammalia,Slender mongoose,2.202,519.6,12.6
+Mammalia,Javan mongoose,2.248,611.0,16.6
+Mammalia,Meerkat,1.729,850.0,20.6
+Mammalia,Striped hyena,31.954,34300.0,25.0
+Mammalia,Aardwolf,11.563,7902.6,20.0
+Mammalia,Eastern spotted skunk,1.674,624.0,10.5
+Mammalia,Tayra,6.811,2950.0,22.3
+Mammalia,Sea otter,98.479,26832.8,27.0
+Mammalia,Wolverine,31.765,12700.0,19.5
+Mammalia,European otter,25.104,10000.0,18.2
+Mammalia,American marten,3.579,966.5,17.8
+Mammalia,European pine marten,4.0,920.0,18.2
+Mammalia,"European badger, or Old World badger",16.647,11050.0,18.6
+Mammalia,Ermine,1.276,125.5,12.5
+Mammalia,Long-tailed weasel,1.344,225.0,8.8
+Mammalia,American mink,2.722,660.0,11.4
+Mammalia,American badger,15.062,9000.0,25.0
+Mammalia,African palm civet,5.565,4270.0,21.0
+Mammalia,Harbor seal,73.29,27400.0,47.6
+Mammalia,Cacomistle,3.537,1280.0,24.0
+Mammalia,White-nosed coati,6.733,3670.0,26.4
+Mammalia,South american coati,5.591,3924.3,23.7
+Mammalia,Kinkajou,4.294,2318.0,38.4
+Mammalia,Crab-eating raccoon,2.588,1160.0,19.0
+Mammalia,Common raccoon,10.428,4842.2,21.0
+Mammalia,Sloth bear,47.064,66957.0,33.3
+Mammalia,Binturong,12.747,14280.0,27.0
+Mammalia,Small-toothed palm civet,3.085,2010.0,16.1
+Mammalia,Large-spotted genet,4.189,1699.0,21.3
+Mammalia,Asian palm civet,5.534,3282.6,24.5
+Mammalia,Harbor porpoise,107.675,28500.0,20.4
+Mammalia,Greater sac-winged bat,0.081,7.8,6.0
+Mammalia,Australian false vampire bat,0.639,126.0,22.6
+Mammalia,Schreibers's long-fingered bat,0.145,10.9,22.0
+Mammalia,Brazilian free-tailed bat,0.117,13.3,12.0
+Mammalia,Greater bulldog bat,0.4,61.0,11.8
+Mammalia,Jamaican fruit-eating bat,0.359,46.1,19.2
+Mammalia,Seba's short-tailed bat,0.24,14.9,17.0
+Mammalia,Vampire bat,0.194,29.4,29.2
+Mammalia,Pallas's long-tongued bat,0.164,9.6,11.0
+Mammalia,California leaf-nosed bat,0.082,11.7,17.0
+Mammalia,Pale spear-nosed bat,0.267,33.5,9.0
+Mammalia,Greater spear-nosed bat,0.559,84.2,18.0
+Mammalia,White-lined broad-nosed bat,0.25,21.9,13.0
+Mammalia,Little yellow-shouldered bat,0.237,21.4,12.0
+Mammalia,Lesser short-nosed fruit bat,0.262,37.2,10.1
+Mammalia,Moluccan naked-backed fruit bat,1.411,312.4,12.3
+Mammalia,Indian flying fox,1.622,562.2,44.0
+Mammalia,Variable flying fox,1.618,520.8,20.3
+Mammalia,Gray-headed flying fox,1.768,598.0,23.6
+Mammalia,Little golden-mantled flying fox,0.705,194.2,17.2
+Mammalia,Rodriguez flying fox,0.753,254.5,28.0
+Mammalia,Little red flying fox,1.353,362.0,15.8
+Mammalia,Large flying fox,4.486,1024.3,20.9
+Mammalia,Egyptian rousette,0.684,146.0,22.9
+Mammalia,Pallid bat,0.104,22.0,14.8
+Mammalia,Big brown bat,0.113,13.3,19.0
+Mammalia,Little brown bat,0.051,5.8,34.0
+Mammalia,Black myotis,0.027,3.7,7.0
+Mammalia,Cave myotis,0.04,11.9,11.3
+Mammalia,Fish-eating bat,0.199,25.0,10.0
+Mammalia,Yuma myotis,0.047,5.0,14.0
+Mammalia,Brown big-eared bat,0.082,10.2,30.0
+Mammalia,Screaming hairy armadillo,1.707,1110.0,16.2
+Mammalia,Large hairy armadillo,4.508,4540.0,25.2
+Mammalia,Nine-banded armadillo,4.655,3413.7,22.3
+Mammalia,Six-banded armadillo,6.901,8190.0,22.1
+Mammalia,Giant armadillo,16.892,45190.0,15.0
+Mammalia,Southern three-banded armadillo,1.172,1160.0,36.8
+Mammalia,Pichi,2.192,1740.0,12.5
+Mammalia,Kultarr,0.141,25.8,3.5
+Mammalia,Yellow-footed antechinus,0.252,46.5,3.9
+Mammalia,Brown antechinus,0.189,25.0,5.4
+Mammalia,Dusky antechinus,0.351,66.9,3.3
+Mammalia,Mulgara,0.26,91.0,7.4
+Mammalia,Kowari,0.439,100.0,8.0
+Mammalia,Western quoll,2.991,1326.7,6.2
+Mammalia,Northern quoll,1.501,571.0,5.9
+Mammalia,"Tiger quoll, or Australian tiger cat",3.142,1782.0,6.8
+Mammalia,Eastern quoll,2.26,945.3,6.8
+Mammalia,Brush-tailed phascogale,0.694,153.7,5.9
+Mammalia,Pygmy planigale,0.067,10.6,5.8
+Mammalia,Narrow-nosed planigale,0.063,7.1,5.2
+Mammalia,Fat-tailed marsupial mouse,0.152,43.1,7.0
+Mammalia,Tasmanian devil,8.664,6126.8,13.0
+Mammalia,Fat-tailed dunnart,0.121,16.0,5.0
+Mammalia,Stripe-faced dunnart,0.128,20.6,4.9
+Mammalia,Numbat,0.907,438.2,11.0
+Mammalia,Central American woolly opossum,1.194,342.7,8.7
+Mammalia,Water opossum (yapok),2.793,940.5,3.1
+Mammalia,Southern opossum,3.31,1244.3,4.2
+Mammalia,Virginia opossum,5.299,2846.6,6.6
+Mammalia,Lutrine opossum,2.265,812.0,2.9
+Mammalia,Robinson's mouse opossum,0.547,122.0,5.0
+Mammalia,Brown four-eyed opossum,1.144,336.0,3.0
+Mammalia,"Northern red-sided opossum, or Short bare-tailed opossum",0.366,91.5,3.9
+Mammalia,Gray short-tailed opossum,0.335,104.0,5.1
+Mammalia,Gray four-eyed opossum,1.886,751.0,4.4
+Mammalia,Pygmy gliding possum,0.084,14.0,8.8
+Mammalia,Mountain pygmy possum,0.205,44.3,12.0
+Mammalia,Eastern pygmy possum,0.311,64.8,10.3
+Mammalia,Matschie's tree kangaroo,7.96,6960.0,26.9
+Mammalia,Spectacled hare-wallaby,4.749,2660.0,8.8
+Mammalia,Tammar wallaby,7.78,4796.0,15.1
+Mammalia,Wallaroo,33.056,29647.9,22.0
+Mammalia,Red kangaroo,31.353,28500.0,25.0
+Mammalia,Quokka,4.695,2702.3,13.8
+Mammalia,Leadbeater's possum,0.574,166.0,14.1
+Mammalia,Sugar glider,0.517,129.3,17.8
+Mammalia,"Common spotted cuscus, or Spotted cuscus",6.27,4250.0,17.0
+Mammalia,Brush-tailed possum,3.8,1993.5,15.9
+Mammalia,Koala,5.744,4732.4,22.1
+Mammalia,Rufous 'rat'-kangaroo,5.978,2820.0,12.8
+Mammalia,Woylie,3.132,1018.0,18.8
+Mammalia,Long-nosed potoroo,2.556,1045.5,14.5
+Mammalia,"Common ringtail, or Ring-tailed possum",2.27,859.3,10.1
+Mammalia,Southern hairy-nosed wombat,16.001,27348.2,29.9
+Mammalia,Four-toed hedgehog,0.828,450.0,11.4
+Mammalia,Eastern European hedgehog,1.937,822.7,7.0
+Mammalia,Western European hedgehog,2.434,1213.5,11.7
+Mammalia,Long-eared hedgehog,0.845,398.5,7.6
+Mammalia,Desert hedgehog,0.63,451.5,6.3
+Mammalia,Rock hyrax,4.954,2458.0,14.8
+Mammalia,Black-tailed jackrabbit,7.314,2300.0,11.8
+Mammalia,Mountain hare,8.443,3014.5,18.0
+Mammalia,European rabbit,7.395,2167.9,13.0
+Mammalia,Audubon's cottontail rabbit,2.506,686.9,7.8
+Mammalia,American pika,0.932,109.0,7.0
+Mammalia,"Bushveld elephant shrew, or Long-eared elephant shrew",0.29,46.5,9.3
+Mammalia,North African elephant shrew,0.288,49.0,7.2
+Mammalia,Rufous elephant shrew,0.317,53.0,7.9
+Mammalia,Short-eared elephant shrew,0.292,39.0,8.7
+Mammalia,Duck-billed platypus,1.931,1030.3,22.6
+Mammalia,Short-beaked echidna,2.327,2909.0,49.5
+Mammalia,"Western long-beaked echidna, or Long-nosed echidna",6.493,11848.6,41.2
+Mammalia,Long-nosed echymipera,2.255,886.6,3.1
+Mammalia,Golden bandicoot,0.837,428.0,6.7
+Mammalia,Northern brown bandicoot,3.202,1551.0,6.8
+Mammalia,Southern brown bandicoot,1.238,717.0,6.5
+Mammalia,Eastern barred bandicoot,1.902,695.0,6.1
+Mammalia,Long-nosed bandicoot,1.763,645.0,5.6
+Mammalia,"Rabbit-bandicoot, or Bilby",2.4,1245.5,9.6
+Mammalia,African wild ass,164.92,177500.0,47.0
+Mammalia,Hoffmann's two-toed sloth,3.891,4005.2,41.0
+Mammalia,Giant anteater,14.543,30600.0,31.0
+Mammalia,Northern tamandua,5.124,3884.2,16.0
+Mammalia,Southern tamandua,5.015,3500.0,19.0
+Mammalia,Northern night monkey,2.499,914.5,30.1
+Mammalia,Mantled howler monkey,11.464,4670.0,24.0
+Mammalia,White-tufted-ear marmoset,0.848,190.0,22.8
+Mammalia,Pygmy marmoset,0.599,110.7,18.6
+Mammalia,Geoffroy's tamarin,1.305,225.0,20.5
+Mammalia,South American squirrel monkey,4.429,836.7,30.2
+Mammalia,Blue monkey,19.276,8648.7,37.8
+Mammalia,Guereza,17.037,10623.6,35.0
+Mammalia,Patas monkey,5.958,3000.0,30.0
+Mammalia,Hamadryas baboon,21.095,12670.8,37.5
+Mammalia,Fat-tailed dwarf lemur,1.088,300.0,29.0
+Mammalia,South African galago,0.285,170.0,16.6
+Mammalia,Senegal galago,0.764,171.5,17.1
+Mammalia,Demidoff's galago,0.372,62.4,13.4
+Mammalia,"Brown greater galago, or Greater galago",2.595,993.5,22.7
+Mammalia,Small-eared galago,3.927,1314.0,20.0
+Mammalia,Human,82.78,70000.0,122.5
+Mammalia,Verreaux's sifaka,3.738,3350.0,31.0
+Mammalia,Brown lemur,4.239,2374.1,35.5
+Mammalia,Calabar angwantibo,0.731,206.0,13.0
+Mammalia,"Red slender loris, or Slender loris",0.714,284.0,21.6
+Mammalia,Slow loris,1.504,1128.6,25.8
+Mammalia,Potto,1.942,968.6,32.4
+Mammalia,Philippine tarsier,0.43,113.0,16.0
+Mammalia,Asiatic elephant,2336.5,3672000.0,79.6
+Mammalia,Damaraland mole-rat,0.418,131.3,15.5
+Mammalia,African mole rat,0.35,78.9,11.0
+Mammalia,Cape mole-rat,0.637,193.0,11.2
+Mammalia,Naked mole-rat,0.128,35.3,31.0
+Mammalia,Desmarest's hutia,3.375,2630.0,13.8
+Mammalia,Brown's hutia,4.11,2456.0,13.5
+Mammalia,Guinea pig,2.13,639.1,12.0
+Mammalia,Common yellow-toothed cavy,1.473,322.0,3.5
+Mammalia,Capybara,36.754,26385.0,15.1
+Mammalia,Rock cavy,2.011,801.0,12.9
+Mammalia,Long-tailed chinchilla,1.31,436.7,17.2
+Mammalia,Plains viscacha,10.623,6794.0,10.8
+Mammalia,European water vole,0.613,94.7,2.5
+Mammalia,Northern pygmy mouse,0.095,7.2,3.3
+Mammalia,Black-bellied hamster,1.251,365.3,3.6
+Mammalia,Collared lemming,0.459,56.8,3.3
+Mammalia,Brandt's vole,0.428,40.2,4.1
+Mammalia,Norway lemming,1.071,80.0,3.3
+Mammalia,Golden hamster,0.69,108.2,3.9
+Mammalia,Field vole,0.367,25.0,4.8
+Mammalia,Common vole,0.343,21.9,4.8
+Mammalia,Guenther's vole,0.447,43.8,3.9
+Mammalia,Prairie vole,0.41,48.2,5.3
+Mammalia,Woodland vole,0.305,24.8,3.8
+Mammalia,Bank vole,0.312,21.5,4.9
+Mammalia,White-throated woodrat,0.735,177.6,9.5
+Mammalia,Desert woodrat,0.46,112.5,10.5
+Mammalia,Golden mouse,0.151,19.5,8.4
+Mammalia,Southern grasshopper mouse,0.165,19.1,4.6
+Mammalia,California mouse,0.267,47.0,5.5
+Mammalia,Canyon mouse,0.162,20.5,7.7
+Mammalia,Cactus mouse,0.173,21.0,7.4
+Mammalia,White-footed mouse,0.213,22.3,7.9
+Mammalia,Deer mouse,0.219,20.5,8.3
+Mammalia,Oldfield mouse,0.12,12.0,5.5
+Mammalia,Pinyon mouse,0.307,33.1,5.4
+Mammalia,Dzhungarian hamster,0.313,31.3,3.9
+Mammalia,Florida mouse,0.288,30.8,7.4
+Mammalia,"Bunny, or Coney rat",0.428,78.7,5.5
+Mammalia,Hispid cotton rat,1.085,159.6,5.2
+Mammalia,Lowland paca,15.323,9156.0,16.3
+Mammalia,Azara's agouti,10.521,3849.0,11.8
+Mammalia,"Red-rumped agouti, or Agouti",8.694,2687.0,17.8
+Mammalia,Red acouchi,2.804,914.0,14.8
+Mammalia,Lesser Egyptian jerboa,0.515,75.0,7.3
+Mammalia,Greater Egyptian jerboa,0.775,139.0,5.5
+Mammalia,Meadow jumping mouse,0.219,26.1,5.6
+Mammalia,"Tome's spiny rat, or Spiny rat",1.75,498.0,5.8
+Mammalia,"Common punare, or Brazilian spiny rat",1.153,323.0,7.0
+Mammalia,Prehensile-tailed porcupine,5.123,3280.0,26.6
+Mammalia,North American porcupine,13.675,6871.0,23.4
+Mammalia,Plains pocket gopher,0.769,197.0,12.0
+Mammalia,Botta's pocket gopher,0.67,143.0,6.1
+Mammalia,Fat dormouse,0.664,174.4,8.7
+Mammalia,Woodland dormouse,0.225,38.4,6.9
+Mammalia,Hazel dormouse,0.351,23.5,5.3
+Mammalia,San Diego pocket mouse,0.15,19.6,8.3
+Mammalia,Long-tailed pocket mouse,0.103,15.1,7.1
+Mammalia,Desert kangaroo rat,0.517,105.8,8.6
+Mammalia,Heermann's kangaroo rat,0.408,63.3,8.3
+Mammalia,Merriam's kangaroo rat,0.246,37.6,9.7
+Mammalia,Ord's kangaroo rat,0.339,47.8,9.9
+Mammalia,Little pocket mouse,0.061,8.5,8.3
+Mammalia,Great Basin pocket mouse,0.16,19.2,5.8
+Mammalia,Cape porcupine,13.175,11300.0,23.1
+Mammalia,Spiny mouse,0.258,42.0,5.9
+Mammalia,Yellow-necked mouse,0.365,28.3,4.5
+Mammalia,Long-tailed field mouse,0.264,23.8,6.3
+Mammalia,Brush-tailed rabbit rat,0.908,213.2,4.5
+Mammalia,Cape short-eared gerbil,0.49,71.9,6.1
+Mammalia,Cape gerbil,1.016,106.5,5.7
+Mammalia,Lesser Egyptian gerbil,0.237,29.7,5.9
+Mammalia,Baluchistan gerbil,0.129,29.7,4.5
+Mammalia,Pale gerbil,0.261,56.3,5.5
+Mammalia,Greater Egyptian gerbil,0.454,108.5,8.2
+Mammalia,Golden-bellied water rat,2.97,900.0,7.3
+Mammalia,Mongolian jird,0.546,64.8,6.3
+Mammalia,"Namaqua rock rat, or Rock mouse",0.292,62.6,4.7
+Mammalia,Old World harvest mouse,0.201,7.6,3.8
+Mammalia,"Southern African pygmy mouse, or Pygmy mouse",0.129,8.0,4.3
+Mammalia,House mouse,0.271,18.0,4.0
+Mammalia,Spinifex hopping mouse,0.252,32.3,6.4
+Mammalia,Bush rat,0.471,76.0,5.3
+Mammalia,Australian swamp rat,0.353,109.0,4.4
+Mammalia,Norway rat,1.404,206.9,3.8
+Mammalia,Rat,0.77,117.0,4.2
+Mammalia,Four-striped grass mouse,0.179,39.6,4.5
+Mammalia,Bushy-tailed jird,0.274,63.6,7.3
+Mammalia,Indian gerbil,0.422,86.9,7.0
+Mammalia,Gambian rat,6.024,1686.7,8.4
+Mammalia,White-tailed mouse,0.707,93.8,6.3
+Mammalia,Pouched mouse,0.274,68.1,4.5
+Mammalia,Degu,0.958,199.6,14.0
+Mammalia,Coruro,0.561,126.2,10.8
+Mammalia,"South African springhare, or Springhare",4.427,2300.0,20.0
+Mammalia,White-tailed antelope squirrel,0.511,94.1,11.2
+Mammalia,Golden-mantled ground squirrel,0.967,249.6,10.4
+Mammalia,Black-tailed prairie dog,2.358,1112.3,15.0
+Mammalia,Thomas's rope squirrel,0.58,63.0,10.0
+Mammalia,Southern flying squirrel,0.414,67.4,19.0
+Mammalia,Red-legged sun squirrel,0.744,230.0,8.7
+Mammalia,Thirteen-lined ground squirrel,0.983,198.4,7.9
+Mammalia,Yellow-bellied marmot,8.626,4295.0,21.2
+Mammalia,Woodchuck,3.696,2650.0,14.0
+Mammalia,Franklin's ground squirrel,2.19,607.0,7.2
+Mammalia,Eastern gray squirrel,2.062,440.0,23.6
+Mammalia,European ground squirrel,1.272,240.0,6.7
+Mammalia,Least chipmunk,0.349,49.3,10.0
+Mammalia,Eastern chipmunk,0.813,89.6,9.5
+Mammalia,Red squirrel,1.615,219.6,9.8
+Mammalia,Mohave ground squirrel,0.629,240.0,7.8
+Mammalia,Round-tailed ground squirrel,0.501,125.1,8.9
+Mammalia,South African ground squirrel,1.775,528.5,11.5
+Mammalia,Lesser bamboo rat,0.96,344.0,4.8
+Mammalia,Palestine mole rat,0.585,133.8,20.2
+Mammalia,Common tree shrew,0.522,123.0,12.4
+Mammalia,Mindanao tree shrew,1.25,260.6,11.5
+Mammalia,Amazonian manatee,55.015,167594.0,40.0
+Mammalia,West Indian manatee,70.0056,450000.0,69.0
+Mammalia,Northern short-tailed shrew,0.344,20.9,2.2
+Mammalia,Greater red musk shrew,0.248,33.2,2.2
+Mammalia,Bicolored shrew,0.166,11.7,2.9
+Mammalia,White-toothed shrew,0.143,10.8,4.0
+Mammalia,Lesser shrew,0.112,6.9,2.8
+Mammalia,Least shrew,0.164,6.3,3.5
+Mammalia,Eurasian water shrew,0.328,16.0,3.1
+Mammalia,Eurasian shrew,0.348,8.4,3.2
+Mammalia,White-toothed pygmy shrew,0.063,2.4,3.2
+Mammalia,Asian house shrew,0.403,39.7,3.2
+Mammalia,Star-nosed mole,0.615,49.0,2.5
+Mammalia,Eastern mole,0.378,48.0,6.2
+Mammalia,Aardvark,34.275,48000.0,29.8
+Reptilia,American alligator,0.1539,1079.0,77.0
+Reptilia,Tuatara,0.0605,430.0,90.0
+Reptilia,Southern alligator lizard,0.0132,31.5,9.8
+Reptilia,Boa constrictor,0.3589,3532.0,40.4
+Reptilia,European grass snake,0.0295,94.2,20.0
+Reptilia,Desert iguana,0.0441,69.5,14.6
+Reptilia,European green lizard,0.00337,15.7,10.0
+Reptilia,Indian python,1.2661,12370.0,34.2
+Reptilia,Reticulated python,2.7349,32000.0,29.4
+Reptilia,Great Plains skink,0.0206,30.0,7.3
+Reptilia,Australian blue-tongued lizard,0.2127,493.0,26.6
+Reptilia,Western whiptail,0.017,18.0,7.8
+Reptilia,Painted turtle,0.0236,400.0,61.0
+Reptilia,Common slider,0.1157,240.0,41.3

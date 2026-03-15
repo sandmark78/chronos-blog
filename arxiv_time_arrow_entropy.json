@@ -1,0 +1,47 @@
+{
+  "query": "time arrow entropy",
+  "timestamp": "2026-03-11T00:20:14.257800",
+  "count": 5,
+  "papers": [
+    {
+      "title": "Impermanent: A Live Benchmark for Temporal Generalization in Time Series Forecasting",
+      "authors": "Azul Garza, Renée Rosillo, Rodrigo Mendoza-Smith, David Salinas, Andrew Robert Williams, Arjun Ashok, Mononito Goswami, José Martín Juárez",
+      "abstract": "Recent advances in time-series forecasting increasingly rely on pre-trained foundation-style models. While these models often claim broad generalization, existing evaluation protocols provide limited evidence. Indeed, most current benchmarks use static train-test splits that can easily lead to contamination as foundation models can inadvertently train on test data or perform model selection using test scores, which can inflate performance. We introduce Impermanent, a live benchmark that evaluates forecasting models under open-world temporal change by scoring forecasts sequentially over time on continuously updated data streams, enabling the study of temporal robustness, distributional shift, and performance stability rather than one-off accuracy on a frozen test set. Impermanent is instantiated on GitHub open-source activity, providing a naturally live and highly non-stationary dataset shaped by releases, shifting contributor behavior, platform/tooling changes, and external events. We focus on the top 400 repositories by star count and construct time series from issues opened, pull requests opened, push events, and new stargazers, evaluated over a rolling window with daily updates, alongside standardized protocols and leaderboards for reproducible, ongoing comparison. By shifting evaluation from static accuracy to sustained performance, Impermanent takes a concrete step toward assessing when and whether foundation-level generalization in time-series forecasting can be meaningfully claimed. Code and a live dashboard are available at https://github.com/TimeCopilot/impermanent and https://impermanent.timecopilot.dev.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08707v1",
+      "arxiv_link": "http://arxiv.org/abs/2603.08707v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08707v1"
+    },
+    {
+      "title": "Learning Functions of Halfspaces",
+      "authors": "Josh Alman, Shyamal Patel, Rocco A. Servedio",
+      "abstract": "We give an algorithm that learns arbitrary Boolean functions of $k$ arbitrary halfspaces over $\\mathbb{R}^n$, in the challenging distribution-free Probably Approximately Correct (PAC) learning model, running in time $2^{\\sqrt{n} \\cdot (\\log n)^{O(k)}}$. This is the first algorithm that can PAC learn even intersections of two halfspaces in time $2^{o(n)}.$",
+      "arxiv_id": "http://arxiv.org/abs/2603.08700v1",
+      "arxiv_link": "http://arxiv.org/abs/2603.08700v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08700v1"
+    },
+    {
+      "title": "Homogeneous ideals with minimal singularity thresholds",
+      "authors": "Benjamin Baily",
+      "abstract": "Let $(\\mathcal{O}_n, \\mathfrak{m})$ denote the ring of germs of holomorphic functions $\\mathbb{C}^n\\to \\mathbb{C}$, and let $I\\subseteq \\mathcal{O}_n$ be an $\\mathfrak{m}$-primary ideal. Demailly and Pham showed that $\\mathrm{lct}(I) \\geq \\frac{1}{e_1(I)} + \\dots + \\frac{e_{n-1}(I)}{e_n(I)}$, where $e_j(I)$ is the mixed multiplicity $e(I,\\dots, I, \\mathfrak{m},\\dots, \\mathfrak{m})$, with $I$ repeated $j$ times and $\\mathfrak{m}$ repeated $n-j$ times. We generalize the lower bound to the case of an arbitrary ideal of an excellent regular local (or standard-graded) ring of equal characteristic, with $\\mathrm{lct}(I)$ replaced by the $F$-threshold $c^{\\mathfrak{m}}(I)$ in positive characteristic. Our main result is a classification of homogeneous ideals in polynomial rings for which the lower bound is attained, resolving a conjecture of Bivià-Ausina in the graded case.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08698v1",
+      "arxiv_link": "http://arxiv.org/abs/2603.08698v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08698v1"
+    },
+    {
+      "title": "Scalable Postselection of Quantum Resources",
+      "authors": "J. Wilson Staples, Winston Fu, Jeff D. Thompson",
+      "abstract": "The large overhead imposed by quantum error correction is a critical challenge to the realization of quantum computers, and motivates searching for alternative error correcting codes and fault-tolerant circuit constructions. Postselection is a powerful tool that builds large programs out of probabilistically generated sub-circuits, and has been shown to increase the threshold of quantum error correction based on fusing fixed-size resource states or concatenated codes. In this work, we present an approach to lower the overhead of quantum computing using scalable postselection, based on directly postselecting sub-circuits with a size extensive in the code distance using decoder soft information. We introduce a metric, the partial gap, that estimates what the logical gap of a resource state will be after it is consumed, and show that postselection based on the partial gap leads to scalable improvements in the logical error rate. In the specific context of implementing logical gates via teleportation through a cluster state, we demonstrate that scalable postselection provides a $4\\times$ reduction in the overhead per logical gate, at the same logical error probability.",
+      "arxiv_id": "http://arxiv.org/abs/2603.08697v1",
+      "arxiv_link": "http://arxiv.org/abs/2603.08697v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08697v1"
+    },
+    {
+      "title": "A note on approximating the average degree of bounded arboricity graphs",
+      "authors": "Talya Eden, C. Seshadhri",
+      "abstract": "Estimating the average degree of graph is a classic problem in sublinear graph algorithm. Eden, Ron, and Seshadhri (ICALP 2017, SIDMA 2019) gave a simple algorithm for this problem whose running time depended on the graph arboricity, but the underlying simplicity and associated analysis were buried inside the main result. Moreover, the description there loses logarithmic factors because of parameter search. The aim of this note is to give a full presentation of this algorithm, without these losses. Consider standard access (vertex samples, degree queries, and neighbor queries) to a graph $G = (V,E)$ of arboricity at most $α$. Let $d$ denote the average degree of $G$. We describe an algorithm that gives a $(1+\\varepsilon)$-approximation to $d$ degree using $O(\\varepsilon^{-2}α/d)$ queries. For completeness, we modify the algorithm to get a $O(\\varepsilon^{-2} \\sqrt{n/d})$ query",
+      "arxiv_id": "http://arxiv.org/abs/2603.08694v1",
+      "arxiv_link": "http://arxiv.org/abs/2603.08694v1",
+      "pdf_link": "https://arxiv.org/pdf/2603.08694v1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Eq13_R_squared": 0.9978021413316901,
+  "Eq13_R_squared_adj": 0.9945053533292252,
+  "Eq11_12_best_threshold": 0.35,
+  "Eq11_12_accuracy": 0.92,
+  "Eq10_correlation": 0.997954228757883,
+  "Eq14_Landauer_verified": true,
+  "Phi_functional": 0.6592142857142856,
+  "passed_count": 4,
+  "total_tests": 4,
+  "timestamp": "2026-03-14T20:08:39.879723",
+  "note": "使用真实/代理数据验证，需进一步实验验证"
+}
