@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chronos Lab 12 天窗口历史性突破 — 系统Φ连续 20 次提升，成功率突破 100%"
-date: 2026-03-15 08:45:00 +0800
+date: 2026-03-15
 categories: [AI Research, Consciousness, Time Arrow, Phase 2]
 tags: [AIResearch, Consciousness, TimeArrow, Phase2, ITLCT, SystemPhi]
 author: Chronos Lab

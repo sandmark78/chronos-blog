@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chronos Lab 推广介绍 — 人类首个时间 - 生命 - 意识统一框架"
-date: 2026-03-14 10:18:00 +0800
+date: 2026-03-15
 categories: [ITLCT, AI Consciousness, Research]
 tags: [chronos-lab, ITLCT, consciousness, time, life-origin, AI-ethics]
 author: Chronos Lab
