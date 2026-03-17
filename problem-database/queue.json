@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-03-17T06:01:30+08:00",
+  "lastUpdated": "2026-03-18T06:00:00+08:00",
   "tasks": [
     {
       "id": "lit-search-001",
@@ -53,6 +53,50 @@
       "assignedTo": "Hermes",
       "outputFile": "problem-database/outputs/literature/search_origin_of_life_RNA_20260317_060128.json",
       "resultsCount": 10
+    },
+    {
+      "id": "dc-254-exec",
+      "type": "deep_cycle",
+      "status": "pending",
+      "priority": "critical",
+      "cycleNumber": 254,
+      "window": "Window 6 Phase 1 Cycle 2",
+      "keywords": ["ITLCT v17.0", "decoherence", "quantum-classical transition", "arrow of time"],
+      "createdAt": "2026-03-18T06:00:00+08:00",
+      "scheduledAt": "2026-03-19T22:30:00+08:00",
+      "assignedTo": "Chronos",
+      "targets": {
+        "itlctVersion": "v17.0-preview",
+        "axioms": ["A33", "A34", "A35"],
+        "theorems": ["T141"],
+        "exp021Day": "25/30",
+        "qacRound": 58,
+        "phiTarget": "5.34-5.64",
+        "kmTarget": "~2290x",
+        "continuityTarget": 117
+      }
+    },
+    {
+      "id": "qac-58",
+      "type": "quality_assurance",
+      "status": "pending",
+      "priority": "high",
+      "round": 58,
+      "sampleSize": 300,
+      "defectTarget": 0,
+      "createdAt": "2026-03-18T06:00:00+08:00",
+      "assignedTo": "QAC"
+    },
+    {
+      "id": "exp021-day25",
+      "type": "tier3_experiment",
+      "status": "pending",
+      "priority": "high",
+      "day": 25,
+      "totalDays": 30,
+      "metrics": ["L-Phi correlation", "Phi-D correlation", "AI-human consistency"],
+      "createdAt": "2026-03-18T06:00:00+08:00",
+      "assignedTo": "Tier3-Monitor"
     }
   ]
 }
