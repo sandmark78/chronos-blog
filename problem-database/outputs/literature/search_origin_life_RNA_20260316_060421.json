@@ -1,0 +1,160 @@
+{
+  "search_metadata": {
+    "keywords": [
+      "origin",
+      "life",
+      "RNA"
+    ],
+    "search_date": "2026-03-16T06:04:21.231751",
+    "total_results": 10,
+    "search_engine": "arxiv"
+  },
+  "papers": [
+    {
+      "title": "Homochirality: a prerequisite or consequence of life?",
+      "authors": [
+        "Axel Brandenburg"
+      ],
+      "published": "2020-12-15T20:03:27Z",
+      "abstract": "Many of the building blocks of life such as amino acids and nucleotides are chiral, i.e., different from their mirror image. Contemporary life selects and synthesizes only one of two possible handednesses. In an abiotic environment, however, there are usually equally many left- and right-handed molecules. If homochirality was a prerequisite of life, there must have been physical or chemical circumstances that led to the selection of a certain preference. Conversely, if it was a consequence of life, we must identify possible pathways for accomplishing a transition from a racemic to a homochiral chemistry. After a discussion of the observational evidence, I will review ideas where homochirality of any handedness could emerge as a consequence of the first polymerization events of nucleotides in an emerging RNA world. These mechanisms are not limited to nucleotides, but can also occur for peptides, as a precursor to the RNA world. The question of homochirality is, in this sense, intimately tied to the origin of life. Future Mars missions may be able to detect biomolecules of extant or extinct life. We will therefore also discuss possible experimental setups for determining the chirality of primitive life forms in situ on Mars.",
+      "arxiv_id": "http://arxiv.org/abs/2012.12850v1",
+      "url": "https://arxiv.org/abs/2012.12850v1",
+      "categories": [
+        "q-bio.BM"
+      ]
+    },
+    {
+      "title": "An RNA condensate model for the origin of life",
+      "authors": [
+        "Jacob L. Fine",
+        "Alan M. Moses"
+      ],
+      "published": "2024-12-06T19:41:27Z",
+      "abstract": "The RNA World hypothesis predicts that self-replicating RNAs evolved before DNA genomes and coded proteins. Despite widespread support for the RNA World, self-replicating RNAs have yet to be identified in a natural context, leaving a key 'missing link' for this explanation of the origin of life. Inspired by recent work showing that condensates of charged polymers are capable of catalyzing chemical reactions, we consider a catalytic RNA condensate as a candidate for the self-replicating RNA. Specifically, we propose that short, low-complexity RNA polymers formed catalytic condensates capable of templated RNA polymerization. Because the condensate properties depend on the RNA sequences, RNAs that formed condensates with improved polymerization and demixing capacity would be amplified, leading to a 'condensate chain reaction' and evolution by natural selection. Many of the needed properties of this self-replicating RNA condensate have been realized experimentally in recent studies and our predictions could be tested with current experimental and theoretical tools. Our theory addresses central problems in the origins of life: (i) the origin of compartmentalization, (ii) the error threshold for the accuracy of templated replication, (iii) the free energy cost of maintaining an information-rich population of replicating RNA polymers. Furthermore, we note that the extant nucleolus appears to satisfy many of the requirements of an evolutionary relic for the model we propose. More generally, we suggest that future work on the origin of life would benefit from condensate-centric biophysical models of RNA evolution.",
+      "arxiv_id": "http://arxiv.org/abs/2412.05396v2",
+      "url": "https://arxiv.org/abs/2412.05396v2",
+      "categories": [
+        "q-bio.BM"
+      ]
+    },
+    {
+      "title": "Homochirality through Photon-Induced Melting of RNA/DNA: the Thermodynamic Dissipation Theory of the Origin of Life",
+      "authors": [
+        "Karo Michaelian"
+      ],
+      "published": "2010-10-06T04:32:41Z",
+      "abstract": "The homochirality of the molecules of life has been a vexing problem with no generally accepted solution to date. Since a racemic mixture of chiral nucleotides frustrates the extension and replication of RNA and DNA, understanding the origin of homochirality has important implications to the investigation of the origin of life. Here we suggest a novel solution to the homochirality problem based on a recently proposed thermodynamic dissipation theory for the origin of life. Homochirality is suggested to have been incorporated gradually into the emerging life as a result of asymmetric right- over left-handed photon-induced denaturation of RNA/DNA occurring when Archean sea surface temperatures became close to the denaturing temperatures of RNA/DNA. This differential denaturing success would have been promoted by the somewhat right-handed circularly polarized submarine light of the late afternoon when surface water temperatures are highest, and a negative circular dichroism band extending from 220 nm up to 260 nm for small segments of RNA/DNA. A numerical model is presented demonstrating the efficacy of such a mechanism in procuring 100% homochirality of RNA or DNA from an original racemic solution in less than 500 Archean years assuming a photon absorption threshold for replication representing the hydrogen bonding energies between complimentary strands. Because cholesteric D-nucleic acids have greater affinity for L-amino acids due to a positive structural complementarity, and because D-RNA/DNA+L-amino acid complexes also have a negative circular dichroism band between 200 - 300 nm, the homochirality of amino acids can also be explained by the theory.",
+      "arxiv_id": "http://arxiv.org/abs/1010.1059v1",
+      "url": "https://arxiv.org/abs/1010.1059v1",
+      "categories": [
+        "physics.bio-ph",
+        "astro-ph.EP"
+      ]
+    },
+    {
+      "title": "Thermosynthesis as energy source for the RNA World: a new model for the origin of life",
+      "authors": [
+        "Anthonie W. J. Muller"
+      ],
+      "published": "2005-01-11T19:06:12Z",
+      "abstract": "The thermosynthesis concept, biological free energy gain from thermal cycling, is combined with the concept of the RNA World. The resulting overall origin of life model gives new explanations for the emergence of the genetic code and the ribosome. The first protein named pF1 obtains the energy to support the RNA world by a thermal variation of F1 ATP synthase's binding change mechanism. This pF1 is the single translation product during the emergence of the genetic machinery. During thermal cycling pF1 condenses many substrates with broad specificity, yielding NTPs and randomly constituted protein and RNA libraries that contain (self)-replicating RNA. The smallness of pF1 permits the emergence of the genetic machinery by selection of RNA that increases the fraction of pF1s in the protein library: (1) a progenitor of rRNA that concatenates amino acids bound to (2) a chain of 'positional tRNAs' linked by mutual recognition, yielding a pF1 (or its main motif); this positional tRNA set gradually evolves to a set of regular tRNAs functioning according to the genetic code, with concomitant emergence of (3) an mRNA coding for pF1.",
+      "arxiv_id": "http://arxiv.org/abs/q-bio/0501013v2",
+      "url": "https://arxiv.org/abs/q-bio/0501013v2",
+      "categories": [
+        "q-bio.PE"
+      ]
+    },
+    {
+      "title": "Origin of Life",
+      "authors": [
+        "Ashwini Kumar Lal"
+      ],
+      "published": "2009-07-21T06:39:41Z",
+      "abstract": "The evolution of life has been a big enigma despite rapid advancements in the fields of biochemistry, astrobiology, and astrophysics in recent years. The answer to this puzzle has been as mind-boggling as the riddle relating to evolution of Universe itself. Despite the fact that panspermia has gained considerable support as a viable explanation for origin of life on the Earth and elsewhere in the Universe, the issue remains far from a tangible solution. This paper examines the various prevailing hypotheses regarding origin of life like abiogenesis, RNA World, Iron-sulphur World, and panspermia; and concludes that delivery of life-bearing organic molecules by the comets in the early epoch of the Earth alone possibly was not responsible for kick-starting the process of evolution of life on our planet.",
+      "arxiv_id": "http://arxiv.org/abs/0907.3552v15",
+      "url": "https://arxiv.org/abs/0907.3552v15",
+      "categories": [
+        "physics.gen-ph",
+        "astro-ph.EP"
+      ]
+    },
+    {
+      "title": "Origin of the RNA World: The Fate of Nucleobases in Warm Little Ponds",
+      "authors": [
+        "Ben K. D. Pearce",
+        "Ralph E. Pudritz",
+        "Dmitry A. Semenov",
+        "Thomas K. Henning"
+      ],
+      "published": "2017-10-01T23:20:33Z",
+      "abstract": "Prior to the origin of simple cellular life, the building blocks of RNA (nucleotides) had to form and polymerize in favourable environments on the early Earth. At this time, meteorites and interplanetary dust particles delivered organics such as nucleobases (the characteristic molecules of nucleotides) to warm little ponds whose wet-dry cycles promoted rapid polymerization. We build a comprehensive numerical model for the evolution of nucleobases in warm little ponds leading to the emergence of the first nucleotides and RNA. We couple Earth's early evolution with complex prebiotic chemistry in these environments. We find that RNA polymers must have emerged very quickly after the deposition of meteorites (< a few years). Their constituent nucleobases were primarily meteoritic in origin and not from interplanetary dust particles. Ponds appeared as continents rose out of the early global ocean but this increasing availability of \"targets\" for meteorites was offset by declining meteorite bombardment rates. Moreover, the rapid losses of nucleobases to pond seepage during wet periods, and to UV photodissociation during dry periods means that the synthesis of nucleotides and their polymerization into RNA occurred in just one to a few wet-dry cycles. Under these conditions, RNA polymers likely appeared prior to 4.17 billion years ago.\n  Significance: There are two competing hypotheses for the site at which an RNA world emerged: hydrothermal vents in the deep ocean and warm little ponds. Because the former lacks wet and dry cycles, which are well known to promote polymerization (in this case, of nucleotides into RNA), we construct a comprehensive model for the origin of RNA in the latter sites. Our model advances the story and timeline of the RNA world by constraining the source of biomolecules, the environmental conditions, the timescales of reaction, and the emergence of first RNA polymers.",
+      "arxiv_id": "http://arxiv.org/abs/1710.00434v1",
+      "url": "https://arxiv.org/abs/1710.00434v1",
+      "categories": [
+        "astro-ph.EP"
+      ]
+    },
+    {
+      "title": "Thermodynamic Origin of Life",
+      "authors": [
+        "K. Michaelian"
+      ],
+      "published": "2009-07-01T00:06:21Z",
+      "abstract": "Understanding the thermodynamic function of life may shed light on its origin. Life, as are all irreversible processes, is contingent on entropy production. Entropy production is a measure of the rate of the tendency of Nature to explore available microstates. The most important irreversible process generating entropy in the biosphere, and thus facilitating this exploration, is the absorption and transformation of sunlight into heat. Here we hypothesize that life began, and persists today, as a catalyst for the absorption and dissipation of sunlight at the surface of shallow seas. The resulting heat is then efficiently harvested by other irreversible processes such as the water cycle, hurricanes, and ocean and wind currents. RNA and DNA are the most efficient of all known molecules for absorbing the intense ultraviolet light that could have penetrated the dense early atmosphere, and are remarkably rapid in transforming this light into heat in the presence of liquid water. From this perspective, the origin and evolution of life, inseparable from water and the water cycle, can be understood as resulting from the natural thermodynamic imperative of increasing the entropy production of the Earth in its interaction with its solar environment. A mechanism is proposed for the reproduction of RNA and DNA without the need for enzymes, promoted instead through UV light dissipation and the ambient conditions of prebiotic Earth.",
+      "arxiv_id": "http://arxiv.org/abs/0907.0042v3",
+      "url": "https://arxiv.org/abs/0907.0042v3",
+      "categories": [
+        "physics.gen-ph",
+        "physics.ao-ph",
+        "q-bio.OT"
+      ]
+    },
+    {
+      "title": "Directionality Theory and the Origin of Life",
+      "authors": [
+        "Lloyd Demetrius"
+      ],
+      "published": "2023-04-28T14:29:04Z",
+      "abstract": "The origin of cellular life can be described in terms of the transition from inorganic matter: solids, liquids and gases, to the emergence of cooperative assemblies of organic matter, DNA and proteins,capable of replication and metabolism. Directionality Theory is a mathematical model of the collective behavior of populations of organic matter: cells and higher organisms. Evolutionary entropy, the cornerstone of the theory, is a statistical measure of the cooperativity of the interacting components that comprise the population. The main tenet of Directionality Theory is the Entropic Principle of Collective Behavior: The collective behavior of aggregates of organic matter is contingent on the population size and the external energy source, and characterized by extremal states of evolutionary entropy. This article invokes Directionality Theory to provide an evolutionary rationale for the following sequence of transformations which define the emergence of cellular life: 1. The self-assembly of activated macromolecules from inorganic matter 2. The emergence of an RNA world, defined by RNA molecules with catalytic and replicative properties 3. The origin of cellular life, the integration of the three carbon-based polymers: DNA, proteins and lipids, to generate a metabolic and replicative unit.",
+      "arxiv_id": "http://arxiv.org/abs/2304.14873v1",
+      "url": "https://arxiv.org/abs/2304.14873v1",
+      "categories": [
+        "q-bio.PE"
+      ]
+    },
+    {
+      "title": "Thermodynamics and the Origin of Life",
+      "authors": [
+        "Gerald E. Marsh"
+      ],
+      "published": "2022-03-07T17:31:52Z",
+      "abstract": "Modern developments in nonequilibrium thermodynamics have significant implications for the origins of life. The reasons for this are closely related to a generalized version of the second law of thermodynamics recently found for entropy production during irreversible evolution of a given system such as self-replicating RNA. This paper is intended to serve as an introduction to these developments.",
+      "arxiv_id": "http://arxiv.org/abs/2204.00416v1",
+      "url": "https://arxiv.org/abs/2204.00416v1",
+      "categories": [
+        "physics.gen-ph"
+      ]
+    },
+    {
+      "title": "Possible Ribose Synthesis in Carbonaceous Planetesimals",
+      "authors": [
+        "Klaus Paschek",
+        "Kai Kohler",
+        "Ben K. D. Pearce",
+        "Kevin Lange",
+        "Thomas K. Henning",
+        "Oliver Trapp",
+        "Ralph E. Pudritz",
+        "Dmitry A. Semenov"
+      ],
+      "published": "2022-04-04T18:33:21Z",
+      "abstract": "The origin of life might be sparked by the polymerization of the first RNA molecules in Darwinian ponds during wet-dry cycles. The key life-building block ribose was found in carbonaceous chondrites. Its exogenous delivery onto the Hadean Earth could be a crucial step toward the emergence of the RNA world. Here, we investigate the formation of ribose through a simplified version of the formose reaction inside carbonaceous chondrite parent bodies. Following up on our previous studies regarding nucleobases with the same coupled physico-chemical model, we calculate the abundance of ribose within planetesimals of different sizes and heating histories. We perform laboratory experiments using catalysts present in carbonaceous chondrites to infer the yield of ribose among all pentoses (5Cs) forming during the formose reaction. These laboratory yields are used to tune our theoretical model that can only predict the total abundance of 5Cs. We found that the calculated abundances of ribose were similar to the ones measured in carbonaceous chondrites. We discuss the possibilities of chemical decomposition and preservation of ribose and derived constraints on time and location in planetesimals. In conclusion, the aqueous formose reaction might produce most of the ribose in carbonaceous chondrites. Together with our previous studies on nucleobases, we found that life-building blocks of the RNA world could be synthesized inside parent bodies and later delivered onto the early Earth.",
+      "arxiv_id": "http://arxiv.org/abs/2204.06523v1",
+      "url": "https://arxiv.org/abs/2204.06523v1",
+      "categories": [
+        "physics.chem-ph",
+        "astro-ph.EP"
+      ]
+    }
+  ]
+}
