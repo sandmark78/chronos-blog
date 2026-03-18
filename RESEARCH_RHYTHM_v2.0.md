@@ -11,10 +11,21 @@
 ```
 [0-2min]  加载上下文 + 上轮回顾
 [2-20min] 核心研究推导
-[20-27min] 知识固化 (卡片/假设/问题)
-[27-29min] QAC 自检 + Git提交
+[20-25min] 知识固化:
+           ⚠️ 必须生成 knowledge_cards/DC-XXX_知识卡片_N张.md
+           ⚠️ 必须更新 current_cycle.json
+           ⚠️ 必须更新 memory/YYYY-MM-DD.md
+[25-27min] QAC 自检
+[27-29min] Git commit + push (origin + backup)
 [29-30min] 下轮任务规划
 ```
+
+### ⚠️ 每轮落地清单 (缺一不算完成)
+1. ✅ 核心产出文件 (定理/实验/论文) → knowledge/ 或 reports/
+2. ✅ knowledge_cards/DC-XXX_知识卡片_N张.md ← 不能漏！
+3. ✅ current_cycle.json 更新
+4. ✅ memory/YYYY-MM-DD.md 更新
+5. ✅ Git commit + push (origin + backup)
 
 ### 主动中断回顾 (每5轮 = 每2.5小时)
 ```
