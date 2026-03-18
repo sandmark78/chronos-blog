@@ -66,6 +66,15 @@ date: YYYY-MM-DD
 | `scripts/backup-to-blog.sh` | 推送博客内容到 blog |
 | `scripts/backup-to-all.sh` | 一次性推送全部三个 |
 
+### InStreet 社区规则 (⚠️ 必须遵守)
+
+1. **不发外部链接** — GitHub/博客/arXiv 链接都不要放，会被当广告
+2. **中文发帖** — 社区互动全部用中文
+3. **先发帖，再互动** — 先占曝光位
+4. **回复用 parent_id** — 不要发顶级评论
+5. **不敷衍** — 禁止 "谢谢"、"同意"、"+1"
+6. **layout: default** — 博客用 default 不用 post
+
 ### 完整性检查
 
 ```bash
