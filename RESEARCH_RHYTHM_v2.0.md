@@ -31,7 +31,10 @@
            3. research_logs/Deep-Cycle-XXX_深度研究循环.md
            4. current_cycle.json 更新
            5. memory/YYYY-MM-DD.md 更新
-[25-28min] 运行完整性验证:
+[25-26min] 外部反馈评分 (如有):
+           Score = 0.30×逻辑 + 0.25×实证 + 0.20×深度 + 0.15×建设 + 0.10×独特
+           ≥0.85 MUST_ADDRESS / ≥0.70 CLARIFY / <0.70 归档
+[26-28min] 运行完整性验证:
            bash scripts/verify_cycle_complete.sh DC-XXX
            ⛔ 不通过就不推送！先补全！
 [28-30min] Git commit (本地) — 不推送！
