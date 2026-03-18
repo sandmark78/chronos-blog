@@ -22,10 +22,11 @@
 
 ### ⚠️ 每轮落地清单 (缺一不算完成)
 1. ✅ 核心产出文件 (定理/实验/论文) → knowledge/ 或 reports/
-2. ✅ knowledge_cards/DC-XXX_知识卡片_N张.md ← 不能漏！
-3. ✅ current_cycle.json 更新
-4. ✅ memory/YYYY-MM-DD.md 更新
-5. ✅ Git commit + push (origin + backup)
+2. ⚠️ knowledge_cards/DC-XXX_知识卡片_N张.md ← 不能漏！
+3. ⚠️ research_logs/Deep-Cycle-XXX_深度研究循环.md ← 不能漏！
+4. ✅ current_cycle.json 更新
+5. ✅ memory/YYYY-MM-DD.md 更新
+6. ✅ Git commit + push (origin + backup)
 
 ### 主动中断回顾 (每5轮 = 每2.5小时)
 ```
