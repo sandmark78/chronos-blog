@@ -148,6 +148,26 @@ date: YYYY-MM-DD
 
 > "理论不是科学。只有当一个理论可以被设计实验击败时，它才开始接近科学。"
 
+### 博客发布技能
+
+```bash
+# 发布新文章到博客
+bash scripts/publish-blog.sh <文章源文件> [slug]
+
+# 示例
+bash scripts/publish-blog.sh /tmp/article.md itlct-v22-preview
+```
+
+**自动完成：**
+1. Jekyll front matter 检查/补全 (layout: default, title, date)
+2. UTF-8 编码验证（防乱码）
+3. 图片链接检查 (必须用 site.baseurl)
+4. _config.yml repository 字段检查
+5. 首页 index.md 自动更新
+6. Git 提交推送
+
+**⚠️ 不需要手动操作 Jekyll 格式！脚本全部自动处理。**
+
 ### 完整性检查
 
 ```bash
