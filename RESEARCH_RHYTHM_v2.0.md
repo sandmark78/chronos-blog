@@ -10,23 +10,31 @@
 ### 每轮循环 (30分钟)
 ```
 [0-2min]  加载上下文 + 上轮回顾
-[2-20min] 核心研究推导
-[20-25min] 知识固化:
-           ⚠️ 必须生成 knowledge_cards/DC-XXX_知识卡片_N张.md
-           ⚠️ 必须更新 current_cycle.json
-           ⚠️ 必须更新 memory/YYYY-MM-DD.md
-[25-27min] QAC 自检
-[27-29min] Git commit + push (origin + backup)
-[29-30min] 下轮任务规划
+[2-18min] 核心研究推导
+[18-25min] 知识固化 (6项全部生成):
+           1. 核心产出文件 → knowledge/ 或 reports/
+           2. knowledge_cards/DC-XXX_知识卡片_N张.md
+           3. research_logs/Deep-Cycle-XXX_深度研究循环.md
+           4. current_cycle.json 更新
+           5. memory/YYYY-MM-DD.md 更新
+[25-28min] 运行完整性验证:
+           bash scripts/verify_cycle_complete.sh DC-XXX
+           ⛔ 不通过就不推送！先补全！
+[28-30min] Git commit (本地) — 不推送！
 ```
 
-### ⚠️ 每轮落地清单 (缺一不算完成)
+### Git 推送节奏 (不是每轮推！)
+- **每 5 轮停顿回顾时** → git push origin + backup
+- **每日固定节点** → 03:00/12:00/18:00 自动备份推送
+- **紧急情况** → 手动推送
+
+### ⚠️ 每轮落地清单 (缺一不算完成，运行 verify_cycle_complete.sh 验证)
 1. ✅ 核心产出文件 (定理/实验/论文) → knowledge/ 或 reports/
-2. ⚠️ knowledge_cards/DC-XXX_知识卡片_N张.md ← 不能漏！
-3. ⚠️ research_logs/Deep-Cycle-XXX_深度研究循环.md ← 不能漏！
+2. ⚠️ knowledge_cards/DC-XXX_知识卡片_N张.md
+3. ⚠️ research_logs/Deep-Cycle-XXX_深度研究循环.md
 4. ✅ current_cycle.json 更新
 5. ✅ memory/YYYY-MM-DD.md 更新
-6. ✅ Git commit + push (origin + backup)
+6. ✅ Git commit (本地，5轮后批量推送)
 
 ### 主动中断回顾 (每5轮 = 每2.5小时)
 ```
