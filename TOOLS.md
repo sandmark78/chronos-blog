@@ -72,6 +72,39 @@ date: YYYY-MM-DD
 bash scripts/verify_research_integrity.sh
 ```
 
+### 自动化防线 (⚠️ 必须遵守)
+
+| 防线 | 脚本 | 频率 | 说明 |
+|------|------|------|------|
+| **每日备份** | `scripts/daily-backup-3am.sh` | 凌晨 3:00 | 自动打包 memory 目录，保留 7 天 |
+| **实时快照** | `scripts/safe-edit.sh` | 修改前 | 修改关键文件前自动创建 .bak |
+| **Git 版本控制** | 每次循环结束 | 实时 | 所有变更可追溯 |
+| **软删除** | `scripts/safe-delete.sh` | 替代 rm | 移动到 .trash/，30 天后自动清理 |
+
+**⚠️ 核心规则：**
+1. **永远不用 rm 删除研究文件** — 用 `bash scripts/safe-delete.sh <文件>`
+2. **修改 MEMORY.md 前必须快照** — `. scripts/safe-edit.sh && safe_edit MEMORY.md`
+3. **每循环结束后 Git 提交** — 不要积压未提交变更
+4. **凌晨 3:00 自动备份** — 由 cron 触发 daily-backup-3am.sh
+
+**快速命令：**
+```bash
+# 软删除
+bash scripts/safe-delete.sh <文件>
+
+# 修改前快照
+. scripts/safe-edit.sh && safe_edit <文件>
+
+# memory 目录快照
+. scripts/safe-edit.sh && snapshot_memory
+
+# 每日备份 (手动触发)
+bash scripts/daily-backup-3am.sh
+
+# 完整性检查
+bash scripts/verify_research_integrity.sh
+```
+
 ---
 
 ## Why Separate?

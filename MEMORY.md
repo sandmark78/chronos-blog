@@ -107,10 +107,13 @@
 - Git 提交及时率：80% → 95% (↑15%)
 - 历史数据完整率：50% → 95%+ (↑45%)
 
-**三层备份:**
-1. Git 远程 (GitHub) — 实时 ✅
-2. 本地报告 (security_audits/) — 每日 ✅
-3. 外部备份 — 待配置 (每周)
+**四层自动化防线:**
+1. **每日备份** — 凌晨 3:00 自动打包 memory 目录 (scripts/daily-backup-3am.sh)
+2. **实时快照** — 修改关键文件前自动创建 .bak (scripts/safe-edit.sh)
+3. **Git 版本控制** — 所有变更可追溯 (三仓库：origin/backup/blog)
+4. **软删除机制** — 删除不用 rm，移动到 .trash/ (scripts/safe-delete.sh)
+
+**⚠️ 核心规则：永远不用 rm 删除研究文件！**
 
 ---
 
