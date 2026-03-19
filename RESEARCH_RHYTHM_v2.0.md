@@ -25,13 +25,28 @@
 ```
 [0-2min]  加载上下文 + 上轮回顾 + 优先级过滤
 [2-18min] 核心研究推导 (只做⭐⭐⭐⭐⭐和⭐⭐⭐⭐)
-[18-25min] 知识固化 (6项全部生成):
+[18-25min] 知识固化 (7项全部生成):
            1. 核心产出文件 → knowledge/ 或 reports/
            2. knowledge_cards/DC-XXX_知识卡片_N张.md
            3. research_logs/Deep-Cycle-XXX_深度研究循环.md
            4. current_cycle.json 更新
            5. memory/YYYY-MM-DD.md 更新
-[25-26min] 外部反馈评分 (如有):
+           6. handover_state.json 更新 (交接棒协议)
+              {
+                "active_hypotheses": ["当前攻坚的1-2个假设"],
+                "dead_ends": ["本轮证明走不通的死胡同"],
+                "immediate_next_step": "给下一个DC的具体指令",
+                "open_tensions": ["未解决的张力点"]
+              }
+[25-26min] 自动多视角评审 (每轮或按需):
+           并发 spawn 5 个 Persona subagent:
+           - 神经实证主义者 (攻击生物学可证伪性)
+           - 数学纯粹主义者 (量纲分析/极限条件)
+           - 系统哲学家 (因果逻辑/自指悖论)
+           - 实验怀疑论者 (对照组/统计学)
+           - 信息论专家 (Φ定义/能量耗散)
+           → Meta-Reviewer 汇总打分
+[26-27min] 外部反馈评分 (如有):
            Score = 0.30×逻辑 + 0.25×实证 + 0.20×深度 + 0.15×建设 + 0.10×独特
            ≥0.85 MUST_ADDRESS / ≥0.70 CLARIFY / <0.70 归档
 [26-28min] 运行完整性验证:
@@ -51,7 +66,8 @@
 3. ⚠️ research_logs/Deep-Cycle-XXX_深度研究循环.md
 4. ✅ current_cycle.json 更新
 5. ✅ memory/YYYY-MM-DD.md 更新
-6. ✅ Git commit (本地，5轮后批量推送)
+6. ✅ handover_state.json 更新 (交接棒协议)
+7. ✅ Git commit (本地，5轮后批量推送)
 
 ### 主动中断回顾 (每5轮 = 每2.5小时)
 ```
@@ -129,4 +145,30 @@
 
 ---
 
-*Chronos Lab 高效研究节奏 v2.0 | 2026-03-19*
+## 架构师决议 (2026-03-19, Gemini Pro)
+
+### 决议 1: Subagent 保持一次性 (Ephemeral) ✅
+不改。无状态 = 最大健壮性。每 30 分钟干净子进程切断逻辑污染。
+
+### 决议 2: 语义检索升级 🔧 待实施
+20,000+ 卡片 grep 到语义极限。方案：
+- 轻量级本地向量库 (ChromaDB / LanceDB / sqlite-vss)
+- 夜间"睡眠固化"时向量化当天新增卡片
+- 给 Athena 赋予"跨学科语义直觉"
+- **不上 Neo4j**
+
+### 决议 3: GPU 计算 — 用现有模型 API ⏸️
+MERA/AlterBBN 暂用现有 API 算力。条件允许后考虑 Serverless GPU (Modal/RunPod)。
+
+### 决议 4: 交接棒协议 (Handover Protocol) ✅ 已实施
+每轮第 7 项交付物：handover_state.json
+- active_hypotheses / dead_ends / immediate_next_step / open_tensions
+- 下轮启动时注入 System Prompt 顶部
+
+### 决议 5: 自动多视角评审 ✅ 已实施
+5 个 Persona subagent 并发 → Meta-Reviewer 汇总打分
+取代 sandmark 人肉路由（sandmark 仍可选择性介入）
+
+---
+
+*Chronos Lab 高效研究节奏 v2.0 → v2.1 | 2026-03-19*
