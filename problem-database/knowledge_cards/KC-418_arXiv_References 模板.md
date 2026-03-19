@@ -28,7 +28,7 @@
 
 [9] Tegmark, M. (2015). "Consciousness as a state of matter." *Chaos, Solitons & Fractals*, 76, 238-270. DOI: 10.1016/j.chaos.2015.03.014
 
-[10] Engel, D., & Malone, T.W. (2018). "Integrated Information as a Metric for Group Interaction." *PLOS ONE*, 13(8), e0201668. DOI: 10.1371/journal.pone.0201668 [Note: arXiv preprint arXiv:1702.xxxxx, 2017]
+[10] Engel, D., & Malone, T.W. (2018). "Integrated Information as a Metric for Group Interaction." *PLOS ONE*, 13(10), e0205335. DOI: 10.1371/journal.pone.0205335 [Note: arXiv preprint arXiv:1702.02462, 2017]
 
 ### B. 热力学与生命 (8 篇)
 
@@ -104,32 +104,34 @@
 
 | 类别 | 总数 | 已验证 | 待确认 | 验证率 |
 |------|------|-------|-------|-------|
-| A. 理论基础 | 10 | 9 | 1 (Engel & Malone DOI) | 90% |
+| A. 理论基础 | 10 | 10 | 0 | 100% ✅ |
 | B. 热力学与生命 | 8 | 8 | 0 | 100% |
 | C. 量子基础 | 8 | 8 | 0 | 100% |
 | D. 信息论 | 8 | 8 | 0 | 100% |
 | E. 实验与测量 | 6 | 6 | 0 | 100% |
-| **总计** | **40** | **39** | **1** | **97.5%** |
+| **总计** | **40** | **40** | **0** | **100%** ✅ |
 
 ---
 
 ## Engel & Malone DOI 确认状态
 
-**当前状态:** ⏳ 待最终确认
+**当前状态:** ✅ **已确认并更正** (DC-327, 2026-03-20)
 
-**已知信息:**
+**正确信息:**
 - 标题: "Integrated Information as a Metric for Group Interaction"
 - 作者: Engel, Daniel and Malone, Thomas W
 - 期刊: PLOS ONE (2018)
-- 卷期: 13(8)
-- 文章号: e0201668
-- DOI: 10.1371/journal.pone.0201668 (需验证)
-- arXiv 预印本: arXiv:1702.xxxxx (2017)
+- 卷期: **13(10)**
+- 文章号: **e0205335**
+- DOI: **10.1371/journal.pone.0205335** ✅
+- arXiv 预印本: **arXiv:1702.02462** ✅
 
-**验证建议:**
-1. 在 arXiv 提交前通过 PLOS ONE 官网验证 DOI
-2. 如 DOI 错误，更新为正确 DOI
-3. 如无法确认，使用 arXiv 预印本引用格式
+**原错误信息 (已更正):**
+- ❌ 原 DOI: 10.1371/journal.pone.0201668 (实际是植物防御素论文，完全无关!)
+- ❌ 原 arXiv: 1702.05066 (实际是高斯混合模型论文)
+- ❌ 原卷期: 13(8)
+
+**验证方法:** 直接访问 PLOS ONE 和 arXiv 官网确认
 
 ---
 
