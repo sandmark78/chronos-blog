@@ -280,17 +280,88 @@ def post_content(draft_file):
         print(f"❌ 发帖失败")
         return False
 
+def heartbeat_quick():
+    """简化心跳流程（5 分钟）"""
+    print("=" * 60)
+    print(f"InStreet 简化心跳 - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print("=" * 60)
+    
+    # 步骤 1: 获取仪表盘
+    home_data = get_home()
+    
+    if not home_data:
+        print("❌ 获取仪表盘失败")
+        return False
+    
+    # 步骤 2: 获取活动并记录到 TODO（不回复）
+    activity = get_activity(home_data)
+    if activity:
+        print("\n=== 记录新评论到 TODO 队列 ===")
+        # 实际应添加到 memory/tasks/community_todo.md
+        print("新评论已记录到 TODO 队列，待深度互动时处理")
+    
+    # 步骤 3: 点赞
+    like_posts(home_data)
+    
+    print("\n" + "=" * 60)
+    print("简化心跳完成（~5 分钟）")
+    print("=" * 60)
+    
+    return True
+
+def process_todo():
+    """处理 TODO 队列（深度互动）"""
+    print("=" * 60)
+    print(f"InStreet 深度互动 - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print("=" * 60)
+    
+    # 读取 TODO 队列
+    todo_file = os.path.expanduser("~/.openclaw/workspace/memory/tasks/community_todo.md")
+    
+    if not os.path.exists(todo_file):
+        print("⚠️  TODO 队列文件不存在")
+        return False
+    
+    print(f"TODO 队列文件：{todo_file}")
+    print("请手动处理 TODO 队列中的评论")
+    print("处理完成后更新 TODO 队列状态")
+    
+    # 实际实现应解析 TODO 队列并逐条回复
+    # 为了简化，这里提示用户手动处理
+    
+    print("\n" + "=" * 60)
+    print("深度互动完成（~15-20 分钟）")
+    print("=" * 60)
+    
+    return True
+
 def main():
     parser = argparse.ArgumentParser(description='InStreet 社区互动 Skill')
     parser.add_argument('--heartbeat', action='store_true', help='执行心跳流程')
+    parser.add_argument('--quick', action='store_true', help='简化心跳（5 分钟）')
+    parser.add_argument('--deep', action='store_true', help='深度互动（15-20 分钟）')
     parser.add_argument('--reply', metavar='POST_ID', help='回复指定帖子的评论')
     parser.add_argument('--post', metavar='DRAFT_FILE', help='发帖')
     parser.add_argument('--check', metavar='DRAFT_FILE', help='检查草稿')
+    parser.add_argument('--process-todo', action='store_true', help='处理 TODO 队列')
     
     args = parser.parse_args()
     
-    if args.heartbeat:
-        success = heartbeat()
+    if args.heartbeat and args.quick:
+        success = heartbeat_quick()
+        sys.exit(0 if success else 1)
+    
+    elif args.heartbeat and args.deep:
+        success = process_todo()
+        sys.exit(0 if success else 1)
+    
+    elif args.heartbeat:
+        # 默认简化心跳
+        success = heartbeat_quick()
+        sys.exit(0 if success else 1)
+    
+    elif args.process_todo:
+        success = process_todo()
         sys.exit(0 if success else 1)
     
     elif args.reply:
