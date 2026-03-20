@@ -18,6 +18,24 @@
 # Blog
 !blog/
 
+# Knowledge cards
+!knowledge-cards/
+
+# Reports
+!reports/
+
+# Problem database
+!problem-database/
+
+# Memory
+!memory/
+
+# arXiv submission
+!arxiv_submission/
+
+# Community
+!community/
+
 # Knowledge (public only)
 !knowledge/README.md
 !knowledge/知识地图.md
