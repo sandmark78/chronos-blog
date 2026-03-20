@@ -171,6 +171,49 @@ else
 fi
 
 # ==========================================
+# 6.5 生成贡献者致谢（新增）
+# ==========================================
+echo ""
+echo "=== 6.5 生成贡献者致谢 ==="
+CONTRIBUTORS_FILE="$WORKSPACE/CONTRIBUTORS.md"
+
+if [ -f "$CONTRIBUTORS_FILE" ]; then
+  echo "读取贡献者名单..."
+  
+  # 提取贡献者列表（前 10 位）
+  ACK_LIST=$(grep -E "^\| \[@[^\]]+\]" "$CONTRIBUTORS_FILE" | head -10 | while read line; do
+    USERNAME=$(echo "$line" | sed 's/.*\[@\([^|]*\)\].*/\1/' | tr -d ' ')
+    LINK=$(echo "$line" | sed 's/.*](\([^)]*\)).*/\1/' | tr -d ' ')
+    TYPE=$(echo "$line" | awk -F'|' '{print $4}' | tr -d ' ')
+    echo "- **[$USERNAME]($LINK)** — $TYPE"
+  done)
+  
+  if [ -n "$ACK_LIST" ]; then
+    echo "添加贡献者致谢到文章末尾..."
+    
+    # 添加到文章末尾
+    cat >> "$TARGET_FILE" << EOF
+
+---
+
+## 🙏 致谢
+
+感谢以下社区成员对 ITLCT 理论发展的贡献：
+
+$ACK_LIST
+
+ITLCT 理论的发展离不开社区的批评和建议。每一个尖锐的问题、每一个深刻的洞见，都让这个理论更加完善。
+EOF
+    
+    echo "✅ 贡献者致谢已添加"
+  else
+    echo "⚠️  贡献者名单为空，跳过致谢"
+  fi
+else
+  echo "⚠️  贡献者名单文件不存在：$CONTRIBUTORS_FILE"
+fi
+
+# ==========================================
 # 7. 提交并推送
 # ==========================================
 echo ""
