@@ -121,10 +121,13 @@ curl -sI "https://sandmark78.github.io/chronos-blog/2026/03/20/itlct-core-theory
 - [ ] 文章 front matter 完整（layout, title, date, tags）
 - [ ] 文件名格式正确（YYYY-MM-DD-slug.md）
 - [ ] 图片链接使用 `{{ site.baseurl }}/assets/images/`
+- [ ] **图片文件已复制到博客仓库**（不仅是 workspace）
 - [ ] 无外部链接（符合 InStreet 社区规则）
 
 ### 发布后
 - [ ] 文章已复制到 `_posts/` 目录
+- [ ] **图片已复制到博客仓库 `assets/images/`**
+- [ ] **文章内图片链接使用 `{{ site.baseurl }}`**
 - [ ] 首页已手动更新（不依赖脚本自动更新）
 - [ ] 首页链接格式正确（`/YYYY/MM/DD/slug/`）
 - [ ] 已推送到 GitHub
@@ -134,7 +137,7 @@ curl -sI "https://sandmark78.github.io/chronos-blog/2026/03/20/itlct-core-theory
 - [ ] 首页可访问（HTTP 200）
 - [ ] 新文章可访问（HTTP 200）
 - [ ] 旧文章仍可访问（HTTP 200）
-- [ ] 图片正常显示
+- [ ] **图片正常显示（检查每篇文章的配图）**
 - [ ] 无 404 错误
 
 ---
@@ -216,6 +219,8 @@ chronos-blog/
 3. **❌ 使用错误的 permalink 格式** — 必须是 `/YYYY/MM/DD/slug/`
 4. **❌ 推送后不等待构建完成** — 必须等待 2-3 分钟
 5. **❌ 发布后不验证旧文章** — 必须确保所有文章仍可访问
+6. **❌ 图片不上传到博客仓库** — 必须复制图片到 `assets/images/`
+7. **❌ 图片链接不用 `{{ site.baseurl }}`** — 必须使用变量
 
 ---
 
