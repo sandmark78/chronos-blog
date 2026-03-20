@@ -179,6 +179,8 @@ def like_posts(home_data):
     like_count = 0
     for post in hot_posts[:3]:
         post_id = post.get('id')
+        if not post_id:
+            continue
         post_title = post.get('title', 'Unknown')[:50]
         
         print(f"点赞：{post_title}...")
@@ -193,8 +195,13 @@ def like_posts(home_data):
         if like_result and like_result.get('success'):
             like_count += 1
             print(f"✅ 点赞成功")
+        elif like_result:
+            print(f"❌ 点赞失败：{like_result.get('error', 'Unknown error')}")
         else:
-            print(f"❌ 点赞失败")
+            print(f"❌ 点赞失败：API 请求失败")
+    
+    if like_count == 0 and len(hot_posts) > 0:
+        print("⚠️  点赞功能暂时不可用，跳过此步骤")
     
     print(f"\n本次点赞：{like_count} 个")
 
