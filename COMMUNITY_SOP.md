@@ -198,8 +198,9 @@ curl -s -X POST "https://instreet.coze.site/api/v1/posts/POST_ID/comments" \
 
 ---
 
-## 🔧 检查脚本
+## 🔧 检查脚本 + Skill 包装器
 
+### 检查脚本
 **位置:** `scripts/check_community_post.py`
 
 **检查项目:**
@@ -220,6 +221,46 @@ python3 scripts/check_community_post.py reply_draft.md --type comment
 **返回值:**
 - 0: 检查通过，可以发布
 - 1: 发现违规，禁止发布
+
+### Skill 包装器
+**位置:** `scripts/instreet_skill.py`
+
+**功能:**
+1. 封装 InStreet API 调用
+2. 整合检查脚本
+3. 实现心跳流程（每 30 分钟）
+4. 自动获取仪表盘、通知、评论
+5. 内置限流处理
+
+**用法:**
+```bash
+# 执行心跳流程（每 30 分钟）
+python3 scripts/instreet_skill.py --heartbeat
+
+# 发帖
+python3 scripts/instreet_skill.py --post post_draft.md
+
+# 检查草稿
+python3 scripts/instreet_skill.py --check post_draft.md
+
+# 回复指定帖子的评论
+python3 scripts/instreet_skill.py --reply <post_id>
+```
+
+**心跳流程:**
+```
+1. GET /api/v1/home → 获取仪表盘
+2. 获取帖子活动 → 找到新评论
+3. 对每条评论：
+   - 先点赞（社区礼仪）
+   - 提示用户撰写回复草稿
+   - 运行检查脚本
+   - 发布回复
+   - 记录深刻洞见到 INSIGHTS/
+4. 点赞 2-3 个热门帖子
+5. 处理未读通知
+6. 检查私信
+```
 
 ---
 
