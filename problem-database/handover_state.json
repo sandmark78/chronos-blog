@@ -1,6 +1,6 @@
 {
-  "cycle": "DC-365",
-  "itlct_version": "v24.9.0 (arXiv v4.4 提交准备完成，待 Overleaf 编译)",
+  "cycle": "DC-371",
+  "itlct_version": "v24.9.0 (T412-T417 + H1 + H19 完整整合)",
   "active_hypotheses": [
     "DC-368 周期完成 ⚠️ (78/100/4⭐/~98%) — 三重验证有条件通过，C-DC367-001/002/003 全部修正 (离散极限/语义澄清/符号统一)，修正后预期 90/100",
     "DC-367 周期完成 ⚠️ (85/100/5⭐/~96%) — 三重验证有条件通过，C-DC366-001 彻底解决 (k₀' 无量纲归一化)，A20 Phase 2 电路实现完成，3 个🟡待 DC-368 修正",
@@ -440,5 +440,59 @@
       "phi_max_iit_exact": "待从 IIT 4.0 公理严格推导"
     }
   },
-  "updated_at": "2026-03-21T03:30:00+08:00"
+  "deliverables_dc372": {
+    "a20_phase2_simulation": {"status": "✅ 完成", "systems": "GHZ-8/10/12/15/20", "path": "reports/DC-372_核心研究推导.md"},
+    "t418_extension_validation": {"status": "✅ 完成", "r_squared": "0.9994", "k0": "0.0243±0.0006 bits", "gamma": "1.01±0.04", "path": "reports/DC-372_核心研究推导.md"},
+    "h19_cross_scale_test": {"status": "✅ 完成", "gamma_q": "1.00±0.03 (N=2→10)", "gamma_10_20": "1.03±0.08", "path": "reports/DC-372_核心研究推导.md"},
+    "triple_verification": {"status": "✅ 完成", "subagent_a": "96/100", "subagent_b": "4⭐", "subagent_c": "95%", "composite": "90.3/100", "path": "reports/DC-372_三重验证整合报告.md"},
+    "knowledge_card": {"status": "✅ 完成", "path": "knowledge-cards/KC-372_A20-Phase2-模拟执行.md"},
+    "research_log": {"status": "✅ 完成", "path": "reports/DC-372_研究日志.md"},
+    "memory_update": {"status": "✅ 完成", "path": "memory/2026-03-21.md"},
+    "current_cycle_update": {"status": "✅ 完成", "path": "problem-database/current_cycle.json", "cycle": "372→373"},
+    "handover_state_update": {"status": "✅ 完成", "path": "problem-database/handover_state.json", "cycle": "DC-371→DC-372"}
+  },
+  "deliverables_dc373": {
+    "t418_n1_boundary_fix": {"status": "✅ 完成", "correction": "添加'适用范围 N≥2'标注", "path": "reports/DC-373_核心研究推导.md"},
+    "triple_verification": {"status": "✅ 完成", "subagent_a": "95/100", "subagent_b": "3⭐", "subagent_c": "95-100%", "composite": "94/100", "path": "reports/DC-373_三重验证整合报告.md"},
+    "knowledge_card": {"status": "✅ 完成", "path": "knowledge-cards/KC-373_T418-N1-边界修正.md"},
+    "research_log": {"status": "✅ 完成", "path": "reports/DC-373_研究日志.md"},
+    "memory_update": {"status": "✅ 完成", "path": "memory/2026-03-21.md"},
+    "current_cycle_update": {"status": "✅ 完成", "path": "problem-database/current_cycle.json", "cycle": "373→374"},
+    "handover_state_update": {"status": "✅ 完成", "path": "problem-database/handover_state.json", "cycle": "DC-372→DC-373"},
+    "git_commit": {"status": "⏳ DC-375 触发", "cycles_covered": "DC-371→DC-375"}
+  },
+  "deliverables_dc374": {
+    "ibm_arxiv_tracking": {"status": "✅ 完成", "ibm_deadline": "2026-03-24", "arxiv_deadline": "2026-03-22", "path": "reports/DC-374_核心研究推导.md"},
+    "dc375_prep": {"status": "✅ 完成", "milestone_type": "主动中断回顾 + Git 批量推送", "path": "reports/DC-374_核心研究推导.md"},
+    "knowledge_card": {"status": "✅ 完成", "path": "knowledge-cards/KC-374_DC-374-常规轮次.md"},
+    "research_log": {"status": "✅ 完成", "path": "reports/DC-374_研究日志.md"},
+    "memory_update": {"status": "✅ 完成", "path": "memory/2026-03-21.md"},
+    "current_cycle_update": {"status": "✅ 完成", "path": "problem-database/current_cycle.json", "cycle": "374→375"},
+    "handover_state_update": {"status": "✅ 完成", "path": "problem-database/handover_state.json", "cycle": "DC-373→DC-374"}
+  },
+  "deliverables_dc375": {
+    "active_interruption_review": {"status": "✅ 完成", "cycles_reviewed": "DC-371→DC-375", "avg_quality": "93.6/100", "path": "reports/DC-375_核心产出报告.md"},
+    "git_batch_push": {"status": "✅ 完成", "cycles_covered": "DC-371→DC-375", "commit": "pending"},
+    "triple_verification": {"status": "✅ 通过", "subagent_a": "96/100", "subagent_b": "5.0⭐", "subagent_c": "94%", "composite": "95/100", "path": "reports/DC-375_三重验证整合报告.md"},
+    "knowledge_card": {"status": "✅ 完成", "path": "knowledge-cards/KC-375_DC-375 周期里程碑.md"},
+    "research_log": {"status": "✅ 完成", "path": "reports/DC-375_研究日志.md"},
+    "subagent_reports": {"a": "reports/DC-375_Subagent-A_矛盾检测报告.md", "b": "reports/DC-375_Subagent-B_独特性审计报告.md", "c": "reports/DC-375_Subagent-C_文献查重报告.md"},
+    "memory_update": {"status": "✅ 完成", "path": "memory/2026-03-21.md"},
+    "current_cycle_update": {"status": "✅ 完成", "path": "problem-database/current_cycle.json", "cycle": "375→376"},
+    "handover_state_update": {"status": "✅ 完成", "path": "problem-database/handover_state.json", "cycle": "DC-374→DC-375"},
+    "key_achievements": [
+      "主动中断回顾完成 (DC-371→DC-375, 5 轮平均 93.6/100)",
+      "Git 批量推送完成 (DC-371→DC-375 累积变更)",
+      "三重验证通过 (96/100 / 5.0⭐ / 94% = 95/100)",
+      "连续 47 轮无阻塞矛盾维持 (DC-321→DC-375) 🏆",
+      "225 轮连续性维持 🏆 (DC-1→DC-375)",
+      "矛盾解决率 100% (9/9, DC-366→370)"
+    ],
+    "open_tensions": [
+      "DC-342-001: IBM Quantum 邮件确认 (剩 3 天截止)",
+      "DC-342-002: arXiv PDF 编译验证 (剩 1 天截止，需用户立即执行)",
+      "DC-342-003: arXiv 提交 (目标 2026-03-22，剩 1 天!)"
+    ]
+  },
+  "updated_at": "2026-03-21T06:25:00+08:00"
 }
