@@ -1,7 +1,33 @@
 {
   "version": 1,
-  "lastUpdated": "2026-03-21T06:05:30+08:00",
+  "lastUpdated": "2026-03-22T06:03:10+08:00",
   "tasks": [
+    {
+      "id": "lit-search-013",
+      "type": "literature_search",
+      "status": "completed",
+      "priority": "high",
+      "keywords": ["arrow of time", "entropy"],
+      "searchEngine": "arxiv",
+      "createdAt": "2026-03-22T06:00:00+08:00",
+      "completedAt": "2026-03-22T06:03:03+08:00",
+      "assignedTo": "Hermes",
+      "outputFile": "problem-database/outputs/literature/search_arrow_of_time_entropy_20260322_060303.json",
+      "resultsCount": 10
+    },
+    {
+      "id": "lit-search-014",
+      "type": "literature_search",
+      "status": "completed",
+      "priority": "high",
+      "keywords": ["origin of life", "RNA"],
+      "searchEngine": "arxiv",
+      "createdAt": "2026-03-22T06:00:00+08:00",
+      "completedAt": "2026-03-22T06:03:06+08:00",
+      "assignedTo": "Hermes",
+      "outputFile": "problem-database/outputs/literature/search_origin_of_life_RNA_20260322_060306.json",
+      "resultsCount": 10
+    },
     {
       "id": "lit-search-011",
       "type": "literature_search",
