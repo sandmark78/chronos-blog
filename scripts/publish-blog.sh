@@ -159,13 +159,23 @@ echo "✅ 已复制到 $TARGET_FILE"
 echo ""
 echo "=== 6. 更新首页 ==="
 TITLE=$(grep "^title:" "$TARGET_FILE" | head -1 | sed 's/^title: *//' | sed 's/^"//' | sed 's/"$//')
-LINK_LINE="| $TODAY | [$TITLE]({{ site.baseurl }}/$TODAY/$SLUG/) | 🔬 |"
+# 修正链接格式：permalink 是 /:year/:month/:day/:title/
+YEAR=$(echo "$TODAY" | cut -d- -f1)
+MONTH=$(echo "$TODAY" | cut -d- -f2)
+DAY=$(echo "$TODAY" | cut -d- -f3)
+LINK_LINE="| $TODAY | [$TITLE]({{ site.baseurl }}/$YEAR/$MONTH/$DAY/$SLUG/) |"
 
-# 在文章列表第一行后插入新文章
+# 在"最新文章"表头后的第一个数据行前插入（只插入一次）
 if grep -q "最新文章\|Latest" index.md; then
-  # 找到表格第一个数据行，在其前面插入
-  sed -i "/^| 2026-/i\\$LINK_LINE" index.md
-  echo "✅ 首页已更新（新文章添加到列表顶部）"
+  # 检查是否已存在相同文章（防重复）
+  if grep -q "$SLUG" index.md; then
+    echo "⚠️  文章已存在于首页，跳过插入"
+  else
+    # 找到表头分隔线 |------| 后插入一行
+    sed -i "0,/^|------/{ /^|------/a\\$LINK_LINE
+    }" index.md
+    echo "✅ 首页已更新（新文章添加到列表顶部）"
+  fi
 else
   echo "⚠️  首页格式不匹配，请手动更新 index.md"
 fi
