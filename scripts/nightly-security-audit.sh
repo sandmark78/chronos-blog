@@ -3,7 +3,8 @@
 # 执行 13 项核心安全检查
 # 运行时间：每日 03:00
 
-set -e
+set -euo pipefail
+# Note: use (( ... )) || true for arithmetic to avoid set -e traps on zero
 
 AUDIT_DATE=$(date +%Y-%m-%d_%H-%M-%S)
 AUDIT_REPORT="security_audits/nightly-audit-${AUDIT_DATE}.md"
@@ -48,16 +49,16 @@ audit_check() {
     if eval "$check" > /dev/null 2>&1; then
         echo "✅ 通过"
         echo "- [✅] **$name** - 通过" >> "$AUDIT_REPORT"
-        ((PASS_COUNT++))
+        ((PASS_COUNT++)) || true
     else
         if [ "$severity" = "CRITICAL" ]; then
             echo "❌ 失败 [严重]"
             echo "- [❌] **$name** - 失败 [严重]" >> "$AUDIT_REPORT"
-            ((FAIL_COUNT++))
+            ((FAIL_COUNT++)) || true
         else
             echo "⚠️ 警告"
             echo "- [⚠️] **$name** - 警告" >> "$AUDIT_REPORT"
-            ((WARN_COUNT++))
+            ((WARN_COUNT++)) || true
         fi
     fi
 }
