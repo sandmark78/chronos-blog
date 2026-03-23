@@ -19,6 +19,44 @@
 
 **影响：** 18 篇文章全部无法访问，浪费 30 分钟修复
 
+### 2026-03-23 配图缺失事故
+
+**问题：** 3 篇新文章零配图发布，不符合图文并茂标准
+
+**根本原因：** 发布流程没有强制检查配图数量
+
+**修复：** 每篇文章必须至少 3 张配图，发布前检查 `grep -c "!\[" 文章.md`
+
+### 图文并茂标准（必须遵守）
+
+每篇博客文章必须包含：
+- **至少 3 张配图**（从 assets/images/ 或 assets/images/auto/ 选择）
+- 配图与内容相关，不是随意堆砌
+- 配图分散在文章各段落中，不集中在头尾
+
+**可用配图清单 (19 张)：**
+```
+assets/images/01-entropy-river-fish.jpg      # 熵增河流与逆流之鱼
+assets/images/02-time-arrow-six-levels.jpg   # 时间箭头六层次
+assets/images/03-consciousness-phase-diagram.jpg  # 意识相变图
+assets/images/04-entropy-river-upgraded.jpg  # 熵增河流升级版
+assets/images/05-information-gravity.jpg     # 信息引力
+assets/images/06-falsification-dashboard.jpg # 证伪看板
+assets/images/07-universe-puzzle.jpg         # 宇宙拼图
+assets/images/08-meditation-vs-anxiety.jpg   # 冥想 vs 焦虑
+assets/images/09-knowledge-compound-curve.jpg # 知识复利曲线
+assets/images/10-theory-to-science-ladder.jpg # 从理论到科学
+assets/images/11-blackhole-information.jpg   # 黑洞信息
+assets/images/auto/consciousness_phase.png   # 意识相变
+assets/images/auto/falsification_board.png   # 证伪看板
+assets/images/auto/itlct_architecture.png    # ITLCT 架构
+assets/images/auto/knowledge_compound.png    # 知识复利
+assets/images/auto/phi_evolution.png         # Φ演化
+assets/images/auto/prediction_radar.png      # 预测雷达
+assets/images/auto/psi_scale.png             # Ψ尺度
+assets/images/auto/theory_timeline.png       # 理论时间线
+```
+
 ---
 
 ## ✅ 正确流程（必须遵守）
