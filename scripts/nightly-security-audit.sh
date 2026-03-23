@@ -42,7 +42,7 @@ WARN_COUNT=0
 audit_check() {
     local name="$1"
     local check="$2"
-    local severity="$3"
+    local severity="${3:-WARNING}"
     
     echo -n "检查：$name ... "
     
@@ -88,10 +88,10 @@ audit_check "知识卡片完整性" "[ \$(ls $WORKSPACE/knowledge/知识卡片/*
 audit_check "进度数据库完整性" "[ -f $WORKSPACE/problem-database/progress.json ] && jq '.version' $WORKSPACE/problem-database/progress.json > /dev/null 2>&1"
 
 # 8. 内存使用检查 (应 < 80%)
-audit_check "内存使用正常 (<80%)" "[ \$(free | grep Mem | awk '{printf "%.0f", $3/$2 * 100.0}') -lt 80 ]"
+audit_check "内存使用正常 (<80%)" '[ $(free | grep Mem | awk '"'"'{printf "%.0f", $3/$2 * 100.0}'"'"') -lt 80 ]'
 
 # 9. 磁盘空间检查 (应 > 20% 可用)
-audit_check "磁盘空间充足 (>20%)" "[ \$(df $WORKSPACE | tail -1 | awk '{print $5}' | sed 's/%//') -lt 80 ]"
+audit_check "磁盘空间充足 (>20%)" '[ $(df '"$WORKSPACE"' | tail -1 | awk '"'"'{print $5}'"'"' | sed '"'"'s/%//'"'"') -lt 80 ]'
 
 # 10. Cron 任务状态检查
 audit_check "Cron 任务正常运行" "pgrep -f 'openclaw' > /dev/null 2>&1 || [ -f /tmp/openclaw.pid ]"
