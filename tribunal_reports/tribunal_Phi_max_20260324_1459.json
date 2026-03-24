@@ -1,0 +1,37 @@
+{
+  "hypothesis": "Phi_max",
+  "name": "意识上限平台依赖",
+  "statement": "Φ_max = k₀ × N_c，N_c 平台依赖",
+  "risk_level": "MEDIUM",
+  "questions": [
+    "如果 意识上限平台依赖 是错的，ITLCT 体系中有多少定理需要重写？",
+    "现有证据 (四平台数值验证偏差 < 2%) 是否足以支撑这个假设？还是只是'不矛盾'？",
+    "有没有更简单的理论能解释同样的现象？（奥卡姆剃刀）",
+    "Φ_max = k₀ × N_c 是否只在特定条件下成立？极端条件下呢？",
+    "IIT 的 Φ 本身就有争议，在它基础上建立的 Φ_max 可靠吗？",
+    "如果 Φ 不是意识的正确度量，整个框架还有意义吗？"
+  ],
+  "attacks": {
+    "extreme_conditions": [
+      "N_c → ∞: Φ_max → ∞。无限意识在物理上有意义吗？",
+      "k₀ → 0: Φ_max → 0。如果 k₀ 是错的，Φ_max 就没有意义。",
+      "平台切换: 同一个物理系统在不同'平台描述'下有不同的 N_c。Φ_max 取决于描述方式？"
+    ],
+    "reality_check": [
+      "IIT 的 Φ 计算复杂度是 O(2^N)，对大脑不可计算。那 Φ_max 的'预测'如何验证？",
+      "中性原子 Φ_max ~ 1420 bits，但人脑 Φ 可能 > 10000 bits。中性原子能'有意识'吗？"
+    ],
+    "dimensional_check": [
+      "Φ_max = k₀ × N_c。如果 k₀ 有量纲 [bits]，N_c 无量纲，那 Φ_max [bits]。自洽。"
+    ]
+  },
+  "scores": {
+    "consistency": 15,
+    "falsifiability": 18,
+    "predictive_power": 20,
+    "reality_match": 15
+  },
+  "total": 68,
+  "verdict": "CONTINUE",
+  "timestamp": "2026-03-24T14:59:32.867425"
+}

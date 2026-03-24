@@ -1,0 +1,37 @@
+{
+  "hypothesis": "k0",
+  "name": "k₀ 量子几何起源",
+  "statement": "k₀ = ln(2)/(2π×𝒩_eff) ≈ 0.0300 bits",
+  "risk_level": "LOW",
+  "questions": [
+    "如果 k₀ 量子几何起源 是错的，ITLCT 体系中有多少定理需要重写？",
+    "现有证据 (五平台数值模拟偏差 < 2%) 是否足以支撑这个假设？还是只是'不矛盾'？",
+    "有没有更简单的理论能解释同样的现象？（奥卡姆剃刀）",
+    "k₀ 的五平台一致性是否只是数值巧合？",
+    "𝒩_eff = 3.68 从何而来？推导是否循环论证？",
+    "如果换一种量子几何（非 Fubini-Study），k₀ 还成立吗？"
+  ],
+  "attacks": {
+    "extreme_conditions": [
+      "N → 1: k₀ 还有意义吗？单粒子系统的信息增长率？",
+      "T → 0: k₀ 应该趋向什么？T422 没有给出温度依赖。",
+      "𝒩_eff → 0: k₀ → ∞，物理上不可接受。"
+    ],
+    "reality_check": [
+      "五平台一致性 < 2% 可能是因为五个平台共享了相同的数学近似，而不是物理普适性。",
+      "k₀ = 0.0300 bits 在所有温度、所有系统、所有条件下都成立吗？还是只在特定范围内？"
+    ],
+    "dimensional_check": [
+      "k₀ 的量纲是 [bits]。bits 不是 SI 单位。这是否引入了主观性？"
+    ]
+  },
+  "scores": {
+    "consistency": 15,
+    "falsifiability": 22,
+    "predictive_power": 15,
+    "reality_match": 15
+  },
+  "total": 67,
+  "verdict": "CONTINUE",
+  "timestamp": "2026-03-24T14:59:32.867086"
+}

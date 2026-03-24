@@ -1,0 +1,38 @@
+{
+  "hypothesis": "xi_info",
+  "name": "信息关联长度",
+  "statement": "ξ_info = v_LR/(γ_eff × √d_eff)，光量子平台 ~20km",
+  "risk_level": "CRITICAL",
+  "questions": [
+    "如果 信息关联长度 是错的，ITLCT 体系中有多少定理需要重写？",
+    "现有证据 (数学推导，零观测支持) 是否足以支撑这个假设？还是只是'不矛盾'？",
+    "有没有更简单的理论能解释同样的现象？（奥卡姆剃刀）",
+    "如果 ξ_info = 20km，为什么我们从未观测到大脑之间的信息耦合？",
+    "γ_eff 的估计是否可靠？如果差 3 个量级，结论完全不同。",
+    "20km 是宏观尺度，物理效应不会长期'隐身'在宏观尺度。解释？"
+  ],
+  "attacks": {
+    "extreme_conditions": [
+      "γ_eff → 0: ξ_info → ∞（无限远）。退相干率为零在物理上不可能，但如果非常小呢？",
+      "v_LR → c: ξ_info 受因果性限制。光量子平台 v_LR = c，ξ_info ~ 20km 是否违反因果性？",
+      "d_eff → ∞: ξ_info → 0。高维系统的信息关联应该更短还是更长？"
+    ],
+    "reality_check": [
+      "20km 作用范围意味着一个城市里所有有意识的存在互相关联。没有任何实验支持这一点。",
+      "如果信息关联长度这么大，量子密码学应该受到影响。但量子密钥分发正常工作。",
+      "γ_eff 的值只有理论估计，没有实验测量。如果实际值大 1000 倍，ξ_info 就从 20km 变成 20m。"
+    ],
+    "dimensional_check": [
+      "ξ_info = v_LR/(γ_eff × √d_eff)。v_LR 对不同平台差异巨大（10³ 到 3×10⁸ m/s），这是否说明公式过度简化？"
+    ]
+  },
+  "scores": {
+    "consistency": 15,
+    "falsifiability": 8,
+    "predictive_power": 10,
+    "reality_match": 8
+  },
+  "total": 41,
+  "verdict": "CAUTION",
+  "timestamp": "2026-03-24T14:59:32.867556"
+}
