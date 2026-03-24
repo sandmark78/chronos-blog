@@ -1,0 +1,98 @@
+{
+  "experiment_id": "V_info",
+  "T": {
+    "name": "信息引力存在",
+    "predictions": [
+      "高Φ系统间存在额外互信息 ΔI > 0",
+      "ΔI 随距离呈 exp(-r/ξ) 衰减",
+      "ΔI 与 Φ_A × Φ_B 成正比",
+      "隔离环境后 ΔI 仍然存在",
+      "随机化输入后 ΔI 仍然存在"
+    ]
+  },
+  "NOT_T": {
+    "name": "统计假象 + 环境噪声",
+    "predictions": [
+      "所有相关性来自共同环境驱动",
+      "相关性与距离无系统性关系（只有噪声）",
+      "相关性与 Φ 无关（只与环境耦合强度有关）",
+      "隔离环境后相关性消失",
+      "随机化输入后相关性消失"
+    ]
+  },
+  "differences": [
+    {
+      "observable": "ΔI 距离依赖性",
+      "T_predicts": "exp(-r/ξ) 衰减",
+      "NOT_T_predicts": "无系统性衰减"
+    },
+    {
+      "observable": "隔离后 ΔI",
+      "T_predicts": "仍存在（减弱但非零）",
+      "NOT_T_predicts": "消失"
+    },
+    {
+      "observable": "随机化输入后 ΔI",
+      "T_predicts": "仍存在",
+      "NOT_T_predicts": "消失"
+    },
+    {
+      "observable": "ΔI vs Φ_A×Φ_B 相关性",
+      "T_predicts": "正相关",
+      "NOT_T_predicts": "无相关"
+    }
+  ],
+  "design": {
+    "name": "双量子系统隔离互信息测量",
+    "setup": [
+      "系统 A：N ≥ 50 量子比特，可调 Φ（通过改变纠缠结构）",
+      "系统 B：同上，与 A 完全独立制备",
+      "空间分离：可调距离 d = 1cm, 10cm, 1m, 10m",
+      "隔离：电磁屏蔽 + 热隔离 + 振动隔离",
+      "控制组：用经典随机比特源替代量子系统 B"
+    ],
+    "measurement": [
+      "同时测量 A 和 B 的量子态层析",
+      "计算互信息 I(A:B)",
+      "减去量子力学预测的基线互信息 I_QM(A:B)",
+      "ΔI = I(A:B) - I_QM(A:B)"
+    ],
+    "protocol": [
+      "Phase 1: 基线测量 — A,B 紧邻 (d=1cm)，重复 1000 次",
+      "Phase 2: 距离扫描 — d = 1cm → 10m，每个距离 500 次",
+      "Phase 3: 隔离测试 — 加入电磁屏蔽，重复 Phase 1",
+      "Phase 4: 随机化 — 随机打乱 A 的输入态，测 B 的响应",
+      "Phase 5: 控制组 — B 换成经典随机源，重复全部"
+    ],
+    "decision_criteria": {
+      "support_T": [
+        "ΔI > 3σ（显著非零）",
+        "ΔI(d) 拟合 exp(-d/ξ) 的 R² > 0.9",
+        "隔离后 ΔI 仍然 > 2σ",
+        "随机化后 ΔI 仍然 > 2σ",
+        "控制组 ΔI ≈ 0（排除系统误差）"
+      ],
+      "support_NOT_T": [
+        "ΔI < 2σ（与噪声不可区分）",
+        "ΔI(d) 无系统性距离依赖",
+        "隔离后 ΔI 消失",
+        "随机化后 ΔI 消失"
+      ]
+    },
+    "feasibility": {
+      "technical_difficulty": "HIGH — 需要 50+ 量子比特系统 × 2，当前最先进平台刚达到",
+      "cost": "HIGH — 估计 $500K-$2M 实验室时间",
+      "timeline": "2-5 年（取决于量子硬件进展）",
+      "data_availability": "LOW — 需要专门建造实验",
+      "score": 35,
+      "simplified_version": {
+        "name": "简化版：超导量子比特对互信息测量",
+        "setup": "2 个 5-10 量子比特芯片，距离 1cm-1m",
+        "advantage": "现有 IBM/Google 硬件可能支持",
+        "limitation": "Φ 值很低（~2 bits），信号可能太弱",
+        "score": 55
+      }
+    }
+  },
+  "timestamp": "2026-03-24T20:22:27.613137"
+}

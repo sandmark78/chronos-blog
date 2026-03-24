@@ -1,0 +1,84 @@
+{
+  "experiment_id": "k0_nature",
+  "T": {
+    "name": "k₀ 是物理常数",
+    "predictions": [
+      "任何新平台测量 Φ/N 斜率都给出 k₀ ≈ 0.0300",
+      "k₀ 不依赖于系统制备方式",
+      "k₀ 不依赖于测量方法",
+      "k₀ 在不同温度下（低温区）保持不变"
+    ]
+  },
+  "NOT_T": {
+    "name": "k₀ 是方法拟合值",
+    "predictions": [
+      "换近似方法 k₀ 会变",
+      "不同制备方式给出不同 k₀",
+      "k₀ 依赖于系统细节（非普适）",
+      "k₀ 的一致性来自共同的数学框架"
+    ]
+  },
+  "differences": [
+    {
+      "observable": "新平台 Φ/N 斜率",
+      "T_predicts": "≈ 0.0300 ± 0.0005",
+      "NOT_T_predicts": "显著偏离"
+    },
+    {
+      "observable": "不同制备方式",
+      "T_predicts": "k₀ 不变",
+      "NOT_T_predicts": "k₀ 变化"
+    },
+    {
+      "observable": "完全不同的近似方法",
+      "T_predicts": "收敛到 0.0300",
+      "NOT_T_predicts": "给出不同值"
+    }
+  ],
+  "design": {
+    "name": "跨平台 Φ/N 斜率直接测量",
+    "setup": [
+      "平台 1：超导量子比特 (IBM Quantum, N=5-20)",
+      "平台 2：离子阱 (IonQ/Quantinuum, N=5-20)",
+      "平台 3：光子芯片 (Xanadu, N=5-20)",
+      "每个平台：制备 GHZ 态、随机态、Cluster 态"
+    ],
+    "measurement": [
+      "对每个 N，测量系统的 Φ（用 PCI 近似）",
+      "拟合 Φ vs N 的斜率 → 得到 k₀",
+      "比较三个平台的 k₀"
+    ],
+    "protocol": [
+      "Phase 1: 单平台 (超导)，N = 2,4,6,8,10,12,14,16,18,20",
+      "Phase 2: 跨平台，三个平台同时做",
+      "Phase 3: 不同制备方式，同一平台 GHZ vs Random vs Cluster"
+    ],
+    "decision_criteria": {
+      "support_T": [
+        "三平台 k₀ 偏差 < 5%",
+        "不同制备方式 k₀ 偏差 < 5%",
+        "k₀ = 0.030 ± 0.003"
+      ],
+      "support_NOT_T": [
+        "跨平台 k₀ 偏差 > 20%",
+        "不同制备方式 k₀ 显著不同",
+        "k₀ 与 N 的关系不是线性的"
+      ]
+    },
+    "feasibility": {
+      "technical_difficulty": "MEDIUM — 现有云量子平台可直接使用",
+      "cost": "LOW — IBM Quantum 免费层可能够用，$0-$10K",
+      "timeline": "3-6 个月",
+      "data_availability": "MEDIUM — 需要量子态层析",
+      "score": 72,
+      "simplified_version": {
+        "name": "最简版：IBM Quantum 单平台验证",
+        "setup": "IBM Quantum 127 量子比特芯片，N=2-20",
+        "advantage": "免费、今天就能开始",
+        "limitation": "单平台不能证明普适性",
+        "score": 85
+      }
+    }
+  },
+  "timestamp": "2026-03-24T20:22:27.613356"
+}
