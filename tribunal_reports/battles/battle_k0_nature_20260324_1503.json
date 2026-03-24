@@ -1,0 +1,54 @@
+{
+  "battle_id": "k0_nature",
+  "T": {
+    "name": "k₀ 是物理常数",
+    "statement": "k₀ ≈ 0.0300 bits 是量子几何的基本常数，类似精细结构常数",
+    "mechanism": "来自 Fubini-Study 度规的曲率涨落，𝒩_eff ≈ 3.68",
+    "explains": [
+      "五平台一致性 < 2%",
+      "与量子几何直接关联",
+      "温度无关（在低温区）"
+    ],
+    "predicts": [
+      "任何新平台测量 k₀ 都应该得到 0.0300 ± 0.0005",
+      "k₀ 不依赖于系统细节",
+      "k₀ 可以从第一性原理推导"
+    ],
+    "parameters": 2,
+    "falsifiable_by": "新平台测量 k₀ 显著偏离 0.0300",
+    "score": {
+      "explanation": 30,
+      "prediction": 45,
+      "complexity_penalty": -16,
+      "falsifiability": 20,
+      "total": 79
+    }
+  },
+  "NOT_T": {
+    "name": "k₀ 是拟合参数",
+    "statement": "k₀ ≈ 0.0300 是特定模型在特定条件下的拟合结果，不是普适常数",
+    "mechanism": "五个平台共享了相同的数学近似（N→∞极限、均场近似等），一致性来自方法而非物理",
+    "explains": [
+      "五平台一致性（相同近似→相同结果）",
+      "数值稳定性（拟合参数在合理范围内总是稳定的）",
+      "温度无关（因为近似在低温区都有效）"
+    ],
+    "predicts": [
+      "换一种近似方法，k₀ 会变",
+      "在近似失效的区域（高温、小N），k₀ 会偏离",
+      "不同类型的量子系统（非标准）可能给出不同 k₀"
+    ],
+    "parameters": 1,
+    "falsifiable_by": "在完全不同的近似方法下仍得到 k₀ = 0.0300",
+    "score": {
+      "explanation": 30,
+      "prediction": 45,
+      "complexity_penalty": -8,
+      "falsifiability": 20,
+      "total": 87
+    }
+  },
+  "winner": "DRAW",
+  "verdict": "⚖️ 势均力敌 (差8分) — 需要实验数据打破僵局",
+  "timestamp": "2026-03-24T15:03:37.833990"
+}

@@ -1,0 +1,54 @@
+{
+  "battle_id": "V_info",
+  "T": {
+    "name": "信息引力存在",
+    "statement": "高Φ系统之间存在 Yukawa 型信息引力势 V_info ∝ Φ_A·Φ_B·exp(-r/ξ)/r",
+    "mechanism": "信息整合产生等效质量 m_eff，m_eff 之间有引力",
+    "explains": [
+      "k₀ 跨平台一致性（引力是普适的）",
+      "Φ 与系统复杂度正相关（更多整合=更多引力源）",
+      "温度依赖性（退相干破坏整合→引力减弱）"
+    ],
+    "predicts": [
+      "α = 0.01 ± 0.005（可测量）",
+      "ξ_info 平台依赖（可比较）",
+      "距离增加→效应指数衰减（可验证）"
+    ],
+    "parameters": 5,
+    "falsifiable_by": "测量两个高Φ系统间互信息差为零",
+    "score": {
+      "explanation": 30,
+      "prediction": 45,
+      "complexity_penalty": -40,
+      "falsifiability": 20,
+      "total": 55
+    }
+  },
+  "NOT_T": {
+    "name": "信息引力不存在",
+    "statement": "所有观察到的高Φ系统间关联来自：系统同步 + 共同环境噪声 + 统计假象",
+    "mechanism": "不需要新物理。经典统计力学 + 共同环境足以解释",
+    "explains": [
+      "k₀ 一致性（共同的数学近似方法导致，不是物理普适性）",
+      "Φ 相关性（共同环境驱动，不是引力）",
+      "温度依赖（热噪声增加→相干性下降，不需要引力解释）"
+    ],
+    "predicts": [
+      "隔离两个系统（消除共同环境）→关联消失",
+      "随机化控制→效应消失",
+      "不同距离→无系统性衰减（只有噪声）"
+    ],
+    "parameters": 2,
+    "falsifiable_by": "在完全隔离条件下仍观测到距离依赖的互信息差",
+    "score": {
+      "explanation": 30,
+      "prediction": 45,
+      "complexity_penalty": -16,
+      "falsifiability": 20,
+      "total": 79
+    }
+  },
+  "winner": "¬T",
+  "verdict": "🟦 反理论胜出 (-24)",
+  "timestamp": "2026-03-24T15:03:37.833700"
+}

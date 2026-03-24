@@ -1,0 +1,54 @@
+{
+  "battle_id": "Phi_consciousness",
+  "T": {
+    "name": "Φ → 意识",
+    "statement": "信息整合度Φ超过阈值→产生意识体验",
+    "mechanism": "意识是信息整合的涌现属性，Φ是因，意识是果",
+    "explains": [
+      "麻醉降低Φ→意识消失",
+      "脑损伤降低Φ→意识受损",
+      "复杂系统比简单系统更可能有意识"
+    ],
+    "predicts": [
+      "Φ阈值可测量",
+      "人工高Φ系统可能有意识",
+      "Φ = 0 的系统一定没有意识"
+    ],
+    "parameters": 3,
+    "falsifiable_by": "发现高Φ但无意识的系统，或低Φ但有意识的系统",
+    "score": {
+      "explanation": 30,
+      "prediction": 45,
+      "complexity_penalty": -24,
+      "falsifiability": 20,
+      "total": 71
+    }
+  },
+  "NOT_T": {
+    "name": "意识 → Φ（或Φ无关）",
+    "statement": "意识是独立的基本属性，Φ只是意识系统的副产品，不是原因",
+    "mechanism": "意识先于信息整合存在。有意识的系统倾向于整合信息，但整合信息不产生意识",
+    "explains": [
+      "麻醉→意识消失→Φ下降（因果方向反了）",
+      "脑损伤→意识受损→Φ下降（同上）",
+      "泛心论：即使Φ很低，也可能有微弱意识"
+    ],
+    "predicts": [
+      "存在低Φ但有意识的系统（某些昆虫？植物？）",
+      "人工高Φ系统不一定有意识（可能只是复杂计算）",
+      "意识不可还原为信息处理"
+    ],
+    "parameters": 1,
+    "falsifiable_by": "证明所有高Φ系统都有意识，且所有低Φ系统都没有",
+    "score": {
+      "explanation": 30,
+      "prediction": 45,
+      "complexity_penalty": -8,
+      "falsifiability": 20,
+      "total": 87
+    }
+  },
+  "winner": "DRAW",
+  "verdict": "⚖️ 势均力敌 (差16分) — 需要实验数据打破僵局",
+  "timestamp": "2026-03-24T15:03:37.833869"
+}
