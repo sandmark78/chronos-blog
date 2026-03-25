@@ -56,7 +56,7 @@
     "T274 信息子 511keV 被排除 — 已修正为 7keV",
     "H19 分段幂律标度律 — 被 T418 v4.1 证伪 (DC-383, ΔAIC=21.7)"
   ],
-  "immediate_next_step": "DC-472: C-DC471-A01/A02 🟡 修正 (SC双肩声明修正 + Φ_C TPM构造) + A20 Phase 15 执行 (Qiskit+PyPhi混合模拟)",
+  "immediate_next_step": "DC-473: A20 Phase 15 执行 (GHZ-6 Qiskit+PyPhi 混合模拟，9 点温度扫描，φ₀/T_class 拟合)",
   "open_tensions": [
     "C-DC471-A01: SC 双肩结构不可观测 (Gaussian压制) — 🟡 DC-472 P1",
     "C-DC471-A02: Φ_C TPM 动力学定义未明确 — 🟡 DC-472 P1",
@@ -2081,7 +2081,7 @@
       "ibm_quantum_followup": "待确认 (截止 2026-03-24，剩 3 天)"
     }
   },
-  "updated_at": "2026-03-25T21:10:00+08:00",
+  "updated_at": "2026-03-25T23:48:00+08:00",
   "deliverables_dc471": {
     "t455_v1_2_correction": {
       "status": "✅ 完成",
