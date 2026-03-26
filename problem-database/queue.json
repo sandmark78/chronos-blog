@@ -1,6 +1,15 @@
 {
   "version": 3.0,
-  "lastUpdated": "2026-03-26T22:01:07.096834",
+  "lastUpdated": "2026-03-27T06:07:45.000000",
+  "literatureSearchHistory": [
+    {
+      "date": "2026-03-27T06:07:45",
+      "keywords": ["arrow of time entropy", "RNA world"],
+      "totalPapers": 11,
+      "outputDir": "problem-database/outputs/literature/",
+      "status": "completed"
+    }
+  ],
   "totalProblems": 475,
   "problems": [
     {
