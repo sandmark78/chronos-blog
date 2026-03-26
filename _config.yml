@@ -4,6 +4,10 @@ description: Unified Framework for Information-Time-Life-Consciousness
 show_downloads: false
 google_analytics:
 
+# 基础 URL
+baseurl: /chronos-blog
+url: https://sandmark78.github.io
+
 # Permalink 设置
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
@@ -14,4 +18,4 @@ defaults:
       path: "posts"
       type: "posts"
     values:
-      layout: post
+      layout: default
