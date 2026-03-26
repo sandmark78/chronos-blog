@@ -1,6 +1,6 @@
 {
   "version": 3.0,
-  "lastUpdated": "2026-03-27T06:07:45.000000",
+  "lastUpdated": "2026-03-27T06:14:30.000000",
   "literatureSearchHistory": [
     {
       "date": "2026-03-27T06:07:45",
@@ -8,6 +8,60 @@
       "totalPapers": 11,
       "outputDir": "problem-database/outputs/literature/",
       "status": "completed"
+    },
+    {
+      "date": "2026-03-27T06:14:00",
+      "keywords": [
+        "consciousness integrated information theory",
+        "neural correlates of consciousness fMRI",
+        "consciousness measurement Phi IIT",
+        "disorders of consciousness awareness",
+        "consciousness arousal brain networks",
+        "consciousness biomarkers EEG 2024..2026",
+        "consciousness vegetative state minimally conscious",
+        "consciousness global workspace theory",
+        "consciousness predictive processing",
+        "consciousness higher-order thought"
+      ],
+      "totalPapers": 60,
+      "outputDir": "problem-database/outputs/literature/",
+      "summaryFile": "search_summary_consciousness_2026-03-27.md",
+      "status": "completed",
+      "coverage": ["IIT", "NCC", "fMRI/EEG", "意识障碍", "GWT", "预测处理", "高阶思维"],
+      "purpose": "为 ITLCT 理论发展提供文献基础，识别可合作实验室"
+    },
+    {
+      "date": "2026-03-27T06:41:51",
+      "keywords": [
+        "information integration consciousness neural",
+        "information theory consciousness Phi IIT",
+        "causal emergence information integration",
+        "integrated information neural networks",
+        "information bottleneck consciousness",
+        "information flow brain consciousness",
+        "neural information transfer awareness",
+        "effective connectivity consciousness fMRI",
+        "transfer entropy consciousness EEG",
+        "dynamic causal modeling consciousness DCM",
+        "quantum information consciousness",
+        "thermodynamics information consciousness",
+        "complexity information integration brain",
+        "network neuroscience information flow",
+        "computational neuroscience consciousness models"
+      ],
+      "totalPapers": 199,
+      "outputDir": "problem-database/outputs/literature/",
+      "summaryFile": "search_summary_consciousness_expanded_20260327_064151.md",
+      "status": "completed",
+      "coverage": ["信息整合理论", "信息流分析", "因果涌现", "信息瓶颈", "有效连接", "传递熵", "DCM", "量子信息", "热力学 - 信息", "复杂系统", "网络神经科学"],
+      "purpose": "扩大意识研究文献搜索 - 信息整合 + 信息流方向，新增 15 个关键词，覆盖 IIT、因果涌现、信息瓶颈、有效连接、传递熵等前沿领域",
+      "timestamp": "20260327_064151",
+      "searchCategories": {
+        "信息整合方向": 5,
+        "信息流方向": 5,
+        "跨学科扩展": 5
+      },
+      "totalResultsCount": 1016541
     }
   ],
   "totalProblems": 475,
