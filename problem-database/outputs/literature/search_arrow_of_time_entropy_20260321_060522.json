@@ -1,0 +1,25 @@
+{
+  "search_metadata": {
+    "keywords": [
+      "arrow of time entropy"
+    ],
+    "search_date": "2026-03-21T06:05:22.470638",
+    "total_results": 1,
+    "search_engine": "arxiv"
+  },
+  "papers": [
+    {
+      "title": "Science of Chaos or Chaos in Science?",
+      "authors": [
+        "Jean Bricmont"
+      ],
+      "published": "1996-03-22T22:13:23Z",
+      "abstract": "I try to clarify several confusions in the popular literature concerning chaos, determinism, the arrow of time, entropy and the role of probability in physics. Classical ideas going back to Laplace and Boltzmann are explained and defended while some recent views on irreversibility, due to Prigogine, are criticized.",
+      "arxiv_id": "http://arxiv.org/abs/chao-dyn/9603009v1",
+      "url": "https://arxiv.org/abs/chao-dyn/9603009v1",
+      "categories": [
+        "nlin.CD"
+      ]
+    }
+  ]
+}

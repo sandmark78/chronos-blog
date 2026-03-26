@@ -1,0 +1,160 @@
+{
+  "search_metadata": {
+    "keywords": [
+      "arrow of time",
+      "entropy"
+    ],
+    "search_date": "2026-03-25T06:00:44.903156",
+    "total_results": 10,
+    "search_engine": "arxiv"
+  },
+  "papers": [
+    {
+      "title": "Fluctuation, Dissipation and the Arrow of Time",
+      "authors": [
+        "Michele Campisi",
+        "Peter Hänggi"
+      ],
+      "published": "2011-11-08T08:45:15Z",
+      "abstract": "The recent development of the theory of fluctuation relations has led to new insights into the ever-lasting question of how irreversible behavior emerges from time-reversal symmetric microscopic dynamics. We provide an introduction to fluctuation relations, examine their relation to dissipation and discuss their impact on the arrow of time question.",
+      "arxiv_id": "http://arxiv.org/abs/1111.1829v2",
+      "url": "https://arxiv.org/abs/1111.1829v2",
+      "categories": [
+        "physics.pop-ph",
+        "cond-mat.stat-mech"
+      ]
+    },
+    {
+      "title": "Can the Arrow of Time be understood from Quantum Cosmology?",
+      "authors": [
+        "Claus Kiefer"
+      ],
+      "published": "2009-10-30T10:31:42Z",
+      "abstract": "I address the question whether the origin of the observed arrow of time can be derived from quantum cosmology. After a general discussion of entropy in cosmology and some numerical estimates, I give a brief introduction into quantum geometrodynamics and argue that this may provide a sufficient framework for studying this question. I then show that a natural boundary condition of low initial entropy can be imposed on the universal wave function. The arrow of time is then correlated with the size of the Universe and emerges from an increasing amount of decoherence due to entanglement with unobserved degrees of freedom. Remarks are also made concerning the arrow of time in multiverse pictures and scenarios motivated by dark energy.",
+      "arxiv_id": "http://arxiv.org/abs/0910.5836v1",
+      "url": "https://arxiv.org/abs/0910.5836v1",
+      "categories": [
+        "gr-qc"
+      ]
+    },
+    {
+      "title": "Algebraical Entropy and Arrow of Time",
+      "authors": [
+        "Merab Gogberashvili"
+      ],
+      "published": "2022-10-25T11:33:49Z",
+      "abstract": "Usually, it is supposed that irreversibility of time appears only in macrophysics. Here, we attempt to introduce the microphysical arrow of time assuming that at a fundamental level nature could be non-associative. Obtaining numerical results of a measurement, which requires at least three ingredients: object, device and observer, in the non-associative case depends on ordering of operations and is ambiguous. We show that use of octonions as a fundamental algebra, in any measurement, leads to generation of unavoidable 18.6~bit relative entropy of the probability density functions of the active and passive transformations, which correspond to the groups G2 and SO(7), respectively. This algebraical entropy can be used to determine the arrow of time, analogically as thermodynamic entropy does.",
+      "arxiv_id": "http://arxiv.org/abs/2211.00501v1",
+      "url": "https://arxiv.org/abs/2211.00501v1",
+      "categories": [
+        "physics.gen-ph"
+      ]
+    },
+    {
+      "title": "The Semantic Arrow of Time, Part V: The Leibniz Bridge -- Toward a Unified Theory of Semantic Time",
+      "authors": [
+        "Paul Borrill"
+      ],
+      "published": "2026-03-05T05:19:47Z",
+      "abstract": "This is the final paper in the five-part series The Semantic Arrow of Time. Part I identified the FITO category mistake -- treating forward temporal flow as sufficient for establishing meaning. Part II presented the constructive alternative: the OAE link state machine with its mandatory reflecting phase. Part III showed the FITO fallacy operating at industrial scale in RDMA completion semantics. Part IV traced the same pattern through file synchronization, email, human memory, and language model hallucination.\n  This paper closes the series by constructing the Leibniz Bridge: a unified framework that connects the philosophical foundations (Leibniz's Identity of Indiscernibles, as formalized by Spekkens), the protocol engineering (OAE's bilateral transaction structure), and the physical substrate (indefinite causal order in quantum mechanics). The bridge rests on a single principle: mutual information conservation -- the requirement that every causal exchange preserve the total information accessible to both endpoints, with the direction of time emerging not from axiom but from entropy production when a reversible exchange commits.\n  We show that this principle dissolves the apparent impossibility of the FLP, Two Generals, and CAP theorems by revealing them as theorems about FITO systems, not about physics. We present the triangle network as the minimal topology for semantic consistency without centralized coordination. We conclude with open questions and a reflection on what distributed computing looks like when the FITO assumption is dropped.",
+      "arxiv_id": "http://arxiv.org/abs/2603.04826v1",
+      "url": "https://arxiv.org/abs/2603.04826v1",
+      "categories": [
+        "cs.DC"
+      ]
+    },
+    {
+      "title": "Arrow of time and gravitational entropy in collapse",
+      "authors": [
+        "Samarjit Chakraborty",
+        "Sunil D. Maharaj",
+        "Sarbari Guha",
+        "Rituparno Goswami"
+      ],
+      "published": "2024-02-06T17:47:03Z",
+      "abstract": "We investigate the status of the gravitational arrow of time in the case of a spherical collapse of a fluid that conducts heat and radiates energy. In particular, we examine the results obtained by W. B. Bonnor in his 1985 paper where he found that the gravitational arrow of time was opposite to the thermodynamic arrow of time. The measure of gravitational epoch function $P$ used by Bonnor was given by the ratio of the Weyl square to the Ricci square. In this paper, we have assumed the measure of gravitational entropy $P_{1}$ to be given by the ratio of the Weyl scalar to the Kretschmann scalar. Our analysis indicates that Bonnor's result seems to be validated, i.e., the gravitational arrow and the thermodynamic arrow of time point in opposite directions. This strengthens the opinion that the Weyl proposal of gravitational entropy applies only to the universe as a whole (provided that we exclude the white holes).",
+      "arxiv_id": "http://arxiv.org/abs/2402.04188v2",
+      "url": "https://arxiv.org/abs/2402.04188v2",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "title": "Entropy Production and Thermodynamic Arrow of Time in a Recollapsing Universe",
+      "authors": [
+        "Sang Pyo Kim"
+      ],
+      "published": "1999-12-29T06:16:27Z",
+      "abstract": "We investigate the thermodynamic arrow of time in a time-symmetrically recollapsing universe by calculating quantum mechanically the entropy production of a massive scalar field. It is found that even though the Hamiltonian has a time-reversal symmetry with respect to the maximum expansion of the universe, the entropy production is generic and the total entropy of the scalar field increases monotonically. We conclude that the thermodynamic arrow of time is a universal phenomenon even in the expanding and subsequently recollapsing universe due to the parametric interaction of matter field with gravity.",
+      "arxiv_id": "http://arxiv.org/abs/gr-qc/9912114v1",
+      "url": "https://arxiv.org/abs/gr-qc/9912114v1",
+      "categories": [
+        "gr-qc"
+      ]
+    },
+    {
+      "title": "Wormholes and the Thermodynamic Arrow of Time",
+      "authors": [
+        "Zhuo-Yu Xian",
+        "Long Zhao"
+      ],
+      "published": "2019-11-08T03:45:08Z",
+      "abstract": "In classical thermodynamics, heat cannot spontaneously pass from a colder system to a hotter system, which is called the thermodynamic arrow of time. However, if the initial states are entangled, the direction of the thermodynamic arrow of time may not be guaranteed. Here we take the thermofield double state at $0+1$ dimension as the initial state and assume its gravity duality to be the eternal black hole in AdS$_2$ space. We make the temperature difference between the two sides by changing the Hamiltonian. We turn on proper interaction between the two sides and calculate the changes in energy and entropy. The energy transfer, as well as the thermodynamic arrow of time, are mainly determined by the competition between two channels: thermal diffusion and anomalous heat flow. The former is not related to the wormhole and obeys the thermodynamic arrow of time; the latter is related to the wormhole and reverses the thermodynamic arrow of time, i.e. transferring energy from the colder side to the hotter side at the cost of entanglement consumption. Finally, we find that the thermal diffusion wins the competition, and the whole thermodynamic arrow of time has not been reversed.",
+      "arxiv_id": "http://arxiv.org/abs/1911.03021v3",
+      "url": "https://arxiv.org/abs/1911.03021v3",
+      "categories": [
+        "hep-th",
+        "cond-mat.str-el",
+        "gr-qc",
+        "quant-ph"
+      ]
+    },
+    {
+      "title": "Entropy, biological evolution and the psychological arrow of time",
+      "authors": [
+        "Torsten Heinrich",
+        "Benjamin Knopp",
+        "Heinrich Päs"
+      ],
+      "published": "2014-01-13T22:18:58Z",
+      "abstract": "We argue that in Universes where future and past differ only by the entropy content a psychological arrow of time pointing in the direction of entropy increase can arise from natural selection in biological evolution. We show that this effect can be demonstrated in very simple toy computer simulations of evolution in an entropy increasing or decreasing environment.",
+      "arxiv_id": "http://arxiv.org/abs/1401.3734v2",
+      "url": "https://arxiv.org/abs/1401.3734v2",
+      "categories": [
+        "physics.gen-ph",
+        "astro-ph.CO",
+        "q-bio.OT"
+      ]
+    },
+    {
+      "title": "Comment on \"Entropy production and the arrow of time\"",
+      "authors": [
+        "V. A. Kuz'menko"
+      ],
+      "published": "2007-08-21T08:54:18Z",
+      "abstract": "J.M.R. Parrondo at al. in arXiv:0904.1573 continue numerous efforts to unify the concepts of the arrow of time and entropy production with the concept of time invariance in physics. This is a wrong way.",
+      "arxiv_id": "http://arxiv.org/abs/0708.2781v5",
+      "url": "https://arxiv.org/abs/0708.2781v5",
+      "categories": [
+        "physics.gen-ph"
+      ]
+    },
+    {
+      "title": "Is the Hypothesis About a Low Entropy Initial State of the Universe Necessary for Explaining the Arrow of Time?",
+      "authors": [
+        "Sheldon Goldstein",
+        "Roderich Tumulka",
+        "Nino Zanghi"
+      ],
+      "published": "2016-02-09T01:21:31Z",
+      "abstract": "According to statistical mechanics, micro-states of an isolated physical system (say, a gas in a box) at time $t_0$ in a given macro-state of less-than-maximal entropy typically evolve in such a way that the entropy at time $t$ increases with $|t-t_0|$ in both time directions. In order to account for the observed entropy increase in only one time direction, the thermodynamic arrow of time, one usually appeals to the hypothesis that the initial state of the universe was one of very low entropy. In certain recent models of cosmology, however, no hypothesis about the initial state of the universe is invoked. We discuss how the emergence of a thermodynamic arrow of time in such models can nevertheless be compatible with the above-mentioned consequence of statistical mechanics, appearances to the contrary notwithstanding.",
+      "arxiv_id": "http://arxiv.org/abs/1602.05601v3",
+      "url": "https://arxiv.org/abs/1602.05601v3",
+      "categories": [
+        "astro-ph.CO",
+        "cond-mat.stat-mech"
+      ]
+    }
+  ]
+}

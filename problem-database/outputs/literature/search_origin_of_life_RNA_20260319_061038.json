@@ -1,0 +1,150 @@
+{
+  "search_metadata": {
+    "keywords": [
+      "origin of life",
+      "RNA"
+    ],
+    "search_date": "2026-03-19T06:10:38.661142",
+    "total_results": 10,
+    "search_engine": "arxiv"
+  },
+  "papers": [
+    {
+      "title": "An RNA condensate model for the origin of life",
+      "authors": [
+        "Jacob L. Fine",
+        "Alan M. Moses"
+      ],
+      "published": "2024-12-06T19:41:27Z",
+      "abstract": "The RNA World hypothesis predicts that self-replicating RNAs evolved before DNA genomes and coded proteins. Despite widespread support for the RNA World, self-replicating RNAs have yet to be identified in a natural context, leaving a key 'missing link' for this explanation of the origin of life. Inspired by recent work showing that condensates of charged polymers are capable of catalyzing chemical reactions, we consider a catalytic RNA condensate as a candidate for the self-replicating RNA. Specifically, we propose that short, low-complexity RNA polymers formed catalytic condensates capable of templated RNA polymerization. Because the condensate properties depend on the RNA sequences, RNAs that formed condensates with improved polymerization and demixing capacity would be amplified, leading to a 'condensate chain reaction' and evolution by natural selection. Many of the needed properties of this self-replicating RNA condensate have been realized experimentally in recent studies and our predictions could be tested with current experimental and theoretical tools. Our theory addresses central problems in the origins of life: (i) the origin of compartmentalization, (ii) the error threshold for the accuracy of templated replication, (iii) the free energy cost of maintaining an information-rich population of replicating RNA polymers. Furthermore, we note that the extant nucleolus appears to satisfy many of the requirements of an evolutionary relic for the model we propose. More generally, we suggest that future work on the origin of life would benefit from condensate-centric biophysical models of RNA evolution.",
+      "arxiv_id": "http://arxiv.org/abs/2412.05396v2",
+      "url": "https://arxiv.org/abs/2412.05396v2",
+      "categories": [
+        "q-bio.BM"
+      ]
+    },
+    {
+      "title": "Thermosynthesis as energy source for the RNA World: a new model for the origin of life",
+      "authors": [
+        "Anthonie W. J. Muller"
+      ],
+      "published": "2005-01-11T19:06:12Z",
+      "abstract": "The thermosynthesis concept, biological free energy gain from thermal cycling, is combined with the concept of the RNA World. The resulting overall origin of life model gives new explanations for the emergence of the genetic code and the ribosome. The first protein named pF1 obtains the energy to support the RNA world by a thermal variation of F1 ATP synthase's binding change mechanism. This pF1 is the single translation product during the emergence of the genetic machinery. During thermal cycling pF1 condenses many substrates with broad specificity, yielding NTPs and randomly constituted protein and RNA libraries that contain (self)-replicating RNA. The smallness of pF1 permits the emergence of the genetic machinery by selection of RNA that increases the fraction of pF1s in the protein library: (1) a progenitor of rRNA that concatenates amino acids bound to (2) a chain of 'positional tRNAs' linked by mutual recognition, yielding a pF1 (or its main motif); this positional tRNA set gradually evolves to a set of regular tRNAs functioning according to the genetic code, with concomitant emergence of (3) an mRNA coding for pF1.",
+      "arxiv_id": "http://arxiv.org/abs/q-bio/0501013v2",
+      "url": "https://arxiv.org/abs/q-bio/0501013v2",
+      "categories": [
+        "q-bio.PE"
+      ]
+    },
+    {
+      "title": "Homochirality through Photon-Induced Melting of RNA/DNA: the Thermodynamic Dissipation Theory of the Origin of Life",
+      "authors": [
+        "Karo Michaelian"
+      ],
+      "published": "2010-10-06T04:32:41Z",
+      "abstract": "The homochirality of the molecules of life has been a vexing problem with no generally accepted solution to date. Since a racemic mixture of chiral nucleotides frustrates the extension and replication of RNA and DNA, understanding the origin of homochirality has important implications to the investigation of the origin of life. Here we suggest a novel solution to the homochirality problem based on a recently proposed thermodynamic dissipation theory for the origin of life. Homochirality is suggested to have been incorporated gradually into the emerging life as a result of asymmetric right- over left-handed photon-induced denaturation of RNA/DNA occurring when Archean sea surface temperatures became close to the denaturing temperatures of RNA/DNA. This differential denaturing success would have been promoted by the somewhat right-handed circularly polarized submarine light of the late afternoon when surface water temperatures are highest, and a negative circular dichroism band extending from 220 nm up to 260 nm for small segments of RNA/DNA. A numerical model is presented demonstrating the efficacy of such a mechanism in procuring 100% homochirality of RNA or DNA from an original racemic solution in less than 500 Archean years assuming a photon absorption threshold for replication representing the hydrogen bonding energies between complimentary strands. Because cholesteric D-nucleic acids have greater affinity for L-amino acids due to a positive structural complementarity, and because D-RNA/DNA+L-amino acid complexes also have a negative circular dichroism band between 200 - 300 nm, the homochirality of amino acids can also be explained by the theory.",
+      "arxiv_id": "http://arxiv.org/abs/1010.1059v1",
+      "url": "https://arxiv.org/abs/1010.1059v1",
+      "categories": [
+        "physics.bio-ph",
+        "astro-ph.EP"
+      ]
+    },
+    {
+      "title": "Homochirality: a prerequisite or consequence of life?",
+      "authors": [
+        "Axel Brandenburg"
+      ],
+      "published": "2020-12-15T20:03:27Z",
+      "abstract": "Many of the building blocks of life such as amino acids and nucleotides are chiral, i.e., different from their mirror image. Contemporary life selects and synthesizes only one of two possible handednesses. In an abiotic environment, however, there are usually equally many left- and right-handed molecules. If homochirality was a prerequisite of life, there must have been physical or chemical circumstances that led to the selection of a certain preference. Conversely, if it was a consequence of life, we must identify possible pathways for accomplishing a transition from a racemic to a homochiral chemistry. After a discussion of the observational evidence, I will review ideas where homochirality of any handedness could emerge as a consequence of the first polymerization events of nucleotides in an emerging RNA world. These mechanisms are not limited to nucleotides, but can also occur for peptides, as a precursor to the RNA world. The question of homochirality is, in this sense, intimately tied to the origin of life. Future Mars missions may be able to detect biomolecules of extant or extinct life. We will therefore also discuss possible experimental setups for determining the chirality of primitive life forms in situ on Mars.",
+      "arxiv_id": "http://arxiv.org/abs/2012.12850v1",
+      "url": "https://arxiv.org/abs/2012.12850v1",
+      "categories": [
+        "q-bio.BM"
+      ]
+    },
+    {
+      "title": "Origin of Life",
+      "authors": [
+        "Ashwini Kumar Lal"
+      ],
+      "published": "2009-07-21T06:39:41Z",
+      "abstract": "The evolution of life has been a big enigma despite rapid advancements in the fields of biochemistry, astrobiology, and astrophysics in recent years. The answer to this puzzle has been as mind-boggling as the riddle relating to evolution of Universe itself. Despite the fact that panspermia has gained considerable support as a viable explanation for origin of life on the Earth and elsewhere in the Universe, the issue remains far from a tangible solution. This paper examines the various prevailing hypotheses regarding origin of life like abiogenesis, RNA World, Iron-sulphur World, and panspermia; and concludes that delivery of life-bearing organic molecules by the comets in the early epoch of the Earth alone possibly was not responsible for kick-starting the process of evolution of life on our planet.",
+      "arxiv_id": "http://arxiv.org/abs/0907.3552v15",
+      "url": "https://arxiv.org/abs/0907.3552v15",
+      "categories": [
+        "physics.gen-ph",
+        "astro-ph.EP"
+      ]
+    },
+    {
+      "title": "Thermodynamics and the Origin of Life",
+      "authors": [
+        "Gerald E. Marsh"
+      ],
+      "published": "2022-03-07T17:31:52Z",
+      "abstract": "Modern developments in nonequilibrium thermodynamics have significant implications for the origins of life. The reasons for this are closely related to a generalized version of the second law of thermodynamics recently found for entropy production during irreversible evolution of a given system such as self-replicating RNA. This paper is intended to serve as an introduction to these developments.",
+      "arxiv_id": "http://arxiv.org/abs/2204.00416v1",
+      "url": "https://arxiv.org/abs/2204.00416v1",
+      "categories": [
+        "physics.gen-ph"
+      ]
+    },
+    {
+      "title": "Quantum origin of life: methodological, epistemological and ontological issues",
+      "authors": [
+        "Juan Campos Quemada"
+      ],
+      "published": "2017-09-15T11:34:14Z",
+      "abstract": "The aim of this essay is to analyze the role of quantum mechanics as an inherent characteristic of life. During the last ten years the problem of the origin of life has become an innovative research subject approached by many authors. The essay is divided in to three parts: the first deals with the problem of life from a philosophical and biological perspective. The second presents the conceptual and methodological basis of the essay which is founded on the Information Theory and the Quantum Theory. This basis is then used, in the third part, to discuss the different arguments and conjectures of a quantum origin of life. There are many philosophical views on the problem of life, two of which are especially important at the moment: reductive physicalism and biosystemic emergentism. From a scientific perspective, all the theories and experimental evidences put forward by Biology can be summed up in to two main research themes: the RNA world and the vesicular theory. The RNA world, from a physicalist point of view, maintains that replication is the essence of life while the vesicular theory, founded on biosystemic grounds, believes the essence of life can be found in cellular metabolism. This essay uses the Information Theory to discard the idea of a spontaneous emergency of life through replication. Understanding the nature and basis of quantum mechanics is fundamental in order to be able to comprehend the advantages of using quantum computation to be able increase the probabilities of existence of auto replicative structures. Different arguments are set forth such as the inherence of quantum mechanics to the origin of life. Finally, in order to try to resolve the question of auto replication, three scientific propositions are put forward: Q-life, the quantum combinatory library and the role of algorithms in the origin of genetic language.",
+      "arxiv_id": "http://arxiv.org/abs/1709.05971v1",
+      "url": "https://arxiv.org/abs/1709.05971v1",
+      "categories": [
+        "q-bio.OT",
+        "quant-ph"
+      ]
+    },
+    {
+      "title": "Autocatalytic Sets and RNA Secondary Structure",
+      "authors": [
+        "Wim Hordijk"
+      ],
+      "published": "2016-12-08T18:52:46Z",
+      "abstract": "The dominant paradigm in origin of life research is that of an RNA world. However, despite experimental progress towards the spontaneous formation of RNA, the RNA world hypothesis still has its problems. Here, we introduce a novel computational model of chemical reaction networks based on RNA secondary structure and analyze the existence of autocatalytic sub-networks in random instances of this model, by combining two well-established computational tools. Our main results are that (i) autocatalytic sets are highly likely to exist, even for very small reaction networks and short RNA sequences, and (ii) sequence diversity seems to be a more important factor in the formation of autocatalytic sets than sequence length. These findings could shed new light on the probability of the spontaneous emergence of an RNA world as a network of mutually collaborative ribozymes.",
+      "arxiv_id": "http://arxiv.org/abs/1612.02770v2",
+      "url": "https://arxiv.org/abs/1612.02770v2",
+      "categories": [
+        "q-bio.MN"
+      ]
+    },
+    {
+      "title": "Three-stage Origin of Life as a Result of Directional Darwinian Evolution",
+      "authors": [
+        "Victor P. Novikov"
+      ],
+      "published": "2012-01-01T20:55:58Z",
+      "abstract": "The original hypothesis about Three-stage origin of life (TOL) on the Earth is developed and discussed. The role of the temperature factor in life origin is considered. It is supposed, that three stages of abiogenesis (DNA world, RNA world and the Protein world) consistently followed each other during Darwinian evolution. At the same time, the natural directional selection of the most stable macromolecules and effective catalytic reactions took place. The direction of this selection is related to action of the principle of «Increasing Independence from the Environment» (IIE) and is caused by temperature evolution of the atmosphere of the Earth. The direction of Anagenesis and inevitability of occurrence of genetic mechanisms is discussed.",
+      "arxiv_id": "http://arxiv.org/abs/1201.0384v1",
+      "url": "https://arxiv.org/abs/1201.0384v1",
+      "categories": [
+        "q-bio.OT"
+      ]
+    },
+    {
+      "title": "Selection first path to the origin of life",
+      "authors": [
+        "Nicholas Guttenberg",
+        "Nathaniel Virgo",
+        "Chris Butch",
+        "Norman Packard"
+      ],
+      "published": "2017-06-19T08:53:29Z",
+      "abstract": "We propose an alternative to the prevailing two origin of life narratives, one based on a replicator first hypothesis, and one based on a metabolism first hypothesis. Both hypotheses have known difficulties: All known evolvable molecular replicators such as RNA require complex chemical (enzymatic) machinery for the replication process. Likewise, contemporary cellular metabolisms require several enzymatically catalyzed steps, and it is difficult to identify a non-enzymatic path to their realization. We propose that there must have been precursors to both replication and metabolism that enable a form of selection to take place through action of simple chemical and physical processes. We model a concrete example of such a process, repeated sequestration of binary molecular combinations after exposure to an environment with a broad distribution of chemical components, as might be realized experimentally in in a repeated wet-dry cycle. We show that the repeated sequestration dynamics results in a selective amplification of a very small subset of molecular species present in the environment, thus providing a candidate primordial selection process.",
+      "arxiv_id": "http://arxiv.org/abs/1706.05831v1",
+      "url": "https://arxiv.org/abs/1706.05831v1",
+      "categories": [
+        "q-bio.PE"
+      ]
+    }
+  ]
+}
