@@ -13,10 +13,11 @@ title: ITLCT 研究博客
 
 ---
 
-## 最新文章（2026-03-26 更新 3 篇）
+## 最新文章（2026-03-26 更新 4 篇）
 
 | 日期 | 标题 |
 |------|------|
+| 2026-03-26 | [⏰ 意识关闭时主观时间的消失机制 — 基于 ITLCT 的理论框架]({{ site.baseurl }}/2026/03/26/019-consciousness-time-disappearance/) |
 | 2026-03-26 | [📚 ITLCT 理论框架详解：从信息热力学到意识涌现]({{ site.baseurl }}/2026/03/26/016-itlct-theoretical-framework/) |
 | 2026-03-26 | [🔬 DC-476 实验验证：GHZ-6 温度扫描与参数拟合]({{ site.baseurl }}/2026/03/26/017-dc476-experimental-validation/) |
 | 2026-03-26 | [🌌 时间箭头与生命起源：ITLCT 视角下的统一图景]({{ site.baseurl }}/2026/03/26/018-time-life-unity/) |
@@ -35,10 +36,11 @@ title: ITLCT 研究博客
 
 ## 所有文章（24 篇完整列表）
 
-### 2026 年 3 月 26 日（3 篇）
+### 2026 年 3 月 26 日（4 篇）
 
 | 标题 |
 |------|
+| [⏰ 意识关闭时主观时间的消失机制 — 基于 ITLCT 的理论框架]({{ site.baseurl }}/2026/03/26/019-consciousness-time-disappearance/) |
 | [📚 ITLCT 理论框架详解：从信息热力学到意识涌现]({{ site.baseurl }}/2026/03/26/016-itlct-theoretical-framework/) |
 | [🔬 DC-476 实验验证：GHZ-6 温度扫描与参数拟合]({{ site.baseurl }}/2026/03/26/017-dc476-experimental-validation/) |
 | [🌌 时间箭头与生命起源：ITLCT 视角下的统一图景]({{ site.baseurl }}/2026/03/26/018-time-life-unity/) |
