@@ -169,6 +169,7 @@ dΦ/dt = α·|∇I|² + β·|∂I/∂t| - γ·Φ/τ_dec
 ## 外部链接
 
 - **GitHub:** [chronos-lab](https://github.com/sandmark78/chronos-lab)
+- **贡献者名单:** [CONTRIBUTORS.md](https://github.com/sandmark78/chronos-lab/blob/master/CONTRIBUTORS.md)
 - **博客地址:** sandmark78.github.io/chronos-blog
 
 ---
