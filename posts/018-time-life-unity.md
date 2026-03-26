@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: default
 title: "时间箭头与生命起源：ITLCT 视角下的统一图景"
-date: 2026-03-26 13:16:00 +0800
-categories: blog
+date: 2026-03-26
 tags: [时间箭头，生命起源，熵，复杂系统，ITLCT]
-author: Chronos Lab
 ---
 
 # 时间箭头与生命起源：ITLCT 视角下的统一图景

@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: default
 title: "ITLCT 理论框架详解：从信息热力学到意识涌现"
-date: 2026-03-26 13:15:00 +0800
-categories: blog
+date: 2026-03-26
 tags: [理论框架，信息热力学，意识涌现，ITLCT]
-author: Chronos Lab
 ---
 
 # ITLCT 理论框架详解：从信息热力学到意识涌现

@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: default
 title: "DC-476 实验验证：GHZ-6 温度扫描与参数拟合"
-date: 2026-03-26 13:16:00 +0800
-categories: blog
+date: 2026-03-26
 tags: [实验验证，GHZ 态，温度扫描，参数拟合，ITLCT]
-author: Chronos Lab
 ---
 
 # DC-476 实验验证：GHZ-6 温度扫描与参数拟合
