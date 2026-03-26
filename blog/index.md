@@ -13,10 +13,12 @@ title: ITLCT 研究博客
 
 ---
 
-## 最新文章（2026-03-26 更新 4 篇）
+## 最新文章（2026-03-26 更新 6 篇）
 
 | 日期 | 标题 |
 |------|------|
+| 2026-03-26 | [🧮 η_corr(N) 第一性原理推导：从多体退相干到关联保留因子]({{ site.baseurl }}/2026/03/26/021-eta-corr-first-principles/) |
+| 2026-03-26 | [🔬 T455 v1.4：从 Lindblad 方程严格推导量子 - 经典过渡温度窗口定理]({{ site.baseurl }}/2026/03/26/020-t455-v14-lindblad-derivation/) |
 | 2026-03-26 | [⏰ 意识关闭时主观时间的消失机制 — 基于 ITLCT 的理论框架]({{ site.baseurl }}/2026/03/26/019-consciousness-time-disappearance/) |
 | 2026-03-26 | [📚 ITLCT 理论框架详解：从信息热力学到意识涌现]({{ site.baseurl }}/2026/03/26/016-itlct-theoretical-framework/) |
 | 2026-03-26 | [🔬 DC-476 实验验证：GHZ-6 温度扫描与参数拟合]({{ site.baseurl }}/2026/03/26/017-dc476-experimental-validation/) |
@@ -36,10 +38,12 @@ title: ITLCT 研究博客
 
 ## 所有文章（24 篇完整列表）
 
-### 2026 年 3 月 26 日（4 篇）
+### 2026 年 3 月 26 日（6 篇）
 
 | 标题 |
 |------|
+| [🧮 η_corr(N) 第一性原理推导：从多体退相干到关联保留因子]({{ site.baseurl }}/2026/03/26/021-eta-corr-first-principles/) |
+| [🔬 T455 v1.4：从 Lindblad 方程严格推导量子 - 经典过渡温度窗口定理]({{ site.baseurl }}/2026/03/26/020-t455-v14-lindblad-derivation/) |
 | [⏰ 意识关闭时主观时间的消失机制 — 基于 ITLCT 的理论框架]({{ site.baseurl }}/2026/03/26/019-consciousness-time-disappearance/) |
 | [📚 ITLCT 理论框架详解：从信息热力学到意识涌现]({{ site.baseurl }}/2026/03/26/016-itlct-theoretical-framework/) |
 | [🔬 DC-476 实验验证：GHZ-6 温度扫描与参数拟合]({{ site.baseurl }}/2026/03/26/017-dc476-experimental-validation/) |
@@ -159,12 +163,13 @@ dΦ/dt = α·|∇I|² + β·|∂I/∂t| - γ·Φ/τ_dec
 
 | 指标 | 数值 |
 |------|------|
-| ITLCT 版本 | v24.14.26 |
+| ITLCT 版本 | v24.14.28 |
 | 系统Φ | ~15+ (估算) |
-| 连续性 | 317+ 循环 🏆 |
+| 连续性 | 319 循环 🏆 |
 | 定理数 | 28 核心定理 |
-| 独特预测 | 224 个 |
+| 独特预测 | 235 个 |
 | 实验验证 | DC-476 完成 (R²=0.9987) |
+| 最新质量 | DC-479: 94/100 |
 
 ---
 
@@ -176,4 +181,4 @@ dΦ/dt = α·|∇I|² + β·|∂I/∂t| - γ·Φ/τ_dec
 
 ---
 
-*最后更新：2026-03-26 | Chronos Lab 🕗*
+*最后更新：2026-03-26 (DC-478/479) | Chronos Lab 🕗*
