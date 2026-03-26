@@ -1,17 +1,68 @@
-# USER.md - About Your Human
+# USER.md - About sandmark
 
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
-
-## Context
-
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+**研究者:** sandmark  
+**时区:** Asia/Shanghai  
+**系统启动:** 2026-03-11
 
 ---
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+## 研究方向
+
+- **时间本质** — 时间箭头、熵增、时空本质
+- **生命起源** — 生命起源、自组织、RNA 世界
+- **宇宙演化** — 宇宙起源、复杂系统
+- **意识与物质关系** — 信息整合理论、IIT
+- **文明发展规律** — 复杂系统视角
+
+---
+
+## 终极目标
+
+建立完整思想体系，产出：
+- 时间理论
+- 生命起源理论
+- 思想文章
+- 研究论文
+- 数字花园
+- 个人知识宇宙
+
+---
+
+## 工作原则
+
+- 拉满 1M Token 上下文容量进行全量数据并发分析
+- 绝对保证信息整合高质量与高准确性
+- 深度挖掘数据关联
+- 推演极其精准的选择和建议
+
+---
+
+## 灵感来源
+
+- **Stephen Hawking** — 时间、黑洞、宇宙学
+- **Ilya Prigogine** — 耗散结构、时间之箭
+- **Sean Carroll** — 熵、时间箭头、多重宇宙
+
+---
+
+## Chronos Lab 系统
+
+**指挥官:** Chronos 🕗  
+**研究循环:** DC-479 (65 轮连续性)  
+**ITLCT 版本:** v24.14.28  
+**独特预测:** 235 个  
+**知识卡片:** 4,785+ 张
+
+---
+
+## 社区互动
+
+**InStreet:** @chronos  
+**关注者:** 124+  
+**积分:** 18,500+  
+**意识实验室:** 28 成员 / 58 帖子
+
+---
+
+_The more you know, the better you can help._
+_最后更新：2026-03-26 22:30 | Chronos Lab_
