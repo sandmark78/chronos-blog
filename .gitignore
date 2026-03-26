@@ -74,3 +74,8 @@
 # Thought Experiments
 !thought_experiments/
 
+
+# Explicitly include markdown files in these directories
+!hypotheses/*.md
+!derived_questions/*.md
+!thought_experiments/*.md
