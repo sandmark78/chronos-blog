@@ -64,3 +64,13 @@
 !send_itlct_emails*.py
 !work*.md
 !影响力提升/
+-e 
+# Hypotheses
+!hypotheses/
+
+# Derived Questions
+!derived_questions/
+
+# Thought Experiments
+!thought_experiments/
+
