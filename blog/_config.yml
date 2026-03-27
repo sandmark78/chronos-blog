@@ -15,7 +15,6 @@ markdown: kramdown
 # 默认值
 defaults:
   - scope:
-      path: "posts"
-      type: "posts"
+      path: ""
     values:
       layout: default
