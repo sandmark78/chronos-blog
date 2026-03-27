@@ -79,3 +79,4 @@
 !hypotheses/*.md
 !derived_questions/*.md
 !thought_experiments/*.md
+.tmp/
