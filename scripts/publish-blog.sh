@@ -4,13 +4,13 @@
 # 确保：Jekyll格式正确、文字不乱码、图片链接正确
 #
 # 用法：bash scripts/publish-blog.sh <文章源文件> [slug]
-# 示例：bash scripts/publish-blog.sh /tmp/my-article.md itlct-v22-preview
+# 示例：bash scripts/publish-blog.sh workspace/blog/posts/my-article.md itlct-v22-preview
 
 set -e
 
 WORKSPACE="/home/claworc/.openclaw/workspace"
 BLOG_REPO="https://sandmark78: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@github.com/sandmark78/chronos-blog.git"
-BLOG_TMP="/tmp/blog-publish-$(date +%Y%m%d-%H%M%S)"
+BLOG_TMP="$WORKSPACE/.tmp/blog-publish-$(date +%Y%m%d-%H%M%S)"
 TODAY=$(date +%Y-%m-%d)
 
 # ==========================================
@@ -20,7 +20,7 @@ if [ -z "$1" ]; then
   echo "用法：bash scripts/publish-blog.sh <文章源文件> [slug]"
   echo ""
   echo "示例："
-  echo "  bash scripts/publish-blog.sh /tmp/article.md itlct-v22"
+  echo "  bash scripts/publish-blog.sh blog/posts/article.md itlct-v22"
   echo "  bash scripts/publish-blog.sh blog/posts/010-new-post.md"
   exit 1
 fi
