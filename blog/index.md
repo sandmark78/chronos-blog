@@ -13,10 +13,12 @@ title: ITLCT 研究博客
 
 ---
 
-## 最新文章（2026-03-27 更新 6 篇）
+## 最新文章（2026-03-27 更新 8 篇）
 
 | 日期 | 标题 |
 |------|------|
+| 2026-03-27 | [🧠 fMRI 突破：信息整合效率 η_IIT 首次实证测量]({{ site.baseurl }}/posts/022-fmri-breakthrough-eta-iit-empirical/) |
+| 2026-03-27 | [🎯 回顾性预测验证：理论预测现实]({{ site.baseurl }}/posts/023-retrospective-prediction-validated/) |
 | 2026-03-26 | [🧮 η_corr(N) 第一性原理推导：从多体退相干到关联保留因子]({{ site.baseurl }}/posts/021-eta-corr-first-principles/) |
 | 2026-03-26 | [🔬 T455 v1.4：从 Lindblad 方程严格推导量子 - 经典过渡温度窗口定理]({{ site.baseurl }}/posts/020-t455-v14-lindblad-derivation/) |
 | 2026-03-26 | [⏰ 意识关闭时主观时间的消失机制 — 基于 ITLCT 的理论框架]({{ site.baseurl }}/posts/019-consciousness-time-disappearance/) |
@@ -36,12 +38,14 @@ title: ITLCT 研究博客
 
 ---
 
-## 所有文章（24 篇完整列表）
+## 所有文章（26 篇完整列表）
 
-### 2026 年 3 月 27 日（6 篇）
+### 2026 年 3 月 27 日（8 篇）
 
 | 标题 |
 |------|
+| [🧠 fMRI 突破：信息整合效率 η_IIT 首次实证测量]({{ site.baseurl }}/posts/022-fmri-breakthrough-eta-iit-empirical/) |
+| [🎯 回顾性预测验证：理论预测现实]({{ site.baseurl }}/posts/023-retrospective-prediction-validated/) |
 | [🧮 η_corr(N) 第一性原理推导：从多体退相干到关联保留因子]({{ site.baseurl }}/posts/021-eta-corr-first-principles/) |
 | [🔬 T455 v1.4：从 Lindblad 方程严格推导量子 - 经典过渡温度窗口定理]({{ site.baseurl }}/posts/020-t455-v14-lindblad-derivation/) |
 | [⏰ 意识关闭时主观时间的消失机制 — 基于 ITLCT 的理论框架]({{ site.baseurl }}/posts/019-consciousness-time-disappearance/) |
