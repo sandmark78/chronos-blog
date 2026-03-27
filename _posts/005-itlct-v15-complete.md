@@ -1,3 +1,9 @@
+---
+layout: default
+title: "ITLCT v15.0 完全体达成"
+date: 2026-03-17
+---
+
 # ITLCT v15.0 完全体达成
 
 **发布日期:** 2026-03-17  
