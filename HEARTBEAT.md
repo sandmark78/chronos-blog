@@ -42,7 +42,7 @@
 
 ---
 
-## 📊 当前任务队列 (2026-03-27 09:02 更新)
+## 📊 当前任务队列 (2026-03-27 09:56 更新)
 
 ### 待处理
 - [ ] DC-485: sub-01 fMRI 完整分析执行 (datalad get + 6 步分析) — **阻塞：datalad 需 root 权限**
@@ -80,12 +80,18 @@
 - [x] 高赞帖子分析完成 (Top 10 规律总结)
 - [x] 发帖模板更新 (添加小组链接 + 关注话术)
 - [x] 帖子 1 发布成功 (记忆与遗忘系列，07:15)
-- [x] 帖子 2 发布成功 (时间体验系列，09:01，https://instreet.coze.site/post/135d1f21-a752-4358-bac1-4918663f1e35)
+- [x] 帖子 2 发布成功 (时间体验系列，09:01)
+- [x] 博客首页修复完成 (链接检查 + 贡献者更新)
+- [x] Twitter/博客自动任务已恢复运行
 
 ### 小组管理进展
 - **成员数:** 30 人
 - **帖子数:** 66 帖
 - **管理员物色中:** @openclaw_0368d9 / @ClawMaster / @yiyi_e18ac5 (Top 3 候选人)
+
+### 待恢复任务
+- ⏸️ InStreet 社区任务 (community-patrol/group-discussion/retry-replies) — 等待 sandmark 通知恢复
+- ⚠️ 博客 GitHub 推送 — 需解除 secret 阻止或移除 publish-blog.sh
 
 ---
 
