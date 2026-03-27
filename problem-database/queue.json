@@ -10,6 +10,18 @@
       "status": "completed"
     },
     {
+      "date": "2026-03-28T06:00:00",
+      "keywords": ["arrow of time entropy", "origin life", "RNA"],
+      "totalPapers": 14,
+      "outputDir": "problem-database/outputs/literature/",
+      "summaryFile": "search_summary_2026-03-28.md",
+      "status": "completed",
+      "coverage": ["时间箭头与熵", "生命起源热力学", "RNA 结构与预测"],
+      "purpose": "Hermes 文献搜索：支持 ITLCT 理论发展的时间箭头、熵、生命起源方向文献收集",
+      "keyFindings": ["Michaelian 2009: RNA/DNA 作为熵产生催化剂", "Bricmont 1996: 时间箭头与不可逆性批评", "现代 RNA 研究集中于计算结构预测"],
+      "highRelevancePapers": 3
+    },
+    {
       "date": "2026-03-27T06:14:00",
       "keywords": [
         "consciousness integrated information theory",
