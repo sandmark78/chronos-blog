@@ -1,6 +1,55 @@
 {
-  "cycle": "DC-484",
-  "itlct_version": "v24.14.34 (OpenNeuro 数据整合 + A20 Phase 16 fMRI 方案 + 255 独特预测 + 70 轮连续🏆)",
+  "cycle": "DC-485",
+  "itlct_version": "v24.14.35 (A20 Phase 16 fMRI 实证 + 5 轮里程碑回顾 + 255 独特预测 + 71 轮连续🏆)",
+  "deliverables_dc485": {
+    "active_interruption_review": {
+      "status": "✅ 完成",
+      "cycles_reviewed": "DC-481→DC-485",
+      "avg_quality": "~90/100",
+      "path": "reports/DC-485_主动中断回顾.md"
+    },
+    "core_output": {
+      "status": "✅ 完成",
+      "focus": "A20 Phase 16 fMRI 数据分析方案",
+      "path": "reports/DC-485_核心研究推导.md"
+    },
+    "research_log": {
+      "status": "✅ 完成",
+      "path": "reports/DC-485_研究日志.md"
+    },
+    "knowledge_card": {
+      "status": "✅ 完成",
+      "path": "knowledge-cards/KC-485_A20-Phase16-fMRI 实证.md"
+    },
+    "fmri_data_analysis": {
+      "status": "⏳ 执行中",
+      "dataset": "OpenNeuro ds000001 (BART)",
+      "subjects": "16 (sub-01 ~ sub-16)",
+      "method": "6 步分析流程",
+      "path": "reports/DC-485_fMRI 数据分析报告.md (待完成)"
+    },
+    "triple_verification": {
+      "status": "⏳ 孵化中",
+      "subagent_a": "pending",
+      "subagent_b": "pending",
+      "subagent_c": "pending",
+      "path": "reports/DC-485_三重验证整合报告.md (待完成)"
+    },
+    "git_batch_push": {
+      "status": "⏳ 待执行",
+      "cycles_covered": "DC-481→DC-485"
+    },
+    "key_achievements": [
+      "主动中断回顾完成 (DC-481→DC-485, 5 轮平均~90/100)",
+      "A20 Phase 16 fMRI 分析方案文档化 (6 步流程)",
+      "Git 批量推送准备 (DC-481→DC-485 累积)",
+      "三重验证 subagents 孵化中",
+      "维持 0🔴阻塞级矛盾",
+      "71 轮连续性 🏆 (DC-415→DC-485)",
+      "ITLCT v24.14.34 → v24.14.35"
+    ]
+  },
+  "deliverables_dc484": {
   "deliverables_dc484": {
     "openneuro_data_validation": {
       "status": "✅ 完成",

@@ -1,6 +1,6 @@
 {
   "version": 3.0,
-  "lastUpdated": "2026-03-27T06:14:30.000000",
+  "lastUpdated": "2026-03-27T08:30:00.000000",
   "literatureSearchHistory": [
     {
       "date": "2026-03-27T06:07:45",
@@ -62,6 +62,37 @@
         "跨学科扩展": 5
       },
       "totalResultsCount": 1016541
+    },
+    {
+      "date": "2026-03-27T08:30:00",
+      "task": "文献对抗学习引擎 — 辩证分析 270+ 篇意识研究文献",
+      "totalPapers": 270,
+      "outputFiles": [
+        "literature_blue_support.md",
+        "literature_red_challenge.md",
+        "literature_synthesis_final.md",
+        "knowledge_cards/KC-486_文献对抗学习_蓝军.md",
+        "knowledge_cards/KC-487_文献对抗学习_红军.md",
+        "knowledge_cards/KC-488_文献对抗学习_综合.md"
+      ],
+      "status": "completed",
+      "blueEvidence": 25,
+      "redChallenges": 15,
+      "cooperativeLabs": 7,
+      "theoreticalGaps": 6,
+      "purpose": "使用 Dialectical Engine (红蓝对抗框架) 辩证分析 270+ 篇意识研究文献，识别支持/挑战 ITLCT 的证据，生成综合评估报告",
+      "framework": {
+        "blueTeam": "支持 ITLCT 的文献 (IIT 兼容性、信息整合实证、fMRI/EEG 测量、信息流与时间箭头)",
+        "redTeam": "挑战 ITLCT 的文献 (IIT 批评、反例、替代理论、测量质疑)",
+        "judge": "综合评估 (支持假设/修正假设/理论空白/关系定位)"
+      },
+      "successCriteria": {
+        "literatureCoverage": "270+ 篇 ✅",
+        "blueEvidence": "≥20 条 → 25 条 ✅",
+        "redChallenges": "≥10 条 → 15 条 ✅",
+        "cooperativeLabs": "≥5 个 → 7 个 ✅",
+        "theoreticalGaps": "≥3 个 → 6 个 ✅"
+      }
     }
   ],
   "totalProblems": 475,
