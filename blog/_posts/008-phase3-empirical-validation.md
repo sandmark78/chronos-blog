@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Phase 3 实证验证"
+date: 2026-03-17
+---
+
 # Phase 3 实证验证
 
 **发布日期:** 2026-03-17  
