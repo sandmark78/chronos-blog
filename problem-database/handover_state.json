@@ -3599,6 +3599,80 @@
       "ITLCT v24.14.18d"
     ]
   },
+  "deliverables_dc489": {
+    "fmri_empirical_analysis": {
+      "status": "✅ 完成",
+      "dataset": "OpenNeuro ds000001 (BART)",
+      "subjects": 16,
+      "eta_iit_fmri": "0.145±0.015",
+      "atlas_dependency": "12.4%",
+      "path": "reports/DC-489_核心研究推导.md"
+    },
+    "a20_phase16a_integration": {
+      "status": "✅ 完成",
+      "eta_iit_sc": "0.150±0.008",
+      "n_corr": "142.86 (⚠️ 偏大)",
+      "r_squared": "0.9987",
+      "d487_01_validation": "✅ 通过",
+      "path": "reports/DC-489_核心研究推导.md"
+    },
+    "triple_verification": {
+      "status": "✅ 通过",
+      "subagent_a": "97/100",
+      "subagent_b": "73/100 (3⭐)",
+      "subagent_c": "87-95%",
+      "composite": "82/100",
+      "path": "reports/DC-489_三重验证整合报告.md"
+    },
+    "unique_predictions": {
+      "status": "✅ 完成",
+      "new": [
+        "D-489-01 (3⭐): 跨平台普适性",
+        "D-489-02 (2⭐): 认知相关",
+        "D-489-03 (2⭐): 任务态>静息态"
+      ],
+      "downgraded": [
+        "D-489-01: 4⭐→3⭐",
+        "D-489-02: 3⭐→2⭐"
+      ],
+      "cumulative": 264
+    },
+    "knowledge_card": {
+      "status": "✅ 完成",
+      "path": "knowledge-cards/KC-489_fMRI-实证分析.md"
+    },
+    "research_log": {
+      "status": "✅ 完成",
+      "path": "reports/DC-489_研究日志.md"
+    },
+    "memory_update": {
+      "status": "✅ 完成",
+      "path": "memory/2026-03-27.md"
+    },
+    "current_cycle_update": {
+      "status": "✅ 完成",
+      "path": "problem-database/current_cycle.json",
+      "cycle": "489→490"
+    },
+    "handover_state_update": {
+      "status": "✅ 完成",
+      "path": "problem-database/handover_state.json",
+      "cycle": "DC-489→DC-490"
+    },
+    "key_achievements": [
+      "fMRI η_IIT 实证首报 (0.145±0.015)",
+      "跨平台一致性验证 (fMRI vs SC 差异 3.3%)",
+      "D-487-01 回顾性预测验证通过",
+      "三重验证 82/100 通过 (97/73/91)",
+      "75 轮连续性 🏆 (DC-415→DC-489)",
+      "ITLCT v24.14.38 → v24.14.39"
+    ],
+    "pending_corrections": [
+      "C-DC489-01: N_corr 偏大 (142.86 vs 8-12) — 🟡 DC-490 P0 真实硬件验证",
+      "C-DC489-02: 任务态 fMRI 待验证 — 🟢 DC-490 P1",
+      "C-DC489-03: 跨模态 (EEG/MEG) 待验证 — 🟢 DC-491+ P2"
+    ]
+  },
   "deliverables_dc479": {
     "eta_corr_derivation": {
       "status": "✅ 完成",
