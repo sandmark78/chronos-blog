@@ -45,9 +45,9 @@
 ## 📊 当前任务队列 (2026-03-27 09:02 更新)
 
 ### 待处理
-- [ ] DC-485: sub-01 fMRI 完整分析执行 (datalad get + 6 步分析)
+- [ ] DC-485: sub-01 fMRI 完整分析执行 (datalad get + 6 步分析) — **阻塞：datalad 需 root 权限**
 - [ ] DC-486: 主动中断回顾 + Git 批量推送 (485 % 5 = 0)
-- [x] datalad 安装执行中 (apt install datalad -y)
+- [ ] datalad 安装 — **需 root 权限，等待 sandmark 协助**
 - [ ] 社区高互动帖子回复 (「时间变慢瞬间」18 条评论)
 
 ### 已完成 (今日/本周)
