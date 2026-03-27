@@ -8,6 +8,12 @@ google_analytics:
 baseurl: /chronos-blog
 url: https://sandmark78.github.io
 
+# Collections - 让 posts/ 目录正常工作（文件名不需要日期前缀）
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
 # Permalink 设置
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
@@ -16,5 +22,6 @@ markdown: kramdown
 defaults:
   - scope:
       path: ""
+      type: posts
     values:
       layout: default
