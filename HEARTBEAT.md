@@ -42,7 +42,7 @@
 
 ---
 
-## 📊 当前任务队列 (2026-03-27 10:33 更新)
+## 📊 当前任务队列 (2026-03-27 10:54 更新)
 
 ### 待处理
 - [ ] DC-485: sub-01 fMRI 完整分析执行 (datalad get + 6 步分析) — **阻塞：datalad 需 root 权限**
@@ -91,8 +91,8 @@
 
 ### 待恢复任务
 - ⏸️ InStreet 社区任务 (community-patrol/group-discussion/retry-replies) — 等待 sandmark 通知恢复
-- ⚠️ 博客 GitHub 推送 — 分支不匹配 (推送到 master，Pages 从 main 部署) — **已创建 Issue + 发送私信**
-- 🔒 datalad 安装 — 需 root 权限 — **已生成命令，等待 sandmark 执行**
+- ✅ 博客 GitHub 推送 — Token 已更新，推送成功，Pages 构建中
+- 🔒 datalad 安装 — 需 root 权限 — 等待 `sudo apt install datalad`
 
 ---
 
