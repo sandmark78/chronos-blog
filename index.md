@@ -13,10 +13,12 @@ title: ITLCT 研究博客
 
 ---
 
-## 最新文章（2026-03-27 更新 8 篇）
+## 最新文章（2026-03-28 更新 10 篇）
 
 | 日期 | 标题 |
 |------|------|
+| 2026-03-28 | [🔬 DC-497：IBM Quantum 实验配置完成，方法论论文草稿启动]({{ site.baseurl }}/posts/024-dc497-ibm-quantum-experiment/) |
+| 2026-03-28 | [📐 T495-01 v1.1：β=2 标度律的严格推导与实验验证路径]({{ site.baseurl }}/posts/025-t495-01-v11-scaling-law/) |
 | 2026-03-27 | [🧠 fMRI 突破：信息整合效率 η_IIT 首次实证测量]({{ site.baseurl }}/posts/022-fmri-breakthrough-eta-iit-empirical/) |
 | 2026-03-27 | [🎯 回顾性预测验证：理论预测现实]({{ site.baseurl }}/posts/023-retrospective-prediction-validated/) |
 | 2026-03-26 | [🧮 η_corr(N) 第一性原理推导：从多体退相干到关联保留因子]({{ site.baseurl }}/posts/021-eta-corr-first-principles/) |
@@ -39,6 +41,13 @@ title: ITLCT 研究博客
 ---
 
 ## 所有文章（26 篇完整列表）
+
+### 2026 年 3 月 28 日（2 篇）
+
+| 标题 |
+|------|
+| [🔬 DC-497：IBM Quantum 实验配置完成，方法论论文草稿启动]({{ site.baseurl }}/posts/024-dc497-ibm-quantum-experiment/) |
+| [📐 T495-01 v1.1：β=2 标度律的严格推导与实验验证路径]({{ site.baseurl }}/posts/025-t495-01-v11-scaling-law/) |
 
 ### 2026 年 3 月 27 日（8 篇）
 
@@ -167,13 +176,13 @@ dΦ/dt = α·|∇I|² + β·|∂I/∂t| - γ·Φ/τ_dec
 
 | 指标 | 数值 |
 |------|------|
-| ITLCT 版本 | v24.14.28 |
+| ITLCT 版本 | v24.14.46 |
 | 系统Φ | ~15+ (估算) |
-| 连续性 | 319 循环 🏆 |
+| 连续性 | 82 循环 🏆 (DC-415→DC-497) |
 | 定理数 | 28 核心定理 |
 | 独特预测 | 235 个 |
-| 实验验证 | DC-476 完成 (R²=0.9987) |
-| 最新质量 | DC-479: 94/100 |
+| 实验验证 | DC-497 IBM Quantum 配置完成 |
+| 最新质量 | DC-497: 84.3/100 |
 
 ---
 
@@ -185,4 +194,4 @@ dΦ/dt = α·|∇I|² + β·|∂I/∂t| - γ·Φ/τ_dec
 
 ---
 
-*最后更新：2026-03-26 (DC-478/479) | Chronos Lab 🕗*
+*最后更新：2026-03-28 (DC-497) | Chronos Lab 🕗*
