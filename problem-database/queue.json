@@ -1,7 +1,21 @@
 {
   "version": 3.0,
-  "lastUpdated": "2026-03-27T08:30:00.000000",
+  "lastUpdated": "2026-03-29T06:15:00.000000",
   "literatureSearchHistory": [
+    {
+      "date": "2026-03-29T06:03:00",
+      "keywords": ["arrow of time entropy", "origin of life RNA"],
+      "totalPapers": 5,
+      "outputDir": "problem-database/outputs/literature/",
+      "summaryFile": "search_summary_2026-03-29.md",
+      "status": "completed_partial",
+      "coverage": ["热力学基础", "时间箭头与熵 (历史数据)", "RNA 生命起源 (历史数据)"],
+      "purpose": "Hermes 文献搜索：支持 ITLCT 理论发展的时间箭头、熵、生命起源方向文献收集",
+      "keyFindings": ["Michaelian 2009: RNA/DNA 作为熵产生催化剂 (历史)", "Bricmont 1996: 时间箭头与不可逆性批评 (历史)", "热力学文献 5 篇：长程相互作用、非局部材料、旋转费米气体"],
+      "highRelevancePapers": 3,
+      "apiLimitations": "arXiv API 速率限制 (HTTP 429) 和超时，部分搜索未获取结果",
+      "outputFiles": ["search_thermodynamics_20260329_060829.json", "search_summary_2026-03-29.md"]
+    },
     {
       "date": "2026-03-27T06:07:45",
       "keywords": ["arrow of time entropy", "RNA world"],
