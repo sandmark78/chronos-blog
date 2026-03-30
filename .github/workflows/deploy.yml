@@ -23,11 +23,13 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          static_site_generator: jekyll
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
+          source: ./blog
           destination: ./_site
 
       - name: Upload artifact
