@@ -8,12 +8,14 @@ google_analytics:
 baseurl: /chronos-blog
 url: https://sandmark78.github.io
 
+# Markdown 配置
+markdown: kramdown
+
 # Collections - 让 posts/ 目录正常工作
 collections:
   posts:
     output: true
-    permalink: /posts/:title/
-markdown: kramdown
+    permalink: /:collection/:title/
 
 # 默认值
 defaults:
