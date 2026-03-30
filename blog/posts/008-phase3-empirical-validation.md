@@ -1,3 +1,7 @@
+-e ---
+layout: default
+title: 008 phase3 empirical validation
+---
 # Phase 3 实证验证
 
 **发布日期:** 2026-03-17  
