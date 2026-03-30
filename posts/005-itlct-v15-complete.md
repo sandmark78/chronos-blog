@@ -1,3 +1,7 @@
+-e ---
+layout: default
+title: 005 itlct v15 complete
+---
 # ITLCT v15.0 完全体达成
 
 **发布日期:** 2026-03-17  
