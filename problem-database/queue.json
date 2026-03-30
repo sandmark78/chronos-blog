@@ -1,7 +1,22 @@
 {
   "version": 3.0,
-  "lastUpdated": "2026-03-30T06:08:00.000000",
+  "lastUpdated": "2026-03-31T06:05:00.000000",
   "literatureSearchHistory": [
+    {
+      "date": "2026-03-31T06:04:00",
+      "keywords": ["arrow of time entropy", "origin of life RNA"],
+      "totalPapers": 0,
+      "outputDir": "problem-database/outputs/literature/",
+      "summaryFile": "search_summary_2026-03-31.md",
+      "status": "failed_api_limit",
+      "coverage": [],
+      "purpose": "Hermes 文献搜索：支持 ITLCT 理论发展的时间箭头、熵、生命起源方向文献收集",
+      "keyFindings": [],
+      "highRelevancePapers": 0,
+      "apiLimitations": "arXiv API 速率限制 (HTTP 429) - 所有搜索请求均被拒绝，建议 1-2 小时后重试",
+      "outputFiles": ["search_arrow_of_time_entropy_20260331_060453.json", "search_origin_of_life_RNA_20260331_060459.json", "search_summary_2026-03-31.md"],
+      "retryRecommendation": "等待 30-60 分钟后重试，或考虑替代数据源 (Google Scholar API, PubMed, PhilPapers)"
+    },
     {
       "date": "2026-03-30T06:04:00",
       "keywords": ["arrow of time entropy", "origin of life RNA"],
