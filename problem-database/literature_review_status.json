@@ -1,0 +1,181 @@
+{
+  "version": 1.0,
+  "lastUpdated": "2026-03-27T08:30:00.000000",
+  "reviewStatus": "completed",
+  "reviewDate": "2026-03-27",
+  "reviewType": "dialectical_analysis",
+  "literatureBase": {
+    "totalPapers": 270,
+    "sources": [
+      {
+        "file": "search_summary_consciousness_2026-03-27.md",
+        "papers": 60,
+        "searchDate": "2026-03-27T06:14:00",
+        "keywords": 10,
+        "coverage": ["IIT", "NCC", "fMRI/EEG", "意识障碍", "GWT", "预测处理", "高阶思维"]
+      },
+      {
+        "file": "search_summary_consciousness_expanded_full_2026-03-27.md",
+        "papers": 199,
+        "searchDate": "2026-03-27T06:41:51",
+        "keywords": 15,
+        "coverage": ["信息整合理论", "信息流分析", "因果涌现", "信息瓶颈", "有效连接", "传递熵", "DCM", "量子信息", "热力学 - 信息", "复杂系统", "网络神经科学"]
+      },
+      {
+        "file": "search_summary_2026-03-27.md",
+        "papers": 11,
+        "searchDate": "2026-03-27T06:00:00",
+        "keywords": 2,
+        "coverage": ["时间箭头", "RNA 世界"]
+      }
+    ]
+  },
+  "dialecticalAnalysis": {
+    "blueTeam": {
+      "status": "completed",
+      "outputFile": "literature_blue_support.md",
+      "knowledgeCard": "KC-486_文献对抗学习_蓝军.md",
+      "evidenceCount": 25,
+      "supportDimensions": {
+        "IIT_ITLCT_compatibility": {"papers": 12, "strength": 5},
+        "information_integration_empirical": {"papers": 8, "strength": 4},
+        "fMRI_EEG_methods": {"papers": 6, "strength": 4},
+        "information_flow_time_arrow": {"papers": 5, "strength": 5},
+        "causal_emergence": {"papers": 7, "strength": 4}
+      },
+      "strongSupport": [
+        "信息整合是意识必要条件",
+        "因果涌现存在",
+        "信息流与意识相关",
+        "Φ与意识正相关 (一般)",
+        "时间 - 信息耦合独特性",
+        "中尺度因果效力最大"
+      ]
+    },
+    "redTeam": {
+      "status": "completed",
+      "outputFile": "literature_red_challenge.md",
+      "knowledgeCard": "KC-487_文献对抗学习_红军.md",
+      "challengeCount": 15,
+      "challengeDimensions": {
+        "IIT_criticism": {"papers": 5, "threat": "high"},
+        "integration_not_consciousness": {"papers": 4, "threat": "high"},
+        "alternative_theories": {"papers": 4, "threat": "medium"},
+        "Phi_measurement质疑": {"papers": 3, "threat": "high"}
+      },
+      "criticalChallenges": [
+        "Φ/ε定义问题 (Barrett & Mediano 2019)",
+        "可计算性问题 (Maguire et al. 2014)",
+        "麻醉状态反例",
+        "睡眠研究反例",
+        "GWT 竞争理论"
+      ]
+    },
+    "judge": {
+      "status": "completed",
+      "outputFile": "literature_synthesis_final.md",
+      "knowledgeCard": "KC-488_文献对抗学习_综合.md",
+      "verdict": "ITLCT 是有前景的早期框架，需向可检验理论过渡",
+      "keepAssumptions": [
+        "时间 - 信息耦合是核心",
+        "信息引力效应",
+        "因果涌现框架"
+      ],
+      "modifyAssumptions": [
+        "ε可精确计算 → 接受近似 + 误差边界",
+        "ITLCT 解释所有意识 → 限定适用范围",
+        "Φ定义唯一 → 明确ε定义域",
+        "整合单向决定时间 → 双向耦合"
+      ],
+      "abandonAssumptions": [
+        "ε可精确计算",
+        "ITLCT 解释所有意识现象"
+      ],
+      "theoreticalGaps": [
+        "时间箭头形式化",
+        "信息引力预测",
+        "平台依赖参数ε",
+        "熵增 - 整合关系",
+        "AI 意识预测",
+        "社会系统整合"
+      ],
+      "testablePredictions": [
+        "信息流→时间箭头 (3-6 月)",
+        "ε平台依赖 (6-12 月)",
+        "信息引力效应 (12-24 月)",
+        "熵增 - 整合效率 (6-12 月)",
+        "梦境时间箭头 (3-6 月)"
+      ]
+    }
+  },
+  "cooperativeLabs": {
+    "identified": 7,
+    "labs": [
+      {"priority": 5, "name": "Tononi Lab", "PI": "Giulio Tononi", "institution": "UW-Madison", "direction": "IIT 4.0 与 ITLCT 比较"},
+      {"priority": 5, "name": "Friston Lab", "PI": "Karl J. Friston", "institution": "UCL", "direction": "DCM 与时间箭头整合"},
+      {"priority": 4, "name": "Hoel Lab", "PI": "Erik Hoel", "institution": "Tufts/MIT", "direction": "因果涌现数学联系"},
+      {"priority": 4, "name": "Boly Lab", "PI": "Melanie Boly", "institution": "UW-Madison", "direction": "意识障碍实证"},
+      {"priority": 4, "name": "Laureys Group", "PI": "Steven Laureys", "institution": "ULiège", "direction": "传递熵测量"},
+      {"priority": 3, "name": "Zhang Lab", "PI": "Jiang Zhang", "institution": "BNU", "direction": "因果涌现计算"},
+      {"priority": 3, "name": "Mediano Lab", "PI": "Pedro A. M. Mediano", "institution": "Cambridge", "direction": "信息分解方法"}
+    ]
+  },
+  "successCriteria": {
+    "literatureCoverage": {"target": "270+", "actual": 270, "status": "completed"},
+    "blueEvidence": {"target": "≥20", "actual": 25, "status": "completed"},
+    "redChallenges": {"target": "≥10", "actual": 15, "status": "completed"},
+    "judgeReport": {"target": "明确行动清单", "actual": "修正 3 项/放弃 4 项/坚持 4 项", "status": "completed"},
+    "knowledgeCards": {"target": 3, "actual": 3, "status": "completed"},
+    "cooperativeLabs": {"target": "≥5", "actual": 7, "status": "completed"},
+    "theoreticalGaps": {"target": "≥3", "actual": 6, "status": "completed"}
+  },
+  "nextActions": {
+    "immediate": [
+      "修订 ITLCT 核心公式 (加入时间显式项)",
+      "发布ε测量协议 v1.0",
+      "联系 Tononi Lab"
+    ],
+    "shortTerm": [
+      "设计 Tier 1B 实验 (信息流→时间箭头)",
+      "撰写综述文章",
+      "加入 INTREPID Consortium"
+    ],
+    "midTerm": [
+      "arXiv 发布 ITLCT v25.0",
+      "启动实验验证",
+      "学术会议投稿 (ASSC/TSC 2026)"
+    ],
+    "longTerm": [
+      "建立 5+ 实验室合作网络",
+      "ITLCT v26.0 (基于实证反馈)",
+      "至少 1 个独特预测验证"
+    ]
+  },
+  "itlctStatus": {
+    "currentStage": "早期概念框架 → 正在向可检验理论过渡",
+    "strengths": [
+      "独特预测 (时间箭头、信息引力)",
+      "理论自洽性高",
+      "与主流理论兼容部分多",
+      "数学基础可借鉴 (因果涌现)"
+    ],
+    "weaknesses": [
+      "实证数据缺乏",
+      "计算方法需完善",
+      "测量协议未标准化",
+      "学术影响力低"
+    ],
+    "opportunities": [
+      "时间维度是独特切入点",
+      "INTREPID Consortium 开放合作",
+      "AI 意识研究兴起",
+      "因果涌现理论成熟"
+    ],
+    "threats": [
+      "IIT 4.0 持续发展",
+      "预测处理实证丰富",
+      "Φ测量批评可能波及ε",
+      "实证验证时间窗口有限 (1-2 年)"
+    ]
+  }
+}

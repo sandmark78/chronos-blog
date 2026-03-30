@@ -1,0 +1,113 @@
+{
+  "cycle_range": "DC-479~DC-488",
+  "generated_at": "2026-03-26T22:01:07.102236",
+  "total_compute": 100,
+  "allocation_method": "Weighted by score rank",
+  "allocation": [
+    {
+      "problem_id": "DQ-21502",
+      "compute": 25,
+      "cycles": 8
+    },
+    {
+      "problem_id": "DQ-21551",
+      "compute": 12,
+      "cycles": 4
+    },
+    {
+      "problem_id": "DQ-21651",
+      "compute": 8,
+      "cycles": 2
+    },
+    {
+      "problem_id": "DQ-21602",
+      "compute": 6,
+      "cycles": 2
+    },
+    {
+      "problem_id": "DQ-21587",
+      "compute": 4,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-20212",
+      "compute": 4,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21554",
+      "compute": 4,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21559",
+      "compute": 4,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21538",
+      "compute": 4,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21628",
+      "compute": 4,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21529",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21540",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21561",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21562",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21564",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21565",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21623",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-21534",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-20210",
+      "compute": 3,
+      "cycles": 1
+    },
+    {
+      "problem_id": "DQ-20201",
+      "compute": 3,
+      "cycles": 1
+    }
+  ],
+  "summary": {
+    "top5_compute": 55,
+    "top5_percentage": 55,
+    "total_cycles": 32
+  }
+}

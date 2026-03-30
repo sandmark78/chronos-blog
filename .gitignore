@@ -15,26 +15,49 @@
 !BOOTSTRAP.md
 !_config.yml
 
-# Blog
-!blog/
+# Blog - 完整博客内容
+!blog/.github/
+!blog/.github/**/*
+!blog/assets/
+!blog/assets/**/*
+!blog/posts/
+!blog/posts/*.md
+!blog/*.md
+!blog/_config.yml
+!blog/index.md
+!blog/LICENSE
+!blog/README.md
+!blog/DEPLOYMENT.md
+!blog/QUICK_DEPLOY.md
+!blog/bug-bounty.md
+!blog/contributors.md
+!blog/summaries/
+!blog/summaries/**/*
+!blog/verification/
+!blog/verification/**/*
 
 # Knowledge cards
 !knowledge-cards/
+!knowledge-cards/*.md
 
 # Reports
 !reports/
+!reports/*.md
 
 # Problem database
 !problem-database/
+!problem-database/*.json
 
 # Memory
 !memory/
+!memory/*.md
 
 # arXiv submission
 !arxiv_submission/
 
 # Community
 !community/
+!community/*.md
 
 # Knowledge (public only)
 !knowledge/README.md
@@ -42,12 +65,10 @@
 !knowledge/知识卡片一句话索引.md
 !knowledge/100 核心问题清单.md
 !knowledge/visualizations/
+!knowledge/visualizations/*
 
 # Literature
 !literature/
-
-# Reports (public)
-!reports/
 
 # Additional public files
 !1M Token 上下文优化策略.md
@@ -64,19 +85,18 @@
 !send_itlct_emails*.py
 !work*.md
 !影响力提升/
--e 
+
 # Hypotheses
 !hypotheses/
+!hypotheses/*.md
 
 # Derived Questions
 !derived_questions/
+!derived_questions/*.md
 
 # Thought Experiments
 !thought_experiments/
-
-
-# Explicitly include markdown files in these directories
-!hypotheses/*.md
-!derived_questions/*.md
 !thought_experiments/*.md
+
+# Temp files
 .tmp/

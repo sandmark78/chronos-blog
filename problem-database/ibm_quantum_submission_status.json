@@ -1,0 +1,51 @@
+{
+  "submission_id": "IBM-DC497-20260328-001",
+  "timestamp": "2026-03-28T18:00:35.769668",
+  "status": "preparing",
+  "circuits": [
+    {
+      "name": "GHZ-8",
+      "shots": 16384,
+      "runs": 5,
+      "status": "pending"
+    },
+    {
+      "name": "GHZ-10",
+      "shots": 16384,
+      "runs": 5,
+      "status": "pending"
+    },
+    {
+      "name": "GHZ-12",
+      "shots": 16384,
+      "runs": 5,
+      "status": "pending"
+    }
+  ],
+  "target_device": "ibm_lagos",
+  "estimated_completion": "2026-03-28T22:00:00+08:00",
+  "validation_target": "D-495-01 (β=2 严格值)",
+  "expected_N_corr": {
+    "GHZ-8": {
+      "predicted": 133.3,
+      "ci_95": [
+        120,
+        147
+      ]
+    },
+    "GHZ-10": {
+      "predicted": 208.3,
+      "ci_95": [
+        187,
+        229
+      ]
+    },
+    "GHZ-12": {
+      "predicted": 300.0,
+      "ci_95": [
+        270,
+        330
+      ]
+    }
+  }
+}
