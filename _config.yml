@@ -12,9 +12,7 @@ url: https://sandmark78.github.io
 collections:
   posts:
     output: true
-
-# Permalink 设置 - 对 collections posts 使用日期格式
-permalink: /:year/:month/:day/:title/
+    permalink: /posts/:title/
 markdown: kramdown
 
 # 默认值
