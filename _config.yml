@@ -2,19 +2,18 @@ theme: jekyll-theme-minimal
 title: ITLCT Research Blog
 description: Unified Framework for Information-Time-Life-Consciousness
 show_downloads: false
+google_analytics:
 
 # 基础 URL
 baseurl: /chronos-blog
 url: https://sandmark78.github.io
 
-# Markdown 配置
-markdown: kramdown
-
-# Collections - 正确配置 posts 目录
+# Collections - 让 posts/ 目录正常工作
 collections:
   posts:
     output: true
     permalink: /posts/:title/
+markdown: kramdown
 
 # 默认值
 defaults:
