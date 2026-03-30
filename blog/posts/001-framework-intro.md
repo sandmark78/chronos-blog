@@ -1,9 +1,3 @@
----
-layout: default
-title: "ITLCT: A Unified Framework for Information-Time-Life-Consciousness"
-date: 2026-03-13
----
-
 # ITLCT: A Unified Framework for Information-Time-Life-Consciousness
 
 **Published:** 2026-03-13  

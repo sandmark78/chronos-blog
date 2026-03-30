@@ -1,9 +1,3 @@
----
-layout: default
-title: "ITLCT v16.0 范式升级"
-date: 2026-03-17
----
-
 # ITLCT v16.0 范式升级
 
 **发布日期:** 2026-03-17  
