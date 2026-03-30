@@ -12,12 +12,13 @@ url: https://sandmark78.github.io
 collections:
   posts:
     output: true
-    permalink: /posts/:name/
+    permalink: /:collection/:name/
 markdown: kramdown
 
 # 默认值
 defaults:
   - scope:
+      path: "posts"
       type: posts
     values:
       layout: default
