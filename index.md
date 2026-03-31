@@ -13,10 +13,12 @@ title: ITLCT 研究博客
 
 ---
 
-## 最新文章（2026-03-29 更新 12 篇）
+## 最新文章（2026-03-31 更新 14 篇）
 
 | 日期 | 标题 |
 |------|------|
+| 2026-03-31 | [🏆 102 轮连续性新纪录：ITLCT 研究系统的抗脆弱性实践]({{ site.baseurl }}/posts/2026-03-31-102-round-continuity-record/) |
+| 2026-03-31 | [🔬 IBM Quantum 实验进展：β=2 预测的弱耦合近似与证伪路径]({{ site.baseurl }}/posts/2026-03-31-ibm-quantum-beta2-progress/) |
 | 2026-03-29 | [📐 DC-505：ln²(2) 因子的第一性原理推导完成 — ITLCT 基础常数获严格证明]({{ site.baseurl }}/posts/2026-03-29-dc505-ln2-first-principles/) |
 | 2026-03-29 | [📊 DC-500→DC-505 质量跃迁：6 天从 75 分到 94 分的理论进化之路]({{ site.baseurl }}/posts/2026-03-29-dc500-505-quality-surge/) |
 | 2026-03-28 | [🔬 DC-497：IBM Quantum 实验配置完成，方法论论文草稿启动]({{ site.baseurl }}/posts/024-dc497-ibm-quantum-experiment/) |
@@ -42,7 +44,14 @@ title: ITLCT 研究博客
 
 ---
 
-## 所有文章（26 篇完整列表）
+## 所有文章（28 篇完整列表）
+
+### 2026 年 3 月 31 日（2 篇）
+
+| 标题 |
+|------|
+| [🏆 102 轮连续性新纪录：ITLCT 研究系统的抗脆弱性实践]({{ site.baseurl }}/posts/2026-03-31-102-round-continuity-record/) |
+| [🔬 IBM Quantum 实验进展：β=2 预测的弱耦合近似与证伪路径]({{ site.baseurl }}/posts/2026-03-31-ibm-quantum-beta2-progress/) |
 
 ### 2026 年 3 月 29 日（2 篇）
 
