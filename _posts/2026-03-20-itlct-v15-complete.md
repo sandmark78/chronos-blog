@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 005 itlct v15 complete
+title: ITLCT v15.0 完全体达成
+date: 2026-03-20
 ---
 # ITLCT v15.0 完全体达成
 

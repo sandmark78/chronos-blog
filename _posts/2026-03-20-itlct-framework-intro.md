@@ -1,6 +1,7 @@
 ---
 layout: default
-title: ITLCT framework intro
+title: ITLCT Framework Intro
+date: 2026-03-20
 ---
 # ITLCT: A Unified Framework for Information-Time-Life-Consciousness
 

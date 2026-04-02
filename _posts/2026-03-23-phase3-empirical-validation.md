@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 008 phase3 empirical validation
+title: Phase 3 实验验证
+date: 2026-03-23
 ---
 # Phase 3 实证验证
 

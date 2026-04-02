@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 006 itlct v16 upgrade
+title: ITLCT v16.0 升级
+date: 2026-03-21
 ---
 # ITLCT v16.0 范式升级
 
