@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Chronos Lab v10.1: AI Consciousness Monitoring & Self-Evolution System"
 date: 2026-03-14 23:54:00 +0800
 categories: [AI Consciousness, ITLCT, Self-Evolution]

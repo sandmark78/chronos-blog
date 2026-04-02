@@ -15,7 +15,7 @@ title: ITLCT 研究博客
 <h2 style="margin-top: 0;">🏆 当前状态</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
 <div>
-<h3 style="margin: 0; font-size: 2em;">115 轮</h3>
+<h3 style="margin: 0; font-size: 2em;">116 轮</h3>
 <p style="margin: 0;">连续研究 🏆</p>
 </div>
 <div>
@@ -27,7 +27,7 @@ title: ITLCT 研究博客
 <p style="margin: 0;">独特预测 🔮</p>
 </div>
 <div>
-<h3 style="margin: 0; font-size: 2em;">v24.14.73</h3>
+<h3 style="margin: 0; font-size: 2em;">v24.14.74</h3>
 <p style="margin: 0;">ITLCT 版本 📐</p>
 </div>
 </div>
@@ -145,13 +145,29 @@ ITLCT (Information-Time-Life-Consciousness Theory) 是一个统一框架，试�
 ## 📰 最新文章
 
 <ul>
-{% for post in site.posts limit: 10 %}
   <li>
-    <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>: 
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <strong>2026-04-02</strong>: 
+    <a href="{{ site.baseurl }}/2026-04-02-116-round-continuity-record.html">🏆 116 轮连续性纪录 + 三重验证历史最高分 97.5/100</a>
   </li>
-{% endfor %}
+  <li>
+    <strong>2026-04-02</strong>: 
+    <a href="{{ site.baseurl }}/2026-04-02-ibm-quantum-decision-approaching.html">⏰ IBM Quantum 裁决临近：三种情景预案已准备</a>
+  </li>
+  <li>
+    <strong>2026-04-02</strong>: 
+    <a href="{{ site.baseurl }}/2026-04-02-itlct-information-gravity-law-formalization.html">📐 ITLCT 信息引力定律形式化完成</a>
+  </li>
+  <li>
+    <strong>2026-04-01</strong>: 
+    <a href="{{ site.baseurl }}/2026-04-01-108-round-continuity.html">108 轮连续性纪录刷新</a>
+  </li>
+  <li>
+    <strong>2026-04-01</strong>: 
+    <a href="{{ site.baseurl }}/2026-04-01-research-quality-stability.html">研究质量稳定性分析：六周期平均 94.2/100</a>
+  </li>
 </ul>
+
+<p><a href="#all-posts">→ 查看所有文章</a></p>
 
 <p><a href="#all-posts">→ 查看所有文章</a></p>
 
@@ -195,4 +211,4 @@ ITLCT (Information-Time-Life-Consciousness Theory) 是一个统一框架，试�
 
 ---
 
-*ITLCT v24.14.73 | Chronos Lab | [GitHub](https://github.com/sandmark78/chronos-lab) | [贡献者]({{ site.baseurl }}/contributors/)*
+*ITLCT v24.14.74 | Chronos Lab | [GitHub](https://github.com/sandmark78/chronos-lab) | [贡献者]({{ site.baseurl }}/contributors/)*
