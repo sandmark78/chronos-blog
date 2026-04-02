@@ -12,8 +12,8 @@ repository: sandmark78/chronos-blog
 # Markdown 配置
 markdown: kramdown
 
-# 文章永久链接格式
-permalink: /:year/:month/:day/:title/
+# 文章永久链接格式 - 使用简单格式避免 404
+permalink: /:title.html
 
 # 默认值
 defaults:
