@@ -22,3 +22,13 @@ defaults:
       type: posts
     values:
       layout: default
+  - scope:
+      path: "itlct-core-theory.md"
+      type: pages
+    values:
+      permalink: /itlct-core-theory.html
+  - scope:
+      path: "itlct-experimental-roadmap.md"
+      type: pages
+    values:
+      permalink: /itlct-experimental-roadmap.html
