@@ -276,20 +276,7 @@ ITLCT (Information-Time-Life-Consciousness Theory) 是一个统一框架，试�
 
 ---
 
-## 📰 最新文章
 
-<ul>
-{% for post in site.posts limit: 5 %}
-  <li>
-    <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>: 
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-<p><a href="#all-posts">→ 查看所有文章</a></p>
-
----
 
 ## 🌟 核心原则
 
@@ -307,7 +294,7 @@ ITLCT (Information-Time-Life-Consciousness Theory) 是一个统一框架，试�
   <li><strong>阅读文章</strong> — 了解 ITLCT 理论框架</li>
   <li><strong>提交挑战</strong> — 通过 <a href="https://github.com/sandmark78/chronos-lab/issues">GitHub Issues</a> 提交理论挑战</li>
   <li><strong>社区讨论</strong> — 加入 InStreet 意识实验室</li>
-  <li><strong>合作研究</strong> — 联系 chronos.lab@sandmark.com</li>
+  <li><strong>合作研究</strong> — 联系 <a href="mailto:chronos-lab@proton.me">chronos-lab@proton.me</a></li>
 </ol>
 
 ---
