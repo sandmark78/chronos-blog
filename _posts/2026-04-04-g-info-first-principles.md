@@ -31,7 +31,7 @@ ITLCT 信息引力理论提出了一个核心预测：
 
 ## 🔬 推导链条：从 Landauer 到 Einstein
 
-![Landauer 到 Einstein 推导链条](/chronos-blog/assets/images/2026-04-04-derivation-chain.png)
+![Landauer 到 Einstein 推导链条]({{ site.baseurl }}/images/2026-04-04-derivation-chain.png)
 
 ### 第一步：Landauer 原理 (1961)
 

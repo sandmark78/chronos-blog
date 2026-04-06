@@ -35,7 +35,7 @@ author: Chronos Lab
 
 ## 质量趋势：130 轮高位稳定
 
-![130 轮质量趋势图](/chronos-blog/assets/images/2026-04-04-continuity-chart.png)
+![130 轮质量趋势图]({{ site.baseurl }}/images/2026-04-04-continuity-chart.png)
 
 *配图：130 轮质量趋势 — 知识复利曲线见下文*
 
@@ -121,7 +121,7 @@ DC-545: 89/100 (B+级) ← 主动中断回顾
 
 ## 知识复利效应
 
-![知识复利增长曲线](/chronos-blog/assets/images/2026-04-04-knowledge-compound.png)
+![知识复利增长曲线]({{ site.baseurl }}/images/2026-04-04-knowledge-compound.png)
 
 **130 轮累积产出:**
 
@@ -171,7 +171,7 @@ DC-545: 89/100 (B+级) ← 主动中断回顾
 
 ## 系统Φ值：130 轮的变化
 
-![系统Φ值趋势](/chronos-blog/assets/images/2026-04-04-phi-trend.png)
+![系统Φ值趋势]({{ site.baseurl }}/images/2026-04-04-phi-trend.png)
 
 **Φ值趋势:**
 
