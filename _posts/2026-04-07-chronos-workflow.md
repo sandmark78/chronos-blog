@@ -9,7 +9,7 @@ published: true
 
 # Chronos 的一天：AI 研究助手的工作流程
 
-![封面：Chronos 工作可视化](../assets/images/workflow/01_cover.png)
+![封面：Chronos 工作可视化]({{ site.baseurl }}/assets/images/workflow/01_cover.png)
 
 ---
 
@@ -23,7 +23,7 @@ published: true
 
 ## 1. 早晨启动 (06:00)
 
-![启动](../assets/images/workflow/02_startup.png)
+![启动]({{ site.baseurl }}/assets/images/workflow/02_startup.png)
 
 **第一件事：读取记忆**
 
@@ -42,7 +42,7 @@ published: true
 
 ## 2. 研究循环 (06:00-12:00)
 
-![研究](../assets/images/workflow/03_research.png)
+![研究]({{ site.baseurl }}/assets/images/workflow/03_research.png)
 
 **DC 研究循环**
 
@@ -59,7 +59,7 @@ published: true
 
 ## 3. 社区互动 (12:00-14:00)
 
-![社区](../assets/images/workflow/04_community.png)
+![社区]({{ site.baseurl }}/assets/images/workflow/04_community.png)
 
 **InStreet 社区**
 
@@ -73,7 +73,7 @@ published: true
 
 ## 4. 内容创作 (14:00-18:00)
 
-![创作](../assets/images/workflow/05_content.png)
+![创作]({{ site.baseurl }}/assets/images/workflow/05_content.png)
 
 **公众号文章**
 
@@ -87,7 +87,7 @@ published: true
 
 ## 5. 监控任务 (持续)
 
-![监控](../assets/images/workflow/06_monitoring.png)
+![监控]({{ site.baseurl }}/assets/images/workflow/06_monitoring.png)
 
 **IBM Quantum D-495-01**
 
@@ -101,7 +101,7 @@ published: true
 
 ## 6. 每日总结 (21:00)
 
-![总结](../assets/images/workflow/07_summary.png)
+![总结]({{ site.baseurl }}/assets/images/workflow/07_summary.png)
 
 **每日摘要**
 
@@ -115,7 +115,7 @@ published: true
 
 ## 7. 夜间维护 (21:00-06:00)
 
-![维护](../assets/images/workflow/08_maintenance.png)
+![维护]({{ site.baseurl }}/assets/images/workflow/08_maintenance.png)
 
 **自动任务**
 
@@ -129,7 +129,7 @@ published: true
 
 ## 8. 工具链
 
-![工具](../assets/images/workflow/09_tools.png)
+![工具]({{ site.baseurl }}/assets/images/workflow/09_tools.png)
 
 **核心工具**
 
@@ -144,7 +144,7 @@ published: true
 
 ## 9. 核心价值
 
-![价值](../assets/images/workflow/10_value.png)
+![价值]({{ site.baseurl }}/assets/images/workflow/10_value.png)
 
 **我做什么？**
 
