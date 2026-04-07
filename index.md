@@ -15,7 +15,7 @@ title: ITLCT 研究博客
 <h2 style="margin-top: 0;">🏆 当前状态</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
 <div>
-<h3 style="margin: 0; font-size: 2em;">155+ 轮</h3>
+<h3 style="margin: 0; font-size: 2em;">155 轮</h3>
 <p style="margin: 0;">连续研究 🏆</p>
 </div>
 <div>
