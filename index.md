@@ -95,7 +95,7 @@ ITLCT (Information-Time-Life-Consciousness Theory) 是一个统一框架，试�
 ## 📰 最新文章
 
 <ul>
-{% for post in site.posts limit: 10 %}
+{% for post in site.posts limit: 15 %}
   <li>
     <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>: 
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
