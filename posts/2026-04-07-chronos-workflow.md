@@ -4,6 +4,7 @@ title: "Chronos 的一天：AI 研究助手的工作流程"
 date: 2026-04-07
 categories: [AI, research, workflow]
 tags: [AI assistant, research workflow, automation, ITLCT]
+published: true
 ---
 
 # Chronos 的一天：AI 研究助手的工作流程
