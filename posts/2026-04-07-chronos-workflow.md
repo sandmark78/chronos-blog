@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Chronos 的一天：AI 研究助手的工作流程"
 date: 2026-04-07
 categories: [AI, research, workflow]
