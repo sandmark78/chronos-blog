@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chronos Lab | 研究控制台</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-sub: #64748b;
+      --border: #e2e8f0;
+      --green: #16a34a;
+      --yellow: #ca8a04;
+      --red: #dc2626;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    /* Header */
+    header {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.5px;
+    }
+
+    .logo span { color: var(--primary); }
+
+    .status-badge {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      background: #dcfce7;
+      color: var(--green);
+    }
+
+    /* Hero */
+    .hero {
+      padding: 48px 32px 24px;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      color: var(--text-sub);
+    }
+
+    /* Grid */
+    .grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 32px 64px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(37, 99, 235, 0.08);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .icon-box {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .stat-item {
+      background: #f8fafc;
+      padding: 12px;
+      border-radius: 8px;
+    }
+
+    .stat-val {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-sub);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+    }
+
+    .tag-verified { background: #dcfce7; color: var(--green); }
+    .tag-testing { background: #fef9c3; color: var(--yellow); }
+    .tag-critical { background: #fee2e2; color: var(--red); }
+
+    .btn {
+      display: inline-block;
+      text-align: center;
+      background: var(--primary);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+    .btn:hover { background: #1d4ed8; }
+
+    .article-list {
+      list-style: none;
+    }
+
+    .article-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .article-list li:last-child { border-bottom: none; }
+
+    .article-list a {
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .article-list a:hover { color: var(--primary); }
+
+    .date {
+      font-size: 12px;
+      color: var(--text-sub);
+      margin-right: 8px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--text-sub);
+      font-size: 12px;
+    }
+    
+    footer a { color: var(--text-sub); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Chronos<span>Lab</span></div>
+    <div class="status-badge">System Healthy</div>
+  </header>
+
+  <section class="hero">
+    <h1>Information-Time-Life-Consciousness Theory</h1>
+    <p>Real-time research dashboard for the ITLCT framework.</p>
+  </section>
+
+  <div class="grid">
+
+    <!-- Status Card -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-box">📊</div>
+        <div class="card-title">System Status</div>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="stat-val">v25.74</div>
+          <div class="stat-label">Version</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val">246 🏆</div>
+          <div class="stat-label">Continuity</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val" style="color:var(--green)">0 🔴</div>
+          <div class="stat-label">Blocking</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val">A (85)</div>
+          <div class="stat-label">Quality</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Theorems -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-box" style="background: linear-gradient(135deg, #4c1d95, #7c3aed);">🧠</div>
+        <div class="card-title">Latest Theorems</div>
+      </div>
+      <div class="tags">
+        <span class="tag tag-verified">T658-01 κ_NL Fingerprint</span>
+        <span class="tag tag-verified">T658-02 Decoherence Classes</span>
+        <span class="tag tag-testing">T658-03 κ Ambiguity</span>
+      </div>
+      <p style="font-size: 14px; color: var(--text-sub);">
+        Non-linear competition index uniquely identifies entanglement types (GHZ > 0, W < 0). W-state shows asymptotic robustness.
+      </p>
+      <a href="#" class="btn">View Theorem Library</a>
+    </div>
+
+    <!-- Contradictions -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-box" style="background: linear-gradient(135deg, #14532d, #16a34a);">🛡️</div>
+        <div class="card-title">Contradiction Queue</div>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="stat-val" style="color:var(--green)">0</div>
+          <div class="stat-label">Critical</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val" style="color:var(--green)">0</div>
+          <div class="stat-label">Important</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; color: var(--text-sub);">
+        Queue is clean. All blocking issues resolved. Self-correction mechanism active.
+      </p>
+    </div>
+
+    <!-- Latest Articles -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-box" style="background: linear-gradient(135deg, #334155, #64748b);">📝</div>
+        <div class="card-title">Latest Articles</div>
+      </div>
+      <ul class="article-list">
+        <li><span class="date">04/12</span> <a href="/2026/04/12/beta-tensor-information-gravity/">Beta Tensor & Info Gravity</a></li>
+        <li><span class="date">04/10</span> <a href="/2026/04/10/bridging-postulate/">Bridging Postulate & Fisher Metric</a></li>
+        <li><span class="date">04/11</span> <a href="/2026/04/11/fisher-metric/">Fisher Metric & Decoherence</a></li>
+      </ul>
+      <a href="/posts" class="btn">Read All Posts</a>
+    </div>
+
+  </div>
+
+  <footer>
+    Powered by <a href="https://github.com/sandmark78/chronos-blog">Chronos Lab</a> | Built with HTML/CSS
+  </footer>
+
+</body>
+</html>
