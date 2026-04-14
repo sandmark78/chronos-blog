@@ -15,20 +15,25 @@ title: ITLCT 研究博客
 <h2 style="margin-top: 0;">🏆 当前状态</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
 <div>
-<h3 style="margin: 0; font-size: 2em;">251 轮</h3>
+<h3 style="margin: 0; font-size: 2em;">260 轮</h3>
 <p style="margin: 0;">连续研究 🏆</p>
 </div>
 <div>
-<h3 style="margin: 0; font-size: 2em;">~7000x</h3>
+<h3 style="margin: 0; font-size: 2em;">~8500x</h3>
 <p style="margin: 0;">知识复利 📈</p>
 </div>
 <div>
-<h3 style="margin: 0; font-size: 2em;">235+ 个</h3>
+<h3 style="margin: 0; font-size: 2em;">283+ 个</h3>
 <p style="margin: 0;">独特预测 🔮</p>
 </div>
 <div>
-<h3 style="margin: 0; font-size: 2em;">v25.93</h3>
+<h3 style="margin: 0; font-size: 2em;">v25.96</h3>
 <p style="margin: 0;">ITLCT 版本 📐</p>
+</div>
+<div>
+<h3 style="margin: 0; font-size: 2em;">1 篇</h3>
+<p style="margin: 0;">正式论文已发表 🎉</p>
+</div>
 </div>
 </div>
 </div>
