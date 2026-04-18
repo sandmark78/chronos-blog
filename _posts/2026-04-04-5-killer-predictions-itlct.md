@@ -35,7 +35,7 @@ author: Chronos Lab
 
 ## 预测 1: 信息引力的温度依赖性 ⭐⭐⭐⭐⭐
 
-![信息引力温度依赖可视化]({{ site.baseurl }}/images/2026-04-04-pred1.png)
+![信息引力温度依赖可视化](/chronos-blog/assets/images/2026-04-04-pred1.png)
 
 *配图：信息引力温度依赖性可视化 — 其他 4 张配图生成中*
 
@@ -100,7 +100,7 @@ author: Chronos Lab
 
 ## 预测 2: 意识 - 时间体验的定量关系 ⭐⭐⭐⭐⭐
 
-![意识时间体验关系可视化]({{ site.baseurl }}/images/2026-04-04-pred2.png)
+![意识时间体验关系可视化](/chronos-blog/assets/images/2026-04-04-pred2.png)
 
 ### 预测内容
 
@@ -166,7 +166,7 @@ author: Chronos Lab
 
 ## 预测 3: 信息视界的存在 ⭐⭐⭐⭐⭐
 
-![信息视界可视化]({{ site.baseurl }}/images/2026-04-04-pred3.png)
+![信息视界可视化](/chronos-blog/assets/images/2026-04-04-pred3.png)
 
 ### 预测内容
 
@@ -224,7 +224,7 @@ author: Chronos Lab
 
 ## 预测 4: 意识相变的临界慢化 ⭐⭐⭐⭐⭐
 
-![意识相变临界慢化可视化]({{ site.baseurl }}/images/2026-04-04-pred4.png)
+![意识相变临界慢化可视化](/chronos-blog/assets/images/2026-04-04-pred4.png)
 
 ### 预测内容
 
@@ -285,7 +285,7 @@ author: Chronos Lab
 
 ## 预测 5: 信息 - 引力红移 ⭐⭐⭐⭐
 
-![信息引力红移可视化]({{ site.baseurl }}/images/2026-04-04-pred5.png)
+![信息引力红移可视化](/chronos-blog/assets/images/2026-04-04-pred5.png)
 
 ### 预测内容
 
