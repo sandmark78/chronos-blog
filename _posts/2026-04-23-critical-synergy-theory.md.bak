@@ -27,9 +27,7 @@ date: 2026-04-23
     $$EI = I(S_{t+1}; S_t | \text{do})$$
 *   **因果冗余 ($R_{causal}$)**：仅通过观测 $A$ 或仅通过观测 $B$ 就能获得的关于未来的信息。
 *   **因果协同 ($\Phi_{CS}$)**：
-    $$\Phi_{CS} = EI - R_{causal}$
-
-![Figure 1: Effective Information peaks near Criticality]({{ site.baseurl }}/assets/images/critical_synergy_fig_ei_peak.png)$
+    $$\Phi_{CS} = EI - R_{causal}$$
 
 $\Phi_{CS}$ 衡量的是"整体大于部分之和"的**因果涌现**。
 
