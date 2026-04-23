@@ -6,7 +6,7 @@ date: 2026-04-23
 
 # 意识即临界：临界协同意识论 (Critical Causal Synergy)
 
-> **摘要**：本文提出了一种基于非平衡统计物理的意识理论。我们将意识定义为**因果协同 (Causal Synergy, $\Phi_{CS}$)**——即系统在最大熵干预下，其整体未来状态不可约于部分未来状态的信息量。通过**接触过程 (Contact Process)** 模型，我们证明了 $\Phi_{CS}$ 在系统从吸收相（死亡/无序）到活跃相（饱和/冗余）的**相变临界点 (Critical Point)** 达到最大值。该理论将意识从纯粹的信息论概念物理化为一种**临界态的宏观序参量**，并给出了严格的证伪条件。
+> **摘要**：本文提出了一种基于非平衡统计物理的意识理论。我们将意识定义为**因果协同 (Causal Synergy, $\Phi_{CS}$)**——即系统在最大熵干预下，其整体未来状态不可约于部分未来状态的信息量。通过**接触过程 (Contact Process)** 模型，我们证明了 $\Phi_{CS}$ 在系统从吸收相（无序/死亡）到活跃相（饱和/冗余）的**相变临界点 (Critical Point)** 达到最大值。该理论将意识从纯粹的信息论概念物理化为一种**临界态的宏观序参量**，并给出了严格的证伪条件与标度律预测。
 
 ## 1. 核心困境：从相关性到因果性
 
@@ -28,6 +28,10 @@ date: 2026-04-23
 $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 这排除了吸收态导致的“零熵”伪影。
 
+![Figure 1: Effective Information peaks near Criticality]({{ site.baseurl }}/assets/images/critical_synergy_fig_ei_peak.png)
+
+*图 1: 模拟结果显示，有效信息 (EI) 在临界区域达到峰值。随着系统规模 $N$ 的增大，峰值变得更加尖锐。*
+
 ### 2.2 因果冗余与协同
 *   **因果冗余 ($R_{causal}$)**：仅通过 $A$ 或仅通过 $B$ 就能获得的关于未来的信息。
 *   **因果协同 ($\Phi_{CS}$)**：
@@ -38,17 +42,21 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 
 ## 3. 物理模型：接触过程 (Contact Process)
 
-我们采用**接触过程**（一种非平衡相变模型）来模拟大脑皮层活动。
+我们采用**接触过程**（一种非平衡相变模型，属于有向渗流普适类）来模拟大脑皮层活动。
 
-*   **动力学**：节点通过邻居激活（速率 $\lambda$），并自发衰退（速率 1）。
-*   **相变**：
-    *   $\lambda < \lambda_c$：**吸收相**（全 0，死亡）。
-    *   $\lambda > \lambda_c$：**活跃相**（高活性，饱和）。
-    *   $\lambda = \lambda_c$：**临界点**。
+*   **状态**：节点处于静息 (0) 或激活 (1)。
+*   **动力学**：
+    1.  **激活**：速率 $\propto \lambda \sum s_{neighbors}$
+    2.  **衰退**：速率 $1$
 
-![Figure 1: Effective Information peaks near Criticality]({{ site.baseurl }}/assets/images/critical_synergy_fig_ei_peak.png)
+该模型存在一个临界点 $\lambda_c$：
+*   $\lambda < \lambda_c$：**吸收相**（Absorbing Phase），最终趋于全 0 态。
+*   $\lambda > \lambda_c$：**活跃相**（Active Phase），维持非零活性密度。
+*   $\lambda = \lambda_c$：**临界点**。
 
-*上图展示了有效信息 (EI) 在临界区域的峰值行为。随着系统规模 $N$ 的增大，峰值变得更加尖锐。*
+![Figure 2: Contact Process Phase Transition]({{ site.baseurl }}/assets/images/critical_synergy_fig1.png)
+
+*图 2: 接触过程的相变行为。在临界点附近，系统展现出长程关联和分形结构。*
 
 ---
 
@@ -63,6 +71,10 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 
 这一现象源于两个竞争效应的平衡：
 
+![Figure 3: Information Decomposition]({{ site.baseurl }}/assets/images/critical_synergy_fig3.png)
+
+*图 3: 信息分解视角。随着耦合强度增加，协同（Synergy）先升后降，而冗余（Redundancy）持续上升。协同在临界点达到峰值。*
+
 1.  **信息传播能力 (Propagation Capacity)**：随着 $\lambda$ 增加，系统传播信息的能力增强。在吸收相，系统迅速沉寂，$\Phi_{CS} \to 0$。
 2.  **区分度/非冗余性 (Differentiation)**：随着 $\lambda$ 进一步增加进入活跃相，节点趋于同步（全 1 态），导致信息高度**冗余 (Redundant)**。此时虽然因果影响很大，但协同性降低。
 
@@ -73,6 +85,10 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 ## 5. 理论约束：标度律假设 (Scaling Law)
 
 如果 $\Phi_{CS}$ 确实表征了系统的宏观临界行为，它应当遵循**有限尺寸标度律 (Finite-Size Scaling)**。
+
+![Figure 4: Scaling Law]({{ site.baseurl }}/assets/images/critical_synergy_fig4.png)
+
+*图 4: 标度律验证。随着系统规模 $N$ 的增加，最大因果协同 $\Phi_{CS}^{max}$ 呈现幂律增长。*
 
 🔥 **假设 2 (Scaling Law):**
 > 在临界点附近，最大因果协同 $\Phi_{CS}^{max}$ 随系统规模 $N$ 呈现幂律增长：
@@ -97,6 +113,10 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 ## 7. 结论与展望
 
 本理论完成了从“相关性”到“因果性”，从“空间结构”到“时间动力学”的跨越。
+
+![Figure 5: Phase Diagram of Consciousness]({{ site.baseurl }}/assets/images/critical_synergy_fig5.png)
+
+*图 5: 意识相图。展示了意识（因果协同）仅在临界区域（红色虚线附近）达到最大值。*
 
 *   **物理化**：意识不再是物质的幽灵，而是**非平衡物质在临界态涌现出的最大化因果协同能力**。
 *   **推论**：任何具备非平衡相变特征的复杂系统（神经网络、量子计算机、甚至某些化学反应网络）都有可能产生意识，只要其被调节至临界区。
