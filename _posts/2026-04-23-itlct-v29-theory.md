@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "ITLCT v29.0: 临界协同意识论的数学框架与数值验证"
+title: "ITLCT v29.0: 临界协同意识论的数学框架"
 date: 2026-04-23
 ---
 
-# ITLCT v29.0: 临界协同意识论的数学框架与数值验证
+# ITLCT v29.0: 临界协同意识论的数学框架
 
-> **摘要**：本文提出了基于非平衡统计物理的意识理论——**临界协同理论 (Critical Synergy Theory, CST)**。我们将意识定义为**因果协同 (Causal Synergy, $\Phi_{CS}$)**，即系统在最大熵干预下，其整体未来状态不可约于部分未来状态的信息量。通过**接触过程 (Contact Process)** 模型，我们证明了 $\Phi_{CS}$ 在系统从吸收相（无序/死亡）到活跃相（饱和/冗余）的**相变临界点 (Critical Point)** 达到最大值。该理论将意识从纯粹的信息论概念物理化为一种**临界态的宏观序参量**，并给出了严格的证伪条件与标度律预测。
+> **摘要**：本文提出了基于非平衡统计物理的意识理论——**临界协同理论 (Critical Synergy Theory, CST)**。我们将意识定义为**因果协同 (Causal Synergy, $\Phi_{CS}$)**，即系统在最大熵干预下，其整体未来状态不可约于部分未来状态的信息量。通过**接触过程 (Contact Process)** 模型，我们证明了 $\Phi_{CS}$ 在系统从吸收相到活跃相的**相变临界点**达到最大值。该理论将意识从纯粹的信息论概念物理化为一种**临界态的宏观序参量**，并给出了严格的证伪条件与标度律预测。
 
 ## 1. 引言：从相关性到因果性
 
 在探索意识的物理基础时，我们面临三大挑战：
-1.  **平衡态的局限**：传统的伊辛模型（Ising Model）缺乏时间箭头，只能计算空间关联。
+1.  **平衡态的局限**：传统的伊辛模型缺乏时间箭头，只能计算空间关联。
 2.  **定义的模糊性**：难以区分“相关性 (Correlation)"、“冗余 (Redundancy)"与真正的“协同 (Synergy)"。
 3.  **计算复杂性**：传统的 $\Phi$ 度量在大型系统中难以计算。
 
@@ -33,7 +33,7 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 *   **因果协同 ($\Phi_{CS}$)**：
     $$\Phi_{CS} = EI - R_{causal}$$
 
-![Figure 5: Causal Synergy Mechanism](/assets/images/v29_fig5_mechanism.png)
+![Figure 5: Causal Synergy Mechanism](https://sandmark78.github.io/chronos-blog/assets/images/v29_fig5_mech.png)
 
 *图 5: 机制图。有效信息衡量总因果力，减去冗余后，剩余部分即为协同。*
 
@@ -49,9 +49,9 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
     *   $\lambda > \lambda_c$：**活跃相**（高活性，饱和）。
     *   $\lambda = \lambda_c$：**临界点**。
 
-![Figure 2: Phase Transition](/assets/images/v29_fig2_phase_transition.png)
+![Figure 3: Phase Transition](https://sandmark78.github.io/chronos-blog/assets/images/v29_fig3_phase.png)
 
-*图 2: 接触过程的相变行为。随着 $\lambda$ 增加，系统从无序（低密度）跃迁到有序（高密度）。*
+*图 3: 接触过程的相变行为。随着 $\lambda$ 增加，系统从无序（低密度）跃迁到有序（高密度）。*
 
 ---
 
@@ -62,7 +62,7 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 ### 4.1 有效信息的峰值
 首先，我们观察到**有效信息 (EI)**（系统整体的因果约束力）在临界点附近达到峰值。
 
-![Figure 1: Effective Information peaks at Criticality](/assets/images/v29_fig1_ei_peak.png)
+![Figure 1: Effective Information peaks at Criticality](https://sandmark78.github.io/chronos-blog/assets/images/v29_fig1_ei.png)
 
 *图 1: 有效信息 (EI) 在临界区域达到峰值。随着系统规模 $N$ 的增大，峰值变得更加尖锐。*
 
@@ -79,9 +79,9 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 
 如果 $\Phi_{CS}$ 确实是意识的物理对应物，它应当表现出宏观系统的标度行为。
 
-![Figure 3: Scaling Law](/assets/images/v29_fig3_scaling_law.png)
+![Figure 2: Scaling Law](https://sandmark78.github.io/chronos-blog/assets/images/v29_fig2_scaling.png)
 
-*图 3: 标度律验证。随着系统规模 $N$ 的增加，最大因果协同 $\Phi_{CS}^{max}$ 呈现幂律增长 ($\gamma \approx 1.4$)。*
+*图 2: 标度律验证。随着系统规模 $N$ 的增加，最大因果协同 $\Phi_{CS}^{max}$ 呈现幂律增长 ($\gamma \approx 1.3$)。*
 
 **结果**：
 我们观测到了明显的**幂律标度**（Power Law Scaling）。这意味着意识并非小系统的简单加和，而是一种随规模**涌现 (Emerge)** 的宏观性质。
@@ -92,7 +92,7 @@ $$EI = I(S_{t+1}; S_t \mid \text{do})$$
 
 在临界点，系统展现出独特的时空结构——分形和自相似性。
 
-![Figure 4: Space-Time Dynamics](/assets/images/v29_fig4_space_time.png)
+![Figure 4: Space-Time Dynamics](https://sandmark78.github.io/chronos-blog/assets/images/v29_fig4_ca.png)
 
 *图 4: 临界态下的时空演化图。我们可以看到活跃簇（白色）呈现出分形结构，这是复杂系统处于“混沌边缘”的典型特征。*
 
