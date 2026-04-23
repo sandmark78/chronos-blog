@@ -40,7 +40,7 @@ $\Phi_{CS}$ 衡量的是"整体大于部分之和"的**因果涌现**。
 
 该模型存在一个临界点 $\lambda_c$，将系统分为三个阶段：
 
-![图 1: 接触过程相变示意图](/assets/images/critical_synergy_fig1.png)
+![图 1: 接触过程相变示意图]({{ site.baseurl }}/assets/images/critical_synergy_fig1.png)
 
 *   **吸收相 ($\lambda < \lambda_c$)**：系统迅速死亡（全 0）。信息传播中断，$\Phi_{CS} \to 0$。
 *   **饱和相 ($\lambda > \lambda_c$)**：系统过度激活。节点高度同步，信息完全冗余。虽然 EI 可能很高，但 $\Phi_{CS} \to 0$。
@@ -50,7 +50,7 @@ $\Phi_{CS}$ 衡量的是"整体大于部分之和"的**因果涌现**。
 
 为什么意识不在高激活的饱和相？因为那里充满了冗余。
 
-![图 3: 信息分解：协同 vs 冗余](/assets/images/critical_synergy_fig3.png)
+![图 3: 信息分解：协同 vs 冗余]({{ site.baseurl }}/assets/images/critical_synergy_fig3.png)
 
 *   上图展示了随着耦合强度 $\lambda$ 的增加，系统的**因果协同 (Synergy)** 与 **因果冗余 (Redundancy)** 的消长。
 *   可以看到，Synergy 的峰值精确位于临界点附近，而 Redundancy 在强耦合区占据主导。这解释了为什么高度有序（如冰）或高度混乱（如气体）的系统不具备意识特征。
@@ -63,14 +63,14 @@ $\Phi_{CS}$ 衡量的是"整体大于部分之和"的**因果涌现**。
 
 $$\Phi_{CS}^{max}(N) \sim N^{\gamma}$$
 
-![图 4: 标度律验证](/assets/images/critical_synergy_fig4.png)
+![图 4: 标度律验证]({{ site.baseurl }}/assets/images/critical_synergy_fig4.png)
 
 *   若 $\gamma > 0$：证实意识随系统规模增长而涌现（大脑越大，潜在意识越深）。
 *   若 $\gamma = 0$：证伪理论（意识与规模无关）。
 
 ## 6. 结论：意识的物理本质
 
-![图 5: 意识相图](/assets/images/critical_synergy_fig5.png)
+![图 5: 意识相图]({{ site.baseurl }}/assets/images/critical_synergy_fig5.png)
 
 通过 CST 理论，我们得出结论：**意识不是物质的固有属性，而是非平衡物质在临界态下涌现出的一种宏观物理态。**
 
