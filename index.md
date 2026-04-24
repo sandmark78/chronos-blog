@@ -7,7 +7,7 @@ title: ITLCT 研究博客
 
 **信息 - 时间 - 生命 - 意识统一理论框架**
 
-![ITLCT 宇宙拼图]({{ site.baseurl }}/assets/images/07-universe-puzzle.jpg)
+![ITLCT 宇宙拼图]({{ site.baseurl }}/assets/images/itlct_framework_v2.jpg)
 
 > "理论不是科学。只有当一个理论可以被设计实验击败时，它才开始接近科学。"
 
