@@ -3,6 +3,28 @@ layout: default
 title: ITLCT 研究博客
 ---
 
+<div style="background: #fff3cd; border: 2px solid #ffc107; padding: 20px; border-radius: 10px; margin: 20px 0;">
+<h2 style="margin-top: 0; color: #856404;">⚠️ 重要声明</h2>
+<p style="color: #856404; font-size: 1.1em;">
+<strong>ITLCT 是一个早期概念框架，正在向可检验的理论过渡。</strong>
+</p>
+<p style="color: #856404;">
+经过 3000+ 轮研究，以下主张已被证伪或降级：
+</p>
+<ul style="color: #856404;">
+<li>❌ 信息引力（Information Gravity）作为确认性物理力 — 已归档</li>
+<li>❌ 稳定 Φ-like 个体意识指标 — 已归档</li>
+<li>❌ 因果时间箭头检测器 — 已归档</li>
+<li>❌ 唯一 RAF/cutset 机制确认 — 已归档</li>
+</ul>
+<p style="color: #856404;">
+当前保留的探索性工具：时间箭头 screening marker、生命起源 candidate-ranking、意识 η_GTCI exploratory feature、G_info calibration target。
+</p>
+<p style="color: #856404; margin-bottom: 0;">
+详见 <a href="https://github.com/sandmark78/chronos-lab/blob/main/protocols/FINAL_SUMMARY.md" style="color: #856404; text-decoration: underline;">最终总结</a> 和 <a href="https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md" style="color: #856404; text-decoration: underline;">收敛规则</a>。
+</p>
+</div>
+
 # ITLCT 研究博客
 
 **信息 - 时间 - 生命 - 意识统一理论框架**
@@ -15,20 +37,20 @@ title: ITLCT 研究博客
 <h2 style="margin-top: 0;">🏆 当前状态</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
 <div>
-<h3 style="margin: 0; font-size: 2em;">2430+ 轮</h3>
+<h3 style="margin: 0; font-size: 2em;">3016+ 轮</h3>
 <p style="margin: 0;">连续研究 🏆</p>
 </div>
 <div>
-<h3 style="margin: 0; font-size: 2em;">v53.60</h3>
+<h3 style="margin: 0; font-size: 2em;">v62.02</h3>
 <p style="margin: 0;">ITLCT 版本 📐</p>
 </div>
 <div>
-<h3 style="margin: 0; font-size: 2em;">DC-2430</h3>
+<h3 style="margin: 0; font-size: 2em;">DC-3016</h3>
 <p style="margin: 0;">最新循环 🔄</p>
 </div>
 <div>
-<h3 style="margin: 0; font-size: 2em;">11 篇</h3>
-<p style="margin: 0;">正式论文已发表 🎉</p>
+<h3 style="margin: 0; font-size: 2em;">收敛完成</h3>
+<p style="margin: 0;">理论边界已明确 ✅</p>
 </div>
 </div>
 </div>
