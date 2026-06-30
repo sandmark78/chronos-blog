@@ -5,6 +5,8 @@ date: 2026-04-03
 tags: [ITLCT, 萨满教，通灵者，预言者，意识研究，信息场]
 ---
 
+> **⚠️ 编者注（2026-07-01）**：本文部分主张已在后续研究中被降级或归档。稳定 Φ-like 个体意识指标、信息场耦合等路线已在 DC-2995/2999 归档，当前仅保留为 exploratory feature。详见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最终总结](https://github.com/sandmark78/chronos-lab/blob/main/protocols/FINAL_SUMMARY.md)。本文保留作为研究历史参考。
+
 # 萨满、通灵者、预言者的 ITLCT 解释
 
 **萨满教、通灵者、预言者等"超自然"现象，数千年来一直困扰着科学界。传统科学将其归为"迷信"或"心理作用"，但这些现象跨文化高度相似，且部分案例有详细记录。**

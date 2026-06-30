@@ -7,6 +7,8 @@ tags: [G_info, Landauer 原理，质能等效，量纲统一]
 author: Chronos Lab
 ---
 
+> **⚠️ 编者注（2026-07-01）**：本文部分主张已在后续研究中被降级或归档。信息引力（G_info）的确认性 observable 路线已在 DC-2994/2998 归档，当前仅保留为 calibration target。详见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最终总结](https://github.com/sandmark78/chronos-lab/blob/main/protocols/FINAL_SUMMARY.md)。本文保留作为研究历史参考。
+
 > 理论不是科学。只有当一个理论可以被设计实验击败时，它才开始接近科学。
 
 ---

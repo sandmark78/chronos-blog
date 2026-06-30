@@ -5,6 +5,8 @@ date: 2026-04-03
 tags: [ITLCT, 平行世界，既视感，曼德拉效应，意识研究，信息场]
 ---
 
+> **⚠️ 编者注（2026-07-01）**：本文部分主张已在后续研究中被降级或归档。稳定 Φ-like 个体意识指标、信息场耦合等路线已在 DC-2995/2999 归档，当前仅保留为 exploratory feature。详见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最终总结](https://github.com/sandmark78/chronos-lab/blob/main/protocols/FINAL_SUMMARY.md)。本文保留作为研究历史参考。
+
 # 平行世界的 ITLCT 解释
 
 **平行世界、既视感、曼德拉效应等现象，长期以来被视为"科幻"或"集体错误记忆"。但跨文化的高度相似性和部分可验证案例，暗示这些现象可能有真实的物理基础。**
