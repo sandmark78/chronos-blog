@@ -4,6 +4,8 @@ title: "ITLCT 的失败空间：一个理论的死亡条件"
 date: 2026-05-20
 ---
 
+> **⚠️ 编者注（2026-06-30）**：本文写于研究早期阶段，部分主张（如"信息引力定律"作为唯一独特预测）已在后续 3000+ 轮研究中被降级或归档。当前活跃研究边界见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最新摘要](https://github.com/sandmark78/chronos-lab/blob/main/reports/2h_summary.md)。本文保留作为研究历史参考。
+
 # ITLCT 的失败空间：一个理论的死亡条件
 
 > "一个不可证伪的理论不是科学。" — 卡尔·波普尔

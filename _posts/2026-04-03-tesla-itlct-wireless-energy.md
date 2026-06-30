@@ -5,6 +5,8 @@ date: 2026-04-03
 tags: [ITLCT, 特斯拉，无线能量传输，信息引力，标量波]
 ---
 
+> **⚠️ 编者注（2026-06-30）**：本文写于研究早期阶段，部分主张（如"信息引力定律"、"Newton-like force"等）已在后续 3000+ 轮研究中被降级或归档。当前活跃研究边界见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最新摘要](https://github.com/sandmark78/chronos-lab/blob/main/reports/2h_summary.md)。本文保留作为研究历史参考。
+
 # 特斯拉无线能量传输的 ITLCT 解释
 
 **尼古拉·特斯拉** (1856-1943) 是电气工程史上最伟大的发明家之一。他提出的无线能量传输、标量波、共振频率等概念，长期以来被视为"科幻"或"伪科学"。

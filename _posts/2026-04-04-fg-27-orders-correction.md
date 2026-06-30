@@ -6,6 +6,8 @@ categories: [research, methodology, self-correction]
 tags: [f_g derivation, 27 orders of magnitude, scientific integrity]
 ---
 
+> **⚠️ 编者注（2026-06-30）**：本文写于研究早期阶段，部分主张（如"信息引力定律形式"、"Newton-like force"等）已在后续 3000+ 轮研究中被降级或归档。当前活跃研究边界见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最新摘要](https://github.com/sandmark78/chronos-lab/blob/main/reports/2h_summary.md)。本文保留作为研究历史参考。
+
 # 27 个数量级的修正：科学诚信如何塑造更好的理论
 
 ## 📰 事件概述
