@@ -4,6 +4,8 @@ title: "平行世界的 ITLCT 解释 — 信息场中的高Φ信息结构簇"
 date: 2026-04-03
 tags: [ITLCT, 平行世界，既视感，曼德拉效应，意识研究，信息场]
 ---
+> 🚨 **撤回声明（待确认）**：本文包含未经实验验证的强声明（如"第一性原理推导""杀手级预测"等），经 DC-3011 审计标记为高风险。ITLCT 是早期概念框架，本文核心主张应视为**未验证假说**。完整撤回待作者确认。审计日期：2026-07-01。
+
 
 > **⚠️ 编者注（2026-07-01）**：本文部分主张已在后续研究中被降级或归档。稳定 Φ-like 个体意识指标、信息场耦合等路线已在 DC-2995/2999 归档，当前仅保留为 exploratory feature。详见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最终总结](https://github.com/sandmark78/chronos-lab/blob/main/protocols/FINAL_SUMMARY.md)。本文保留作为研究历史参考。
 

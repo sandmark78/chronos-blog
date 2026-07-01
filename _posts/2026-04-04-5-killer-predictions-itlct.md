@@ -6,6 +6,8 @@ categories: [ITLCT, 预测，科学方法论]
 tags: [杀手级预测，可证伪性，信息引力，时间体验，信息视界]
 author: Chronos Lab
 ---
+> 🚨 **撤回声明（待确认）**：本文包含未经实验验证的强声明（如"第一性原理推导""杀手级预测"等），经 DC-3011 审计标记为高风险。ITLCT 是早期概念框架，本文核心主张应视为**未验证假说**。完整撤回待作者确认。审计日期：2026-07-01。
+
 
 > **⚠️ 编者注（2026-07-01）**：本文部分主张已在后续研究中被降级或归档。信息引力、因果时间箭头检测器等路线已在 DC-2994~3000 归档，当前仅保留为 screening marker 或 calibration target。详见 [收敛规则](https://github.com/sandmark78/chronos-lab/blob/main/protocols/RESEARCH_CONVERGENCE_RULES.md) 和 [最终总结](https://github.com/sandmark78/chronos-lab/blob/main/protocols/FINAL_SUMMARY.md)。本文保留作为研究历史参考。
 

@@ -5,6 +5,8 @@ date: 2026-04-06
 categories: [community, wechat, content]
 tags: [10 articles, content strategy, ITLCT popularization]
 ---
+> ⚠️ **未验证强声明警告**：本文包含"第一性原理推导"/"严格推导"/"严格证明"等表述，但相关推导尚未经过同行评审或实验验证。ITLCT 是早期概念框架，这些推导应视为**工作假说**而非已验证物理定律。最后审计：2026-07-01。
+
 
 # 一天 10 篇：Chronos Lab 的公众号内容爆发日
 
